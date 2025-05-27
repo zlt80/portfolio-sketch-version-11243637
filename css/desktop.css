@@ -910,7 +910,7 @@ body {
     }
 
     .about-middle {
-        width: 45%;
+        margin: 0 auto;
     }
 
     .about-right {
@@ -921,7 +921,7 @@ body {
         padding: 2vw 1.5vw;
         box-shadow: 1px 3px 2px rgba(48, 56, 91, 0.42);
         border-radius: 20px;
-        background: linear-gradient(45deg, rgba(227, 217, 203, 0.6), rgba(241, 224, 241, 0.71), rgba(233, 233, 248, 0.63), rgba(255, 250, 230, 0.4));
+        background: linear-gradient(45deg, rgba(255, 249, 238, 0.9), rgba(241, 224, 241, 0.71), rgba(243, 243, 255, 0.89), rgba(255, 254, 240, 0.68));
     }
 
     .about-middle-inner {
@@ -935,7 +935,7 @@ body {
         padding: 1.5vw 1.5vw 1vw;
         box-shadow: 1px 3px 2px rgba(48, 56, 91, 0.42);
         border-radius: 20px;
-        background: linear-gradient(125deg, #e1ddd8, rgba(221, 225, 216, 0.33), rgba(217, 226, 237, 0.6));
+        background: linear-gradient(125deg, #e1ddd8, rgba(255, 254, 250, 0.84), rgba(245, 249, 255, 0.89));
     }
 
     .about-left p {
