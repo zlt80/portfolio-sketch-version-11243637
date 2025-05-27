@@ -369,12 +369,21 @@ body {
     }
 
     .pagination ul li:nth-child(3).active {
-        background-color: #cae80b;
+        background-color: #a7e48e;
     }
 
     .pagination ul li:nth-child(4).active {
-        background-color: rgb(59, 120, 188);
+        background-color: rgb(145, 206, 228);
     }
+
+    .pagination ul li:nth-child(5).active {
+        background-color: #bca6ff;
+    }
+
+    .pagination ul li:nth-child(6).active {
+        background-color: rgb(251, 185, 208);
+    }
+
 
     #home {
         background: linear-gradient(5deg, transparent, transparent, rgb(255 142 250 / 25%), rgba(200, 87, 255, 0.18), rgb(255 185 242 / 30%));
