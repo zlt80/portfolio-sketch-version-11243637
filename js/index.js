@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 if (entry.isIntersecting) {
                     console.log(index);
-                    container.style.backgroundImage = `url('./images/background/background${index}.png')`;
+                    container.style.backgroundImage = `url('./images/background/${index}.png')`;
                     // container.style.backgroundColor = filterColors[index];
                     paginationItems.forEach((item) => item.classList.remove("active"));
                     if (paginationItems[index]) {

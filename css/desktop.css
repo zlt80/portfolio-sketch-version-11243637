@@ -365,19 +365,23 @@ body {
     }
 
     .pagination ul li:nth-child(2).active {
-        background-color: #cae80b;
-    }
-
-    .pagination ul li:nth-child(3).active {
-        background-color: rgb(59, 120, 188);
-    }
-
-    .pagination ul li:nth-child(4).active {
         background-color: #dd738a;
     }
 
+    .pagination ul li:nth-child(3).active {
+        background-color: #cae80b;
+    }
+
+    .pagination ul li:nth-child(4).active {
+        background-color: rgb(59, 120, 188);
+    }
+
     #home {
-        /*background: linear-gradient(5deg, transparent, transparent, rgba(170, 68, 255, 0.25), rgba(200, 87, 255, 0.18), rgba(195, 75, 255, 0.3));*/
+        background: linear-gradient(5deg, transparent, transparent, rgb(255 142 250 / 25%), rgba(200, 87, 255, 0.18), rgb(255 185 242 / 30%));
+    }
+
+    #works {
+        background: linear-gradient(190deg, transparent, transparent, rgb(68 37 97 / 16%), rgba(54, 44, 73, 0.25), rgba(255, 204, 252, 0.67));
     }
 
     #home h1 {
