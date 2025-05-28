@@ -2,10 +2,15 @@
 
     .jhy-pf__Mobile {
         font-family: sans-serif;
-        padding: 6vw 35vw 10vw;
+        padding: 6vw 10vw 10vw;
         background: #fff;
         color: #e5e5df;
         overflow-x: hidden;
+    }
+
+    .jhy-pf__Fixed {
+        position: fixed;
+        width: 22vw;
     }
 
     .jhy-pf__Light {
@@ -36,10 +41,10 @@
     }
 
     .jhy-pf__Rope {
-        margin: -5vw auto;
+        margin: -9vw auto -2vw;
         display: block;
-        height: 8vw;
-        width: 2vw;
+        height: 6vw;
+        width: 1vw;
         background-image: linear-gradient(175deg, #a3a3a3, #f6f6f6, #ffffff, #ffffff, #ffffff, #c0c2c6, #222324);
         position: relative;
         border-radius: 20px 10px 15px 15px;
@@ -48,7 +53,7 @@
 
     .jhy-pf__Holes {
         display: flex;
-        padding: 1vw 0;
+        padding: 0.3vw 0;
         border: 1px solid #ebebeb;
         border-bottom: 10px solid #e1e1e3;
         box-shadow: 11px 11px 50px #fffffff0, -11px -11px 50px #ffffff70;
@@ -59,27 +64,27 @@
     .jhy-pf__Hole1,
     .jhy-pf__Hole2,
     .jhy-pf__Hole3 {
-        height: 2vw;
+        height: 1vw;
         border-radius: 15px;
         position: relative;
     }
 
     .jhy-pf__Hole1 {
         background: linear-gradient(45deg, #797979, #dddddd, #676363);
-        width: 6vw;
-        margin-left: 5vw;
+        width: 3vw;
+        margin-left: 2vw;
     }
 
     .jhy-pf__Hole2 {
         background: linear-gradient(45deg, #797979, #000000, #676363);
-        width: 4vw;
+        width: 3vw;
         margin: 0 auto;
     }
 
     .jhy-pf__Hole3 {
         background: linear-gradient(45deg, #797979, #dddddd, #676363);
-        width: 6vw;
-        margin-right: 5vw;
+        width: 3vw;
+        margin-right: 2vw;
     }
 
     .jhy-pf__Division {
@@ -89,14 +94,14 @@
         position: relative;
         display: block;
         border-top: 5px solid #f1f1f3;
-        margin-top: 2vw;
-        margin-bottom: -13vw;
+        margin-top: 1vw;
+        margin-bottom: -14vw;
     }
 
     h2 {
-        font-size: 3vw;
+        font-size: 1.5vw;
         text-transform: capitalize;
-        margin: 8vw 0 0;
+        margin: 5vw 0 0;
         font-family: "Special Gothic Expanded One", sans-serif;
         text-align: center;
     }
@@ -180,7 +185,7 @@
     }
 
     .jhy-pf__Inner {
-        padding: 2vw;
+        padding: 1vw;
         border: 3px solid #c5c7c8;
         border-radius: 25px;
         box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
@@ -208,7 +213,7 @@
 
     .profile .profile-image {
         width: fit-content;
-        margin: 5vw auto 0;
+        margin: 3vw auto 0;
         border-radius: 25px;
     }
 
@@ -219,7 +224,7 @@
     }
 
     .profile .profile-image .image img {
-        width: 20vw;
+        width: 11vw;
         margin: 0 auto;
         display: block;
         z-index: 2;
@@ -233,7 +238,7 @@
     .profile .profile-image .image span {
         letter-spacing: 0.6em;
         text-transform: capitalize;
-        font-size: 2vw;
+        font-size: 1.5vw;
         position: absolute;
         color: #ffffff;
         margin-top: -50%;
@@ -247,29 +252,30 @@
     }
 
     .profile .contact {
-        padding-bottom: 5vw;
+        padding-bottom: 3vw;
     }
 
     .profile .contact .info {
-        margin: 2vw auto 3vw;
+        margin: 0 auto;
         width: fit-content;
         text-align: center;
     }
 
     .profile .contact .info p {
         padding: 0;
-        font-size: 3.8vw;
+        line-height: 1;
     }
 
     .profile .contact .info p img {
-        width: 18vw !important;
+        width: 12vw !important;
         filter: contrast(1.1) brightness(1.1);
         background: #fff;
         margin-bottom: -2vw !important;
     }
 
     .profile .contact .info p .phone {
-        width: 10vw !important;
+        width: 7vw !important;
+        margin-top: -2vw !important;
     }
 
     @keyframes fadein {
@@ -902,15 +908,16 @@
 
     .nav {
         position: fixed;
-        bottom: 0;
-        height: 3vw;
+        left: 0;
+        top: 10%;
+        height: 13vw;
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-        display: flex;
-        overflow-x: auto;
-        border-radius: 25px 25px 0 0;
-        width: 39vw;
+        display: block;
+        overflow-x: hidden;
+        border-radius: 0 25px 25px 0;
+        width: 5vw;
         background: linear-gradient(45deg, rgba(255, 242, 248, 0.38), rgba(215, 235, 255, 0.32));
-        padding: 0.5vw;
+        padding: 0.2vw 0.5vw;
         backdrop-filter: blur(5px);
         border: 1px solid #eee;
     }
@@ -924,15 +931,16 @@
         overflow: hidden;
         white-space: nowrap;
         font-family: sans-serif;
-        font-size: 1.2vw;
+        font-size: 0.8vw;
         text-decoration: none;
         -webkit-tap-highlight-color: transparent;
         transition: background-color 0.1s ease-in-out;
         text-transform: capitalize;
-        width: 20vw;
-        margin: 0 0.5vw;
+        width: 4.8vw;
+        margin: 0.7vw 0;
+        padding: 0.5vw 0;
         background-image: linear-gradient(to top, rgba(216, 217, 219, 0.6) 0%, rgba(255, 255, 255, 0.97) 80%, rgba(253, 253, 253, 0.57) 100%);
-        border-radius: 30px;
+        border-radius: 10px;
         border: 1px solid #d5d5d5;
         box-shadow: 0 4px 3px 1px rgba(252, 252, 252, 0.24), 0 6px 8px rgba(214, 215, 217, 0.41), 0 -4px 4px rgba(206, 207, 209, 0.22), 0 -6px 4px rgba(254, 254, 254, 0.27), inset 0 0 3px 0 #CECFD1;
     }
