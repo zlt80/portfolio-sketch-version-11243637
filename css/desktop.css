@@ -496,8 +496,8 @@
     }
 
     .timeline .timeline-box.education {
-        margin-top: 20vw;
-        margin-bottom: 20vw;
+        margin-top: 7vw;
+        margin-bottom: 10vw;
     }
 
     .timeline .timeline-box span {
@@ -548,8 +548,8 @@
     }
 
     .timeline .timeline-box .s-logo {
-        width: 33vw !important;
-        height: 8vw !important;
+        width: 15vw !important;
+        height: 3vw !important;
     }
 
     .timeline .timeline-box .p-logo {
@@ -566,12 +566,12 @@
     }
 
     .timeline .timeline-box .kg-logo {
-        width: 30vw !important;
+        width: 15vw !important;
         margin-bottom: -1vw;
     }
 
     .timeline .timeline-box .ew-logo {
-        width: 36vw !important;
+        width: 18vw !important;
     }
 
     .timeline .timeline-box .a-logo {
@@ -580,7 +580,7 @@
     }
 
     .timeline .timeline-box.education span {
-        font-size: 4.7vw !important;
+        font-size: 2vw !important;
     }
 
     .experience {
