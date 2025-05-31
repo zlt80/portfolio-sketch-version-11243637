@@ -903,7 +903,8 @@
     .nav {
         display: flex;
         margin-left: 1vw;
-        bottom: 4vw;
+        margin-top: -3.15vw;
+        bottom: unset;
         height: 2.5vw;
         box-shadow: 11px 1px 20px rgba(0, 0, 0, 0.18), -6px -1px 30px rgba(0, 0, 0, 0.13);
         overflow-x: hidden;
@@ -914,7 +915,7 @@
         border: 2px solid #b5b5b5;
         border-bottom: none;
         border-right: none;
-        width: 16.5vw;
+        width: 15.5vw;
     }
 
     .nav__link {
