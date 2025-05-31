@@ -59,14 +59,15 @@ h5 {
     padding-bottom: 3vw;
 }
 
-p {
-
-}
-
 span {
     display: block;
     font-size: 4vw;
     text-transform: capitalize;
+}
+
+p {
+    font-size: 3.6vw;
+    text-transform: uppercase;
 }
 
 .jhy-pf__Light {
@@ -281,43 +282,6 @@ span {
     }
 }
 
-.software {
-    padding: 0 2vw 10vw;
-}
-
-.software-grid {
-    display: grid;
-    padding: 0 2vw;
-    margin-top: 7vw;
-    text-align: center;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.software-grid .item {
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    padding-bottom: 5vw;
-}
-
-.software-grid .item img {
-    z-index: 1;
-    width: 22vw;
-    padding-top: 3vw;
-    position: relative;
-    border-radius: 14px;
-}
-
-.software-grid .item span {
-    z-index: 1;
-    margin: auto;
-    display: block;
-    font-size: 3.6vw;
-    position: relative;
-    width: max-content;
-    border-radius: 10px;
-    text-transform: uppercase;
-}
 
 .about .about-box {
     padding-bottom: 7vw;
@@ -426,16 +390,29 @@ span {
     filter: hue-rotate(250deg) brightness(1.1);
 }
 
-.about p {
-    z-index: 1;
-    line-height: 1.7;
-    position: relative;
+.software {
+    text-align: center;
+    padding: 7vw 2vw 10vw;
 }
 
-.about p img {
-    margin-right: 1vw;
-    width: 4.5vw !important;
+.software-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
+
+.software-grid .item {
+    padding: 3vw 0 5vw;
+}
+
+.software-grid .item img {
+    width: 22vw;
+}
+
+.software-grid .item p {
+    margin: auto;
+    display: block;
+}
+
 
 .timeline,
 .experience {
