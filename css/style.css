@@ -104,7 +104,7 @@ a {
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 481px) {
     .jhy-pf__Mobile {
         display: none;
     }
