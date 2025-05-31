@@ -34,16 +34,22 @@ h2, h3 {
     font-family: "Special Gothic Expanded One", sans-serif;
 }
 
+h2, span {
+    text-transform: capitalize;
+}
+
 h2 {
     font-size: 7.2vw;
     margin: 20vw 0 0;
-    text-transform: capitalize;
+}
+
+h3, p {
+    text-transform: uppercase;
 }
 
 h3 {
     font-size: 6vw;
     letter-spacing: 0.04em;
-    text-transform: uppercase;
 }
 
 h4 {
@@ -61,13 +67,12 @@ h5 {
 
 span {
     display: block;
-    font-size: 4vw;
-    text-transform: capitalize;
+    font-size: 4.2vw;
 }
 
 p {
+    display: block;
     font-size: 3.6vw;
-    text-transform: uppercase;
 }
 
 .jhy-pf__Light {
@@ -282,11 +287,6 @@ p {
     }
 }
 
-
-.about .about-box {
-    padding-bottom: 7vw;
-}
-
 .about span {
     line-height: 1.6;
     margin-bottom: 3vw;
@@ -297,69 +297,13 @@ p {
     display: block;
 }
 
-.about .my-vision__Svg {
-    z-index: 2;
-    height: 30vw;
-    display: block;
-    object-fit: cover;
-    position: relative;
-    margin-bottom: 3vw;
-    border-radius: 15px;
-    width: 70vw !important;
-    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
-}
-
-.about .my-vision__Svg.teamwork {
-    background: linear-gradient(45deg, black, #00516e);
-}
-
-.about .my-vision__Svg.www {
-    background: linear-gradient(45deg, #7496e8, #191049);
-}
-
-.about .my-vision__Svg.color-wheel {
-    background: linear-gradient(45deg, #2b1815, #e7e5d7);
-}
-
-.about .my-vision__Svg.collaboration {
-    background: linear-gradient(45deg, #0013b5, #0a0113);
-}
-
-.about .my-vision__Svg.responsive {
-    background: linear-gradient(45deg, #2c3c2f, #edd5c3);
-}
-
-.about .my-vision__Svg.tool {
-    background: linear-gradient(45deg, #58285b, #1c1618);
-}
-
-.about .my-vision__Svg img {
-    width: 59vw;
-    margin: auto;
-    padding: 5vw;
-    border-radius: 15px;
-    border: 2px solid #eee;
-    border-bottom: 1px solid #d3d3d3;
-}
-
-.about .about-2 {
-    filter: brightness(1.2);
-}
-
-.about .svg,
-.about .svg {
-    width: 25vw;
-    height: 20vw;
-    border-radius: 0;
-    box-shadow: none;
-    object-fit: contain;
+.about .about-box {
+    padding-bottom: 7vw;
 }
 
 .about .number {
-    width: 6vw;
-    height: auto;
-    margin-bottom: -0.5vw;
-    box-shadow: none !important;
+    width: 5vw;
+    margin-bottom: -0.7vw;
 }
 
 .about .n-1 {
@@ -395,48 +339,30 @@ p {
     padding: 7vw 2vw 10vw;
 }
 
-.software-grid {
+.software .software-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.software-grid .item {
+.software .software-grid .item {
     padding: 3vw 0 5vw;
 }
 
-.software-grid .item img {
+.software .software-grid .item img {
     width: 22vw;
 }
 
-.software-grid .item p {
+.software .software-grid .item p {
     margin: auto;
-    display: block;
-}
-
-
-.timeline,
-.experience {
-    font-size: 3.5vw;
-    line-height: 1.6;
-}
-
-.timeline. p {
-    font-size: 4.2vw;
 }
 
 .timeline span {
+    font-size: 4.5vw;
     padding-bottom: 1.7vw;
-    font-size: 4.7vw;
 }
 
 .timeline .timeline-box {
     margin-bottom: 25vw;
-    letter-spacing: -0.02em;
-}
-
-.timeline .timeline-box.education {
-    margin-top: 20vw;
-    margin-bottom: 20vw;
 }
 
 .timeline .timeline-box .kg-image,
