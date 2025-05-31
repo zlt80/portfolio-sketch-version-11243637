@@ -26,6 +26,49 @@
     font-style: normal;
 }
 
+h2, h3, h4 {
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+h2 {
+    font-size: 7.2vw;
+    margin: 20vw 0 0;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 6vw;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 5vw;
+    margin-top: 2vw;
+    line-height: 1.7;
+    margin-bottom: 15vw;
+    font-family: 'KOTRA_BOLD-Bold', sans-serif;
+}
+
+h5 {
+    font-size: 4.3vw;
+    padding-bottom: 3vw;
+}
+
+p {
+
+}
+
+span {
+    display: block;
+    font-size: 4vw;
+    text-transform: capitalize;
+}
+
 .jhy-pf__Light {
     z-index: 3;
     top: -10vw;
@@ -128,40 +171,6 @@
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
 }
 
-
-h2, h3, h4 {
-    text-align: center;
-}
-
-h2, h3 {
-    font-family: "Special Gothic Expanded One", sans-serif;
-}
-
-h2 {
-    font-size: 7.2vw;
-    margin: 20vw 0 0;
-    text-transform: capitalize;
-}
-
-h3 {
-    font-size: 6vw;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-}
-
-h4 {
-    font-size: 5vw;
-    margin-top: 2vw;
-    line-height: 1.7;
-    margin-bottom: 15vw;
-    font-family: 'KOTRA_BOLD-Bold', sans-serif;
-}
-
-p {
-    font-size: 4vw;
-    padding-bottom: 3vw;
-}
-
 .dia-mark {
     width: 5vw;
     display: block;
@@ -169,8 +178,8 @@ p {
 }
 
 .profile {
-    padding: 0;
     margin-top: 15vw;
+    padding-bottom: 0;
     border-top: 5px solid #eee;
     background: linear-gradient(0deg, #fff, #fff, #eceded, #cfd2da);
 }
@@ -178,29 +187,24 @@ p {
 .profile .profile-image {
     width: fit-content;
     margin: 15vw auto 0;
-    border-radius: 25px;
 }
 
 .profile .profile-image .image {
     padding: 1vw;
     border-radius: 25px;
-    background: linear-gradient(45deg, #d5d7da8a, #f1f7ff6b, #f0f5fe);
+    background: linear-gradient(45deg, #d5d7da8a, #f1f7ff6b, #d2d8e3);
 }
 
 .profile .profile-image .image img {
-    z-index: 2;
     width: 50vw;
     padding: 2px;
-    margin: 0 auto;
     display: block;
-    position: relative;
     border-radius: 25px;
     filter: contrast(0.85) brightness(1.05) hue-rotate(354deg);
     box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
 }
 
 .profile .profile-image .image span {
-    z-index: 2;
     color: #fff;
     opacity: 0.3;
     font-size: 5vw;
@@ -224,19 +228,19 @@ p {
     margin: 10vw auto 2vw;
 }
 
-.profile .contact .info p {
+.profile .contact .info h5 {
     padding: 2vw 0;
     font-size: 3.8vw;
 }
 
-.profile .contact .info p img {
+.profile .contact .info h5 img {
     background: #fff;
     width: 46vw !important;
     margin-bottom: -9px !important;
     filter: contrast(1.1) brightness(1.1);
 }
 
-.profile .contact .info p .phone {
+.profile .contact .info h5 .phone {
     width: 28vw !important;
     margin-bottom: -9px !important;
 }
@@ -315,8 +319,13 @@ p {
     text-transform: uppercase;
 }
 
+.about .about-box {
+    padding-bottom: 7vw;
+}
+
 .about span {
-    line-height: 2.5;
+    line-height: 1.6;
+    margin-bottom: 3vw;
 }
 
 .about .location {
@@ -367,10 +376,6 @@ p {
     border-radius: 15px;
     border: 2px solid #eee;
     border-bottom: 1px solid #d3d3d3;
-}
-
-.about p {
-    text-transform: capitalize;
 }
 
 .about .about-2 {
@@ -444,7 +449,7 @@ p {
 
 .timeline span {
     padding-bottom: 1.7vw;
-    font-size: 5vw !important;
+    font-size: 4.7vw;
 }
 
 .timeline .timeline-box {
@@ -455,12 +460,6 @@ p {
 .timeline .timeline-box.education {
     margin-top: 20vw;
     margin-bottom: 20vw;
-}
-
-.timeline .timeline-box span {
-    display: block;
-    font-size: 3.8vw;
-    text-transform: capitalize;
 }
 
 .timeline .timeline-box .kg-image,
@@ -533,10 +532,6 @@ p {
     width: 36vw !important;
 }
 
-.timeline .timeline-box.education span {
-    font-size: 4.7vw !important;
-}
-
 .experience {
     padding-bottom: 25vw;
 }
@@ -591,8 +586,7 @@ p {
     margin-bottom: -0.5vw;
 }
 
-.experience span,
-.about span {
+.experience span {
     line-height: 3;
     display: block;
     font-size: 4vw;
