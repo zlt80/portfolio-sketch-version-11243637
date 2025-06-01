@@ -1,27 +1,27 @@
 @font-face {
     font-family: 'TTHakgyoansimKkokkomaR';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimKkokkomaR.woff2') format('woff2');
+    src: url('https://fastly.jsdelivr.net/gh/worknoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimKkokkomaR.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'HakgyoansimBadasseugiTTF-L';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimBadasseugiTTF-L.woff2') format('woff2');
+    src: url('https://fastly.jsdelivr.net/gh/worknoonnu/2408-5@1.0/HakgyoansimBadasseugiTTF-L.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Cafe24Ohsquare';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    src: url('https://fastly.jsdelivr.net/gh/worknoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'KOTRA_BOLD-Bold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    src: url('https://fastly.jsdelivr.net/gh/worknoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -662,23 +662,24 @@ a {
     margin-bottom: -0.5vw;
 }
 
-.jhy-pf__Tabs__work li .experience__State:checked + .experience__Overlay {
+.jhy-pf__Tabs__work li .works__View:checked + .works {
     opacity: 1;
     animation: fade-in 0.4s;
     display: block;
 }
 
-.jhy-pf__Tabs__work li .experience__State:checked + .experience__Overlay .project {
+.jhy-pf__Tabs__work li .works__View:checked + .works .work {
     animation: scoot-up 0.2s;
     animation-timing-function: ease-out;
     transform-origin: 50% 0;
+    text-align: center;
 }
 
-.jhy-pf__Tabs__work li .experience__State {
+.jhy-pf__Tabs__work li .works__View {
     display: none;
 }
 
-.jhy-pf__Tabs__work li .experience__Overlay {
+.jhy-pf__Tabs__work li .works {
     top: 0;
     left: 0;
     right: 0;
@@ -687,11 +688,7 @@ a {
     overflow: hidden;
 }
 
-.jhy-pf__Tabs__work li .experience__Overlay .project {
-    text-align: center;
-}
-
-.jhy-pf__Tabs__work li .experience__Overlay-close {
+.jhy-pf__Tabs__work li .works-close {
     height: 100%;
     width: 100%;
     left: 0;
@@ -737,7 +734,7 @@ a {
     display: block !important;
 }
 
-.phone-frame {
+.jhy-pf__Tabs__work li .works .phone-frame {
     width: 100%;
     background: #000;
     margin-top: -3vw;
@@ -747,7 +744,7 @@ a {
     display: inline-block;
 }
 
-.phone-frame_Speaker {
+.jhy-pf__Tabs__work li .works .phone-frame .phone-frame_Speaker {
     height: 10px;
     width: 150px;
     margin-top: 1.5rem;
@@ -757,13 +754,19 @@ a {
     display: inline-block;
 }
 
-.phone-frame__Screen {
+.jhy-pf__Tabs__work li .works .phone-frame .phone-frame__Screen {
     width: 58vw;
     margin-top: 3vw;
     margin-left: 3vw;
 }
 
-.phone-frame__Button {
+.jhy-pf__Tabs__work li .works .phone-frame .phone-frame__Screen .preview {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 62.5vw !important;
+}
+
+.jhy-pf__Tabs__work li .works .phone-frame .phone-frame__Button {
     width: 7vw;
     height: 7vw;
     border-radius: 50%;
@@ -771,12 +774,6 @@ a {
     border: 4px solid #302F2F;
     margin: 0 auto !important;
     margin-bottom: 3vw !important;
-}
-
-.preview {
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 62.5vw !important;
 }
 
 @keyframes fade-in {
@@ -797,17 +794,6 @@ a {
     }
 }
 
-
-.desktop {
-    width: 70vw;
-    margin: 0 auto 5vw;
-    padding-bottom: 3vw;
-    border-radius: 10px;
-    box-sizing: border-box;
-    border: 0.5px solid #c3c3c3;
-    background: linear-gradient(70deg, #ececed, #d8dee0);
-    box-shadow: 0 4px #cbcbcb36, 0 10px 15px rgb(0 0 0 / 13%);
-}
 
 .work1-01 {
     background: linear-gradient(20deg, #ffe47a, #ff82a7, #ff8cb2);
@@ -881,21 +867,22 @@ a {
     background: linear-gradient(20deg, #f1f7eb, #a0b07d, #679ec0);
 }
 
-.flex {
-    gap: 2vw;
-    display: flex;
+.brand {
+    width: 70vw;
+    margin: 0 auto 5vw;
+    padding-bottom: 3vw;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 0.5px solid #c3c3c3;
+    box-shadow: 0 4px #cbcbcb36, 0 10px 15px rgb(0 0 0 / 13%);
 }
 
-.desktop img {
+.brand img {
     width: 100%;
     height: 35vw;
     background: #fff;
     object-fit: cover;
     object-position: center;
-}
-
-.flex .desktop img {
-    height: 52vw;
 }
 
 .circles {
