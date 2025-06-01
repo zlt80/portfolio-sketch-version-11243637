@@ -1,13 +1,31 @@
-const parentDivs = document.querySelectorAll('.jhy-pf__Tab__brand');
+const parentDivs1 = document.querySelectorAll('.jhy-pf__Container');
+parentDivs1.forEach(parentDiv => {
+    const childDivStart = document.createElement('img');
+    const childDivEnd = document.createElement('img');
 
-parentDivs.forEach(parentDiv => {
-    const childDiv = document.createElement('div');
-    childDiv.className = 'circles';
-    parentDiv.prepend(childDiv);
+    childDivStart.className = 'dia-svg';
+    childDivStart.src = './images/svg/start.svg';
+    childDivStart.alt = 'svg';
+
+    childDivEnd.className = 'dia-svg';
+    childDivEnd.src = './images/svg/end.svg';
+    childDivEnd.alt = 'svg';
+
+    parentDiv.prepend(childDivStart);
+    parentDiv.appendChild(childDivEnd);
 });
 
-const elements = document.querySelectorAll('.circles');
-elements.forEach(element => {
+
+const parentDivs2 = document.querySelectorAll('.jhy-pf__Tab__brand');
+parentDivs2.forEach(parentDiv2 => {
+    const childDiv = document.createElement('div');
+    childDiv.className = 'circles';
+    parentDiv2.prepend(childDiv);
+});
+
+
+const parentDivs3 = document.querySelectorAll('.circles');
+parentDivs3.forEach(parentDiv3 => {
 
     const childDiv1 = document.createElement('div');
     const childDiv2 = document.createElement('div');
@@ -17,7 +35,7 @@ elements.forEach(element => {
     childDiv2.className = 'circle c2';
     childDiv3.className = 'circle c3';
 
-    element.appendChild(childDiv1);
-    element.appendChild(childDiv2);
-    element.appendChild(childDiv3);
+    parentDiv3.appendChild(childDiv1);
+    parentDiv3.appendChild(childDiv2);
+    parentDiv3.appendChild(childDiv3);
 });
