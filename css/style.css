@@ -610,8 +610,12 @@ a {
     width: 100%;
     flex-grow: 1;
     display: none;
-    margin-top: 3vw;
-    background: #fff;
+    margin: 3vw auto 5vw;
+    padding-bottom: 3vw;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 0.5px solid #c3c3c3;
+    box-shadow: 0 4px #cbcbcb36, 0 10px 15px rgb(0 0 0 / 13%);
 }
 
 .jhy-pf__Tabs__brand input[type="radio"] {
@@ -632,6 +636,7 @@ a {
 
 .jhy-pf__Tabs__brand label img.svg {
     width: 6vw;
+    height: 6vw;
 }
 
 .jhy-pf__Tabs__brand .brand-logo {
@@ -646,31 +651,17 @@ a {
     box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
 }
 
-.jhy-pf__Tabs__brand .brand {
-    width: 70vw;
-    margin: 0 auto 5vw;
-    padding-bottom: 3vw;
-    border-radius: 10px;
-    box-sizing: border-box;
-    border: 0.5px solid #c3c3c3;
-    box-shadow: 0 4px #cbcbcb36, 0 10px 15px rgb(0 0 0 / 13%);
-}
-
-.jhy-pf__Tabs__brand .brand img {
+.jhy-pf__Tabs__brand img {
     width: 100%;
-    height: 35vw;
-    background: #fff;
-    object-fit: cover;
-    object-position: center;
 }
 
-.jhy-pf__Tabs__brand .brand .circles {
+.jhy-pf__Tabs__brand .circles {
     text-align: left;
     margin-left: 10px;
     padding: 1.5vw 0 1vw;
 }
 
-.jhy-pf__Tabs__brand .brand .circle {
+.jhy-pf__Tabs__brand .circle {
     width: 12px;
     height: 12px;
     background: black;
@@ -678,15 +669,15 @@ a {
     display: inline-block;
 }
 
-.jhy-pf__Tabs__brand .brand .circles .c1 {
+.jhy-pf__Tabs__brand .circles .c1 {
     background: #FCB0AC;
 }
 
-.jhy-pf__Tabs__brand .brand .circles .c2 {
+.jhy-pf__Tabs__brand .circles .c2 {
     background: #FEE48E;
 }
 
-.jhy-pf__Tabs__brand .brand .circles .c3 {
+.jhy-pf__Tabs__brand .circles .c3 {
     background: #E3EFC6;
 }
 
