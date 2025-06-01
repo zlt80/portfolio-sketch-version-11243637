@@ -605,7 +605,7 @@ a {
     transition: background ease 0.2s;
 }
 
-.jhy-pf__Tabs__brand .tab {
+.jhy-pf__Tabs__brand .jhy-pf__Tab__brand {
     order: 99;
     width: 100%;
     flex-grow: 1;
@@ -626,7 +626,7 @@ a {
     opacity: 1;
 }
 
-.jhy-pf__Tabs__brand input[type="radio"]:checked + label + .tab {
+.jhy-pf__Tabs__brand input[type="radio"]:checked + label + .jhy-pf__Tab__brand {
     display: block;
 }
 
@@ -839,75 +839,75 @@ a {
 }
 
 
-.work1-01 {
+.brand1-01 {
     background: linear-gradient(20deg, #ffe47a, #ff82a7, #ff8cb2);
 }
 
-.work1-02 {
+.brand1-02 {
     background: linear-gradient(20deg, #97a7bf, #ad98d1, #babdb0);
 }
 
-.work4-01 {
+.brand4-01 {
     background: linear-gradient(20deg, #dbff8a, #ed3dbf, #ffccf1);
 }
 
-.work4-02 {
+.brand4-02 {
     background: linear-gradient(20deg, #470c00, #a66213, #ce1429);
 }
 
-.work4-03 {
+.brand4-03 {
     background: linear-gradient(20deg, #031006, #6f748d, #9c913f);
 }
 
-.work5-01 {
+.brand5-01 {
     background: linear-gradient(20deg, #e4e8e5, #ffffff, #e2f0e6);
 }
 
-.work5-02 {
+.brand5-02 {
     background: linear-gradient(20deg, #ebe3e8, #abc9e8, #fff2f2);
 }
 
-.work5-03 {
+.brand5-03 {
     background: linear-gradient(20deg, #dacdbb, #dacecd, #e4e8f2);
 }
 
-.work5-04 {
+.brand5-04 {
     background: linear-gradient(20deg, #ffe8f4, #edeaff, #ffa2e4);
 }
 
-.work5-05 {
+.brand5-05 {
     background: linear-gradient(20deg, #e1dde8, #e8dde8, #dad7d4);
 }
 
-.work5-06 {
+.brand5-06 {
     background: linear-gradient(20deg, #e6ebe6, #fdcf6d, #e2e8d4);
 }
 
-.work6-01 {
+.brand6-01 {
     background: linear-gradient(20deg, #b0f2ff, #0b0e0d, #7293c6);
 }
 
-.work7-01 {
+.brand7-01 {
     background: linear-gradient(20deg, #0e3304, #c3d6d0, #cdced3);
 }
 
-.work7-02 {
+.brand7-02 {
     background: linear-gradient(20deg, #ff96b5, #d9d9dd, #fdefff);
 }
 
-.work7-03 {
+.brand7-03 {
     background: linear-gradient(20deg, #c9ddff, #d1b7d8, #ffebee);
 }
 
-.work7-04 {
+.brand7-04 {
     background: linear-gradient(20deg, #ffebf2, #85202c, #fde4b8);
 }
 
-.work7-05 {
+.brand7-05 {
     background: linear-gradient(20deg, #eae0dd, #242f5c, #a2ccfb);
 }
 
-.work8-01 {
+.brand8-01 {
     background: linear-gradient(20deg, #f1f7eb, #a0b07d, #679ec0);
 }
 
