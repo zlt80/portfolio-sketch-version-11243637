@@ -698,20 +698,20 @@ a {
     margin-bottom: -0.5vw;
 }
 
-.jhy-pf__Tabs__work .works__View:checked + .works {
+.jhy-pf__Tabs__work input:checked + .works {
     opacity: 1;
     animation: fade-in 0.4s;
     display: block;
 }
 
-.jhy-pf__Tabs__work .works__View:checked + .works .work {
+.jhy-pf__Tabs__work input:checked + .works .work {
     animation: scoot-up 0.2s;
     animation-timing-function: ease-out;
     transform-origin: 50% 0;
     text-align: center;
 }
 
-.jhy-pf__Tabs__work .works__View {
+.jhy-pf__Tabs__work input {
     display: none;
 }
 
