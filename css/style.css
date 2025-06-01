@@ -747,8 +747,7 @@ a {
 }
 
 .jhy-pf__Tabs__work .button--close {
-    margin: 0;
-    padding: 2vw 0;
+    margin-bottom: 3vw;
     border: none !important;
     background: none !important;
     box-shadow: none !important;
