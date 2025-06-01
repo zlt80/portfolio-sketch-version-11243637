@@ -53,7 +53,7 @@ h3 {
 }
 
 h4 {
-    font-size: 5vw;
+    font-size: 5.5vw;
     margin-top: 2vw;
     line-height: 1.7;
     margin-bottom: 15vw;
@@ -584,80 +584,38 @@ a {
 
 
 /* experience start */
-
-.experience h3 {
-    margin-bottom: 0;
-    line-height: 1.2;
-}
-
-.experience h4 {
-    margin-top: 2vw;
-    font-size: 5.5vw;
-}
-
-.experience span {
-    line-height: 3;
-    display: block;
-    font-size: 4vw;
-    text-align: left;
-    margin-top: 10vw;
+.experiences span {
+    line-height: 2;
     letter-spacing: 0.04em;
-    text-transform: uppercase;
+    margin-top: 12vw;
+    display: block;
 }
 
-.experience p {
-    font-size: 6vw;
-    font-weight: 600;
-    letter-spacing: -0.04em;
-}
-
-.experience a img {
-    height: 6vw;
-    width: auto;
-    margin-top: 4vw;
-    border-radius: 5px;
-}
-
-.experience ul li {
+.experiences ul li {
     line-height: 2;
     font-size: 4vw;
     font-weight: 500;
     letter-spacing: -0.03em;
+    width: 100%;
+    display: table;
+    text-align: center;
 }
 
-.experience ul li img {
+.experiences ul li img {
     width: 4.5vw;
     padding-right: 5px;
     margin-bottom: -0.5vw;
 }
 
-.experience-project {
-    z-index: 4;
-    width: 100%;
-    height: 100%;
-    display: table;
-    overflow: hidden;
-}
-
-.exp1 .button,
-.exp4 .button,
-.exp6 .button {
+.experiences ul.exp1 .button,
+.experiences ul.exp4 .button,
+.experiences ul.exp6 .button {
     padding: 2vw 0 2.2vw;
     border: 1px solid #000;
     box-shadow: 0 4px 0 #000;
 }
 
-.experience-project__inner {
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.experience-project__inner .content {
-    padding-right: 1vw;
-}
-
-.project__overlay {
+.experience__Overlay {
     top: 0;
     left: 0;
     right: 0;
@@ -666,30 +624,30 @@ a {
     overflow: hidden;
 }
 
-.project__state:checked + .project__overlay {
+.experience__State:checked + .experience__Overlay {
     opacity: 1;
     animation: fade-in 0.4s;
     display: block;
 }
 
-.project {
-    text-align: center;
-}
-
-.project__state:checked + .project__overlay .project {
+.experience__State:checked + .experience__Overlay .project {
     animation: scoot-up 0.2s;
     animation-timing-function: ease-out;
     transform-origin: 50% 0;
 }
 
-.project__overlay-close {
+.experience__Overlay .project {
+    text-align: center;
+}
+
+.experience__Overlay-close {
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
 }
 
-.project__state {
+.experience__State {
     display: none;
 }
 
@@ -848,7 +806,7 @@ a {
     box-sizing: border-box;
     border: 0.5px solid #c3c3c3;
     background: linear-gradient(70deg, #ececed, #d8dee0);
-    box-shadow: 0px 4px #cbcbcb36, 0px 10px 15px rgb(0 0 0 / 13%);
+    box-shadow: 0 4px #cbcbcb36, 0 10px 15px rgb(0 0 0 / 13%);
 }
 
 .work1-01 {
@@ -1025,5 +983,9 @@ a {
     box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
 }
 
+.svg-smile {
+    width: 8vw;
+    margin-bottom: -2vw;
+}
 
 
