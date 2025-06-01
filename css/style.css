@@ -667,6 +667,7 @@ a {
     background: black;
     border-radius: 100%;
     display: inline-block;
+    margin-right: 1vw;
 }
 
 .jhy-pf__Tabs__brand .circles .c1 {
