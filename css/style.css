@@ -682,7 +682,7 @@ a {
     background: #E3EFC6;
 }
 
-.jhy-pf__Tabs__work li {
+.jhy-pf__Tabs__work {
     line-height: 2;
     font-size: 4vw;
     font-weight: 500;
@@ -692,30 +692,30 @@ a {
     text-align: center;
 }
 
-.jhy-pf__Tabs__work li img {
+.jhy-pf__Tabs__work img {
     width: 4.5vw;
     padding-right: 5px;
     margin-bottom: -0.5vw;
 }
 
-.jhy-pf__Tabs__work li .works__View:checked + .works {
+.jhy-pf__Tabs__work .works__View:checked + .works {
     opacity: 1;
     animation: fade-in 0.4s;
     display: block;
 }
 
-.jhy-pf__Tabs__work li .works__View:checked + .works .work {
+.jhy-pf__Tabs__work .works__View:checked + .works .work {
     animation: scoot-up 0.2s;
     animation-timing-function: ease-out;
     transform-origin: 50% 0;
     text-align: center;
 }
 
-.jhy-pf__Tabs__work li .works__View {
+.jhy-pf__Tabs__work .works__View {
     display: none;
 }
 
-.jhy-pf__Tabs__work li .works {
+.jhy-pf__Tabs__work .works {
     top: 0;
     left: 0;
     right: 0;
@@ -724,14 +724,14 @@ a {
     overflow: hidden;
 }
 
-.jhy-pf__Tabs__work li .works-close {
+.jhy-pf__Tabs__work .works-close {
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
 }
 
-.jhy-pf__Tabs__work li .button {
+.jhy-pf__Tabs__work .button {
     width: 100%;
     padding: 2vw 0;
     line-height: 2;
@@ -746,17 +746,17 @@ a {
     text-transform: capitalize;
 }
 
-.jhy-pf__Tabs__work li .button.disabled {
+.jhy-pf__Tabs__work .button.disabled {
     border: 1px solid #ddd;
     box-shadow: 0 4px 0 #e0e0e0;
 }
 
-.jhy-pf__Tabs__work li .button:hover,
-.jhy-pf__Tabs__work li .button:focus {
+.jhy-pf__Tabs__work .button:hover,
+.jhy-pf__Tabs__work .button:focus {
     cursor: pointer;
 }
 
-.jhy-pf__Tabs__work li .button--close {
+.jhy-pf__Tabs__work .button--close {
     margin: 0;
     padding: 2vw 0 0 0;
     border: none !important;
@@ -764,13 +764,13 @@ a {
     box-shadow: none !important;
 }
 
-.jhy-pf__Tabs__work li .button--close img {
+.jhy-pf__Tabs__work .button--close img {
     width: 5vw !important;
     margin: 0 auto !important;
     display: block !important;
 }
 
-.jhy-pf__Tabs__work li .works .phone-frame {
+.jhy-pf__Tabs__work .works .phone-frame {
     width: 100%;
     background: #000;
     margin-top: -3vw;
@@ -780,7 +780,7 @@ a {
     display: inline-block;
 }
 
-.jhy-pf__Tabs__work li .works .phone-frame .phone-frame_Speaker {
+.jhy-pf__Tabs__work .works .phone-frame .phone-frame_Speaker {
     height: 10px;
     width: 150px;
     margin-top: 1.5rem;
@@ -790,19 +790,19 @@ a {
     display: inline-block;
 }
 
-.jhy-pf__Tabs__work li .works .phone-frame .phone-frame__Screen {
+.jhy-pf__Tabs__work .works .phone-frame .phone-frame__Screen {
     width: 58vw;
     margin-top: 3vw;
     margin-left: 3vw;
 }
 
-.jhy-pf__Tabs__work li .works .phone-frame .phone-frame__Screen .preview {
+.jhy-pf__Tabs__work .works .phone-frame .phone-frame__Screen .preview {
     margin: 0 !important;
     padding: 0 !important;
     width: 62.5vw !important;
 }
 
-.jhy-pf__Tabs__work li .works .phone-frame .phone-frame__Button {
+.jhy-pf__Tabs__work .works .phone-frame .phone-frame__Button {
     width: 7vw;
     height: 7vw;
     border-radius: 50%;

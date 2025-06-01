@@ -1,5 +1,12 @@
-const elements = document.querySelectorAll('.circles');
+const parentDivs = document.querySelectorAll('.jhy-pf__Tab__brand');
 
+parentDivs.forEach(parentDiv => {
+    const childDiv = document.createElement('div');
+    childDiv.className = 'circles';
+    parentDiv.prepend(childDiv);
+});
+
+const elements = document.querySelectorAll('.circles');
 elements.forEach(element => {
 
     const childDiv1 = document.createElement('div');
