@@ -772,7 +772,6 @@ a {
 
 .jhy-pf__Tabs__work .works .phone-frame {
     width: 100%;
-    background: #000;
     margin-top: -3vw;
     text-align: center;
     margin-bottom: 5vw;
@@ -780,12 +779,11 @@ a {
     display: inline-block;
 }
 
-.jhy-pf__Tabs__work .works .phone-frame .phone-frame_Speaker {
+.jhy-pf__Tabs__work .works .phone-frame .phone-frame__Speaker {
     height: 10px;
     width: 150px;
     margin-top: 1.5rem;
     position: relative;
-    background: #302F2F;
     border-radius: 10px;
     display: inline-block;
 }
@@ -828,6 +826,131 @@ a {
     100% {
         margin-top: 50px;
     }
+}
+
+
+.work1-01 {
+    background: linear-gradient(45deg, #c79797, #b09693, #eee);
+}
+
+.work1-01 .phone-frame__Speaker {
+    background: #f1e0e0 !important;
+}
+
+.work1-01 .phone-frame__Button {
+    border: 4px solid #dcb9b9 !important;
+}
+
+.work1-02 {
+    background: #000;
+}
+
+.work1-03 {
+    background: linear-gradient(45deg, #e2edeb, #d0d5d1, #90978f, #f2f8fa);
+}
+
+.work1-03 .phone-frame__Speaker {
+    background: #f7fbf8
+}
+
+.work1-03 .phone-frame__Button {
+    border: 4px solid #afbdb4;
+}
+
+.work1-04 {
+    background: linear-gradient(45deg, #e2e6ed, #e4edf4, #b8bed0, #f2f8fa);
+}
+
+.work1-04 .phone-frame__Speaker {
+    background: #f4f5fd;
+}
+
+.work1-04 .phone-frame__Button {
+    border: 4px solid #f4f5fd;
+}
+
+.work4-01 {
+    background: linear-gradient(45deg, #e2e6ed, #e4edf4, #b8bed0, #f2f8fa);
+}
+
+.work4-01 .phone-frame__Speaker {
+    background: #f4f5fd;
+}
+
+.work4-01 .phone-frame__Button {
+    border: 4px solid #f4f5fd;
+}
+
+.work4-02 {
+    background: linear-gradient(45deg, #3e3539, #180306, #4d4549, #352e30);
+}
+
+.work4-02 .phone-frame__Speaker {
+    background: #1b1719;
+}
+
+.work4-02 .phone-frame__Button {
+    border: 4px solid #533d48;
+}
+
+.work4-03 {
+    background: linear-gradient(45deg, #3e3539, #180306, #4d4549, #352e30);
+}
+
+.work4-03 .phone-frame__Speaker {
+    background: #1b1719;
+}
+
+.work4-03 .phone-frame__Button {
+    border: 4px solid #533d48
+}
+
+.work5-01 {
+    background: linear-gradient(45deg, #252022, #313031, #4d3c47, #080607);
+}
+
+.work5-01 .phone-frame__Speaker {
+    background: #393233;
+}
+
+.work5-01 .phone-frame__Button {
+    border: 4px solid #1b1819;
+}
+
+.work5-02 {
+    background: linear-gradient(45deg, #e7e7e7, #b1bfba, #8d9392, #f2f8fa);
+}
+
+.work5-02 .phone-frame__Speaker {
+    background: #b5b7b6;
+}
+
+.work5-02 .phone-frame__Button {
+    border: 4px solid #bcc2bf
+}
+
+.work5-03 {
+    background: linear-gradient(45deg, #252022, #313031, #4d3c47, #080607);
+}
+
+.work5-03 .phone-frame__Speaker {
+    background: #393233;
+}
+
+.work5-03 .phone-frame__Button {
+    border: 4px solid #1b1819;
+}
+
+.work5-04 {
+    background: linear-gradient(45deg, #e7e7e7, #b1bfba, #8d9392, #f2f8fa);
+}
+
+.work5-04 .phone-frame__Speaker {
+    background: #b5b7b6;
+}
+
+.work5-04 .phone-frame__Button {
+    border: 4px solid #bcc2bf
 }
 
 
