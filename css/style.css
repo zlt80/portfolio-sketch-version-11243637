@@ -1014,8 +1014,12 @@ a {
     background: linear-gradient(20deg, #f1f7eb, #a0b07d, #679ec0);
 }
 
+.thank-you .svg-smile {
+    width: 8vw;
+    margin-bottom: -2vw;
+}
 
-.back-to-top-link {
+.thank-you .back-to-top-link {
     width: 15vw;
     height: 15vw;
     display: block;
@@ -1030,12 +1034,6 @@ a {
     filter: saturate(0.4) brightness(1);
     box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
 }
-
-.svg-smile {
-    width: 8vw;
-    margin-bottom: -2vw;
-}
-
 
 .nav {
     z-index: 3;
