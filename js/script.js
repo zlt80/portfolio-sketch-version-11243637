@@ -15,7 +15,7 @@ parentDivs1.forEach(parentDiv => {
     parentDiv.appendChild(childDivEnd);
 });
 
-const parentDivs2 = document.querySelectorAll('.jhy-pf__Tab__brand');
+const parentDivs2 = document.querySelectorAll('.desktop-screen');
 parentDivs2.forEach(parentDiv2 => {
     const childDiv = document.createElement('div');
     childDiv.className = 'circles';
@@ -43,8 +43,8 @@ parentDivs4.forEach(parentDiv4 => {
     const childDiv1 = document.createElement('div');
     const childDiv2 = document.createElement('div');
 
-    childDiv1.className = 'phone-frame__Speaker';
-    childDiv2.className = 'phone-frame__Button';
+    childDiv1.className = 'phone-speaker';
+    childDiv2.className = 'phone-button';
 
     parentDiv4.prepend(childDiv1);
     parentDiv4.appendChild(childDiv2);
