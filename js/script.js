@@ -1,4 +1,4 @@
-const parentDivs1 = document.querySelectorAll('.jhy-pf__Container');
+const parentDivs1 = document.querySelectorAll('.container');
 parentDivs1.forEach(parentDiv => {
     const childDivStart = document.createElement('img');
     const childDivEnd = document.createElement('img');
@@ -15,7 +15,7 @@ parentDivs1.forEach(parentDiv => {
     parentDiv.appendChild(childDivEnd);
 });
 
-const parentDivs2 = document.querySelectorAll('.desktop-screen');
+const parentDivs2 = document.querySelectorAll('.website');
 parentDivs2.forEach(parentDiv2 => {
     const childDiv = document.createElement('div');
     childDiv.className = 'circles';
