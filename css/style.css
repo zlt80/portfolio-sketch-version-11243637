@@ -104,23 +104,11 @@ a {
     }
 }
 
-@media (min-width: 481px) {
-    .mobile {
-        display: none;
-    }
-}
-
-.mobile {
-    overflow-x: hidden;
-    background: #021733;
-    padding: 6vw 3vw 10vw;
-}
-
 .rope {
     width: 4vw;
     height: 20vw;
-    position: relative;
-    margin: -11vw auto;
+    position: absolute;
+    margin: -15vw 0 0 39.5vw;
     border-radius: 0 0 15px 15px;
     box-shadow: 0 -3px 5px rgb(0 0 0 / 63%);
     background-image: linear-gradient(175deg, #a3a3a3, #f6f6f6, #ffffff, #ffffff, #ffffff, #c0c2c6, #222324);
@@ -168,7 +156,6 @@ a {
 
 .wrapper {
     padding: 5vw;
-    overflow: hidden;
     border-radius: 25px;
     border: 2px solid #7d7d7d;
     box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
@@ -304,7 +291,7 @@ a {
     display: block;
 }
 
-.about .about-box {
+.about .item {
     padding-bottom: 7vw;
 }
 
@@ -340,7 +327,6 @@ a {
 .about .n-7 {
     filter: hue-rotate(250deg) brightness(1.1);
 }
-
 
 .swatch {
     display: block;
@@ -714,7 +700,7 @@ a {
     overflow: hidden;
 }
 
-.experiences .details .works-close {
+.experiences .details .close {
     top: 0;
     left: 0;
     width: 100%;
@@ -1051,7 +1037,7 @@ a {
     background: linear-gradient(45deg, rgba(255, 242, 248, 0.38), rgba(215, 235, 255, 0.32));
 }
 
-.link {
+.nav .link {
     width: 20vw;
     flex-grow: 1;
     display: flex;
@@ -1072,5 +1058,193 @@ a {
     transition: background-color 0.1s ease-in-out;
     background-image: linear-gradient(to top, rgba(216, 217, 219, 0.6) 0%, rgba(255, 255, 255, 0.97) 80%, rgba(253, 253, 253, 0.57) 100%);
     box-shadow: 0 4px 3px 1px rgba(252, 252, 252, 0.24), 0 6px 8px rgba(214, 215, 217, 0.41), 0 -4px 4px rgba(206, 207, 209, 0.22), 0 -6px 4px rgba(254, 254, 254, 0.27), inset 0 0 3px 0 #CECFD1;
+}
+
+.part-02 .id-card-top,
+.part-03 .id-card-top,
+.part-04 .id-card-top {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .wrapper {
+        overflow: hidden;
+        padding: 5vw;
+        border-radius: 25px;
+        border: 2px solid #7d7d7d;
+        box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
+        background: linear-gradient(45deg, #eee, #d9d9e6, #dbd6d6, #fffefc, #ddd);
+    }
+
+    .portfolio {
+        overflow-x: hidden;
+        background: #021733;
+        padding: 6vw 3vw 10vw;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .part-01,
+    .part-02,
+    .part-03,
+    .part-04 {
+        width: 220px;
+        overflow: hidden;
+        padding: 20px;
+        border-radius: 25px;
+        border: 2px solid #7d7d7d;
+        box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
+        background: linear-gradient(45deg, #eee, #d9d9e6, #dbd6d6, #fffefc, #ddd);
+    }
+
+    .part-02 .id-card-top,
+    .part-03 .id-card-top,
+    .part-04 .id-card-top {
+        display: block;
+    }
+
+    .portfolio .wrapper {
+        display: flex;
+    }
+
+    .rope {
+        width: 15px;
+        height: 90px;
+        position: absolute;
+        margin: -73px 0 0 8.3%;
+    }
+
+    .holes {
+        padding: 10px 0;
+    }
+
+    .hole1, .hole2, .hole3 {
+        height: 15px;
+        width: 30px;
+    }
+
+    .hole1 {
+        margin-left: 15px;
+    }
+
+    .hole3 {
+        margin-right: 15px;
+    }
+
+    .division {
+        margin: 15px 0 20px -17px;
+        width: 120%;
+    }
+
+    .container {
+        margin-top: 0;
+        margin-bottom: 20px;
+        background: #fff;
+        border-radius: 25px;
+        padding: 0 10px 20px;
+        border: 2px solid #eee;
+        box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
+    }
+
+    .dia-svg {
+        width: 15px;
+        margin: 70px auto 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 20px;
+        letter-spacing: 0.04em;
+    }
+
+    h4 {
+        font-size: 17px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    h5 {
+        font-size: 14px;
+        padding-bottom: 10px
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    .about .location {
+        width: 20px
+    }
+
+    .about span {
+        margin-bottom: 10px;
+    }
+
+    .about .item {
+        padding-bottom: 15px
+    }
+
+    .about .number {
+        width: 16px;
+        margin-bottom: -4px;
+    }
+
+    .swatch div {
+        width: 30px;
+        height: 50px;
+    }
+
+    .swatch div:before {
+        width: 10px;
+        height: 10px;
+        margin-left: -4px;
+    }
+
+    .profile .profile-image {
+        margin: 20px auto 0;
+    }
+
+    .profile .profile-image .image img {
+        width: 100%;
+    }
+
+    .profile .profile-image .image span {
+        font-size: 16px;
+        margin-top: -15%;
+        margin-left: 11%;
+    }
+
+    .profile .contact .info {
+        margin: 0 auto;
+        padding: 10px 0 0;
+    }
+
+    .profile .contact .info h5 img {
+        width: 140px !important;
+    }
+
+    .profile .contact .info h5 .phone {
+        width: 80px !important;
+    }
+
+    .profile .contact .info h5 {
+        padding: 0;
+        font-size: 19px;
+    }
+
+    .profile .contact {
+        padding: 0;
+    }
+
+    .nav,
+    .thank-you {
+        display: none;
+    }
 }
 
