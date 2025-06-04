@@ -1323,10 +1323,32 @@ a {
     }
 
     .experiences .websites .logo {
-        width: 130px;
+        width: 140px;
         height: 30px;
         margin-left: 10px !important;
     }
+
+    .experiences .websites .website {
+        margin: 12px auto 20px;
+        padding-bottom: 12px;
+    }
+
+    .experiences .websites .circles {
+        padding: 3px 0;
+    }
+
+    .experiences .websites .circle {
+        width: 7px;
+        height: 7px;
+        margin-right: 3px;
+    }
+
+    .experiences .details .button {
+        padding: 10px 0;
+        font-size: 14px;
+        margin: 8px auto;
+    }
+
 
 }
 
