@@ -1,31 +1,3 @@
-@font-face {
-    font-family: 'TTHakgyoansimKkokkomaR';
-    src: url('https://fastly.jsdelivr.net/gh/worknoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimKkokkomaR.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'HakgyoansimBadasseugiTTF-L';
-    src: url('https://fastly.jsdelivr.net/gh/worknoonnu/2408-5@1.0/HakgyoansimBadasseugiTTF-L.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Cafe24Ohsquare';
-    src: url('https://fastly.jsdelivr.net/gh/worknoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'KOTRA_BOLD-Bold';
-    src: url('https://fastly.jsdelivr.net/gh/worknoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 h2, h3, h4 {
     text-align: center;
 }
@@ -1088,15 +1060,74 @@ a {
     .part-03,
     .part-04 {
         height: 500px;
-        width: 220px;
+        width: 280px;
         overflow: hidden;
-        overflow-y: scroll;
         padding: 20px;
         border-radius: 25px;
-        border: 2px solid #7d7d7d;
         box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
         background: linear-gradient(45deg, #eee, #d9d9e6, #dbd6d6, #fffefc, #ddd);
     }
+
+    .part-02 {
+        background: linear-gradient(45deg, #a59c85, #bdb7a7, #b9b4a1, #c0b9ac, #ddd);
+    }
+
+    .part-02 .holes {
+        background: linear-gradient(145deg, #beb5a4, #aba693, #b3b3a6);
+        border-bottom: 10px solid #cec8b9;
+    }
+
+    .part-02 .rope {
+        background-image: linear-gradient(175deg, #d1c9c1, #bcb5a1, #c6c6bd, #fff, #887f5a);
+    }
+
+    .part-02 .division {
+        border-top: 5px solid #afaa96;
+    }
+
+    .part-02 .container {
+        background: linear-gradient(15deg, #aba693, #eee, #d9d9e6, #dbd6d6, #f7f4ec, #d4d0c7);
+    }
+
+
+    .part-03 {
+        background: linear-gradient(5deg, #101116, #38373f, #1f1e26, #2d2e30, #19181e);
+    }
+
+    .part-03 .holes {
+        background: linear-gradient(145deg, #26272c, #222223, #242529);
+        border: 1px solid #7a7a7a;
+        border-bottom: 10px solid #7a7a7a;
+    }
+
+    .part-03 .rope {
+        background-image: linear-gradient(175deg, #232323, #666, #48494e, #232427, #121215);
+    }
+
+    .part-03 .division {
+        border-top: 5px solid #000;
+    }
+
+    .part-03 .container {
+        background: linear-gradient(15deg, #1d1c22, #191a1c, #0c0c10, #202123, #666);
+        color: #fff;
+        border: 2px solid #666;
+    }
+
+
+    .part-04 {
+        background: linear-gradient(45deg, #d3d3d3, #d8d8da, #dadadc, #dddddf, #ddd);
+    }
+
+    .part-04 .holes {
+        background: linear-gradient(145deg, #fff, #eceded, #cfd2da);
+        box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
+    }
+
+    .part-04 .rope {
+
+    }
+
 
     .part-02 .id-card-top,
     .part-03 .id-card-top,
@@ -1104,8 +1135,16 @@ a {
         display: block;
     }
 
+    .scroll {
+        overflow-y: scroll;
+        height: 415px;
+        border-radius: 20px;
+    }
+
     .portfolio .wrapper {
         display: flex;
+        gap: 30px;
+        position: sticky;
     }
 
     .wrapper {
@@ -1119,7 +1158,7 @@ a {
         width: 15px;
         height: 90px;
         position: absolute;
-        margin: -73px 0 0 9%;
+        margin: -73px 0 0 9.5%;
     }
 
     .holes {
@@ -1128,15 +1167,19 @@ a {
 
     .hole1, .hole2, .hole3 {
         height: 15px;
-        width: 30px;
+        width: 60px;
     }
 
     .hole1 {
-        margin-left: 15px;
+        margin-left: 20px;
+    }
+
+    .hole2 {
+        width: 40px;
     }
 
     .hole3 {
-        margin-right: 15px;
+        margin-right: 20px;
     }
 
     .division {
@@ -1152,6 +1195,10 @@ a {
         padding: 0 10px 20px;
         border: 2px solid #eee;
         box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
+    }
+
+    .container:last-child {
+        margin: 0;
     }
 
     .dia-svg {
@@ -1262,7 +1309,7 @@ a {
     }
 
     .software .grid .item img {
-        width: 35px;
+        width: 60px;
     }
 
     .timeline .item .w-logo {
