@@ -1059,73 +1059,105 @@ a {
     .part-02,
     .part-03,
     .part-04 {
+        box-sizing: border-box;
         height: 500px;
-        width: 280px;
+        width: 300px;
         overflow: hidden;
         padding: 20px;
         border-radius: 25px;
-        box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
+        box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px rgba(209, 209, 209, 0.66);
         background: linear-gradient(45deg, #eee, #d9d9e6, #dbd6d6, #fffefc, #ddd);
+        border: 2px solid #ececec;
+        margin: 0 auto;
     }
 
+    .part-04 {
+        margin-top: 30px;
+        background: linear-gradient(45deg, #ced5d5, #d8dada, #f0f8fb, #c9d0d1, #e4eaed);
+    }
+
+    .part-04 .holes {
+        background: linear-gradient(145deg, #c0c8c9, #f5feff, #cfdad5);
+    }
+
+    .part-04 .division {
+        border-top: 5px solid #e7ebf1;
+    }
+
+    .part-04 .container {
+        background: linear-gradient(15deg, #d0d8d0, #e4e6ea, #e2eae8, #f5f8ff, #edf5f3);
+        border: 2px solid #dce4e3;
+    }
+
+    .part-04 .rope {
+        height: 100px;
+        margin-top: -82px;
+        background-image: linear-gradient(175deg, #e1e8e3, #d8e3e5, #f6f6f6, #ebf1ee, #3f4956);
+    }
+
+
+    .part-01 {
+        margin-top: 20px;
+        background: linear-gradient(95deg, #a59c85, #9e9889, #b9b4a1, #cfc8bb, #d8d2b9);
+    }
+
+    .part-01 .scroll {
+        border: 3px solid #ebe6db;
+    }
+
+    .part-01 .holes {
+        background: linear-gradient(145deg, #beb5a4, #dcd8c7, #b3b3a6);
+        border-bottom: 5px solid #b2b1ad;
+    }
+
+    .part-01 .rope {
+        background-image: linear-gradient(175deg, #d1c9c1, #bcb5a1, #c6c6bd, #fff, #292619);
+    }
+
+    .part-01 .division {
+        border-top: 5px solid #e3e0d6;
+    }
+
+    .part-01 .container {
+        background: linear-gradient(15deg, #c1baa9, #dbdbd6, #e4dfd3, #cbc5ba);
+        border: 2px solid #e8e4db;
+    }
+
+
     .part-02 {
-        background: linear-gradient(45deg, #a59c85, #bdb7a7, #b9b4a1, #c0b9ac, #ddd);
+        margin-top: 50px;
+        background: linear-gradient(95deg, #0a0a0c, #38373f, #1f1e26, #505256, #888692);
     }
 
     .part-02 .holes {
-        background: linear-gradient(145deg, #beb5a4, #aba693, #b3b3a6);
-        border-bottom: 10px solid #cec8b9;
+        background: linear-gradient(145deg, #26272c, #222223, #242529);
+        border: 1px solid #7a7a7a;
+        border-bottom: 5px solid #3e3e3e;
+        box-shadow: 11px 11px 50px #1e1f21f0, -11px -11px 50px #ffffff70;
     }
 
     .part-02 .rope {
-        background-image: linear-gradient(175deg, #d1c9c1, #bcb5a1, #c6c6bd, #fff, #887f5a);
+        background-image: linear-gradient(180deg, #232323, #100817, #a1a1a1, #121215);
+        height: 120px;
+        margin-top: -100px;
+    }
+    
+    .part-02 .scroll {
+        border: 2px solid #000;
     }
 
     .part-02 .division {
-        border-top: 5px solid #afaa96;
+        border-top: 5px solid #0a0613;
     }
 
     .part-02 .container {
-        background: linear-gradient(15deg, #aba693, #eee, #d9d9e6, #dbd6d6, #f7f4ec, #d4d0c7);
-    }
-
-
-    .part-03 {
-        background: linear-gradient(5deg, #101116, #38373f, #1f1e26, #2d2e30, #19181e);
-    }
-
-    .part-03 .holes {
-        background: linear-gradient(145deg, #26272c, #222223, #242529);
-        border: 1px solid #7a7a7a;
-        border-bottom: 10px solid #7a7a7a;
-    }
-
-    .part-03 .rope {
-        background-image: linear-gradient(175deg, #232323, #666, #48494e, #232427, #121215);
-    }
-
-    .part-03 .division {
-        border-top: 5px solid #000;
-    }
-
-    .part-03 .container {
-        background: linear-gradient(15deg, #1d1c22, #191a1c, #0c0c10, #202123, #666);
+        background: linear-gradient(15deg, #1d1c22, #191a1c, #0c0c10, #202123, #000);
         color: #fff;
         border: 2px solid #666;
     }
 
-
-    .part-04 {
-        background: linear-gradient(45deg, #d3d3d3, #d8d8da, #dadadc, #dddddf, #ddd);
-    }
-
-    .part-04 .holes {
-        background: linear-gradient(145deg, #fff, #eceded, #cfd2da);
-        box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
-    }
-
-    .part-04 .rope {
-
+    .part-02 .dia-svg {
+        filter: invert(100%);
     }
 
 
@@ -1137,32 +1169,35 @@ a {
 
     .scroll {
         overflow-y: scroll;
-        height: 415px;
-        border-radius: 20px;
+        height: 375px;
+        border-radius: 25px;
+        border: 3px solid #eee;
+        box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
+        box-sizing: border-box;
     }
 
     .portfolio .wrapper {
         display: flex;
-        gap: 30px;
-        position: sticky;
-    }
-
-    .wrapper {
-        width: fit-content;
-        display: block;
+        gap: 0;
+        position: fixed;
+        top: 0;
+        width: -webkit-fill-available;
         margin: 0 auto;
-        padding: 30px 15px;
+        padding: 30px;
     }
 
     .rope {
         width: 15px;
         height: 90px;
         position: absolute;
-        margin: -73px 0 0 9.5%;
+        margin: -73px 0 0 8.1%;
+        border-left: 1px solid rgba(236, 236, 236, 0.36);
+        border-right: 1px solid rgba(236, 236, 236, 0.36);
     }
 
     .holes {
         padding: 10px 0;
+        border-bottom: 5px solid #e1e1e3;
     }
 
     .hole1, .hole2, .hole3 {
@@ -1183,7 +1218,7 @@ a {
     }
 
     .division {
-        margin: 15px 0 20px -17px;
+        margin: 15px 0 20px -20px;
         width: 120%;
     }
 
@@ -1191,10 +1226,10 @@ a {
         margin-top: 0;
         margin-bottom: 20px;
         background: #fff;
-        border-radius: 25px;
+        border-radius: 20px;
         padding: 0 10px 20px;
-        border: 2px solid #eee;
-        box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
+        box-shadow: none;
+        border-top: 1px solid #eee;
     }
 
     .container:last-child {
@@ -1203,7 +1238,7 @@ a {
 
     .dia-svg {
         width: 15px;
-        margin: 70px auto 30px;
+        margin: 30px auto 10px;
     }
 
     h2 {
