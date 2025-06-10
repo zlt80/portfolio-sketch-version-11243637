@@ -77,10 +77,10 @@ a {
 }
 
 .rope {
-    width: 4vw;
+    width: 9vw;
     height: 20vw;
     position: absolute;
-    margin: -15vw 0 0 39.5vw;
+    margin: -15vw 0 0 37vw;
     border-radius: 0 0 15px 15px;
     box-shadow: 0 -3px 5px rgb(0 0 0 / 63%);
     background-image: linear-gradient(175deg, #a3a3a3, #f6f6f6, #ffffff, #ffffff, #ffffff, #c0c2c6, #222324);
@@ -1061,6 +1061,15 @@ a {
 
     .light {
         top: 0;
+        opacity: 0.3;
+    }
+
+    .rope {
+        width: 2.1vw;
+        height: 92px;
+        position: absolute;
+        margin: -72px 0 0 6.4vw;
+        border-radius: 0 0 10px 10px;
     }
 
     .part-01,
@@ -1078,17 +1087,26 @@ a {
         margin: 0 auto;
     }
 
+    .part-01,
+    .part-02,
+    .part-03 {
+        width: 18vw;
+        height: 500px;
+    }
+
     .part-01 {
         margin-top: 30px;
         border-bottom: 15px solid #898e98;
         border-right: 12px solid #c6cad1;
-        background: linear-gradient(45deg, #546495, #cfb3b3, #a4afc2, #93a8e3, #c5cbf0, #7999c1);
+        background: linear-gradient(95deg, #b1bbda, #c5ccda, #cdd5e4, #fff2fc, #eee, #cdd5e4);
     }
 
     .part-01 .rope {
+        width: 1vw;
         height: 100px;
         margin-top: -80px;
-        background: linear-gradient(to bottom, rgba(244, 255, 255, 0.52), rgba(250, 255, 255, 0.27), rgba(5, 5, 5, 0.34), #00000070, #000), url("../images/background/back.png");
+        margin-left: 7vw;
+        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back.png");
         background-size: cover;
         background-position: center;
         background-blend-mode: hard-light;
@@ -1098,8 +1116,14 @@ a {
         background: linear-gradient(145deg, #e8cdd9, #aebbe1, #ddf0ff);
     }
 
+    .part-01 .hole2,
+    .part-02 .hole2,
+    .part-03 .hole2 {
+        width: 3vw;
+    }
+
     .part-02 {
-        margin-top: 80px;
+        margin-top: 140px;
         background: linear-gradient(95deg, #0a0a0c, #38373f, #1f1e26, #505256, #888692);
         border-bottom: 15px solid #4c4c57;
         border-right: 12px solid #acadb1;
@@ -1113,15 +1137,11 @@ a {
     }
 
     .part-02 .rope {
-        height: 160px;
-        margin-top: -140px;
-        background: linear-gradient(to bottom, rgba(244, 255, 255, 0.52), rgba(250, 255, 255, 0.27), rgba(5, 5, 5, 0.34), #00000070, #000), url("../images/background/back2.png");
+        height: 220px;
+        margin-top: -200px;
+        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back2.png");
         background-size: cover;
         background-blend-mode: hard-light;
-    }
-
-    .part-02 .scroll {
-        border: 2px solid #000;
     }
 
     .part-02 .division {
@@ -1145,12 +1165,8 @@ a {
         border-right: 12px solid #939386;
     }
 
-    .part-03 .scroll {
-        border: 3px solid #ebe6db;
-    }
-
     .part-03 .rope {
-        background: linear-gradient(to bottom, rgba(244, 255, 255, 0.52), rgba(250, 255, 255, 0.27), rgba(5, 5, 5, 0.34), #00000070, #000), url("../images/background/back3.png");
+        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back3.png");
         background-size: cover;
         background-blend-mode: hard-light;
     }
@@ -1165,10 +1181,11 @@ a {
     }
 
     .part-03 .container {
-        background: linear-gradient(15deg, #c1baa9, #dbdbd6, #e4dfd3, #cbc5ba);
+        background: linear-gradient(15deg, #fdf8ec, #f3f3ea, #fffdf8, #f1ebe1);
     }
 
     .part-04 {
+        width: 30vw;
         margin-top: 70px;
         background: linear-gradient(45deg, #ced5d5, #d8dada, #d7e1e5, #c9d0d1, #e4eaed);
         border-bottom: 15px solid #9ba3a1;
@@ -1190,7 +1207,7 @@ a {
     .part-04 .rope {
         height: 150px;
         margin-top: -130px;
-        background: linear-gradient(to bottom, rgba(244, 255, 255, 0.52), rgba(250, 255, 255, 0.27), rgba(5, 5, 5, 0.34), #00000070, #000), url("../images/background/back4.png");
+        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back4.png");
         background-size: cover;
         background-blend-mode: hard-light;
     }
@@ -1207,9 +1224,15 @@ a {
         overflow-y: scroll;
         height: 60vh;
         border-radius: 25px;
-        border: 3px solid #eee;
         box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
         box-sizing: border-box;
+        background: transparent;
+    }
+
+    .part-01 .scroll,
+    .part-02 .scroll,
+    .part-03 .scroll {
+        height: 370px;
     }
 
     * {
@@ -1276,9 +1299,9 @@ a {
         border-top: 0.6vw solid transparent;
         border-bottom: 0.6vw solid transparent;
         position: relative;
-        bottom: 10px;
+        bottom: 0;
         margin: 0 auto;
-        left: -6vw;
+        left: -9vw;
         border-radius: 0 0 2px 2px;
         filter: blur(15px);
     }
@@ -1294,31 +1317,22 @@ a {
     }
 
     .shadow-1 {
-        bottom: 20px;
+        bottom: 80px;
     }
 
     .shadow-2 {
         bottom: -10px;
-        left: -7vw
+        left: -10vw
     }
 
     .shadow-3 {
         bottom: 10px;
-        left: -7vw
+        left: -15vw
     }
 
     .shadow-4 {
         bottom: -5px;
-        left: -8vw
-    }
-
-    .rope {
-        width: 2.1vw;
-        height: 92px;
-        position: absolute;
-        margin: -72px 0 0 8.4vw;
-        border-radius: 0 0 10px 10px;
-        /*background: linear-gradient(to bottom, rgba(53, 53, 53, 0.12), rgba(34, 34, 34, 0.7), #252525), url("../images/background/back.png");*/
+        left: -9vw
     }
 
     .holes {
@@ -1336,7 +1350,7 @@ a {
     }
 
     .hole2 {
-        width: 40px;
+        width: 6vw;
     }
 
     .hole3 {
@@ -1433,14 +1447,19 @@ a {
         margin: 20px auto 0;
     }
 
+    .profile .profile-image .image {
+        width: 65%;
+        margin: 0 auto;
+    }
+
     .profile .profile-image .image img {
         width: 100%;
     }
 
     .profile .profile-image .image span {
-        font-size: 16px;
-        margin-top: -50%;
-        margin-left: 81%;
+        font-size: 15px;
+        margin-top: -60%;
+        margin-left: 78%;
         position: relative;
     }
 
