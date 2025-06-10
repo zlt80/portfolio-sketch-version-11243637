@@ -1206,10 +1206,28 @@ a {
 
     .part-04 .rope {
         height: 150px;
+        width: 15px;
+        margin-top: -130px;
+        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgb(255, 255, 255), #000);
+        margin-left: 3vw;
+    }
+
+    .part-04 .rope:nth-child(2) {
+        height: 150px;
+        width: 50px;
         margin-top: -130px;
         background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back4.png");
         background-size: cover;
         background-blend-mode: hard-light;
+        margin-left: 12vw;
+    }
+
+    .part-04 .rope:nth-child(3) {
+        height: 150px;
+        width: 15px;
+        margin-top: -130px;
+        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgb(255, 255, 255), #000);
+        margin-left: 22vw;
     }
 
 
