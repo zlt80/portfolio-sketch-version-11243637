@@ -1064,74 +1064,28 @@ a {
     .part-03,
     .part-04 {
         box-sizing: border-box;
-        height: 570px;
+        height: 76vh;
         width: 22vw;
         overflow: hidden;
         padding: 20px;
         border-radius: 25px;
-        box-shadow: 11px 1px 50px rgba(0, 0, 0, 0.04), -11px -1px 50px rgba(209, 209, 209, 0.07);
+        box-shadow: none;
+        border: none;
         background: linear-gradient(45deg, #eee, #d9d9e6, #dbd6d6, #fffefc, #ddd);
-        border: 2px solid rgba(156, 156, 156, 0.06);
         margin: 0 auto;
-    }
-
-    .part-04 {
-        margin-top: 30px;
-        background: linear-gradient(45deg, #ced5d5, #d8dada, #f0f8fb, #c9d0d1, #e4eaed);
-        border-bottom: 10px solid #9ba3a1;
-        border-right: 8px solid #d0d5d2;
-    }
-
-    .part-04 .holes {
-        background: linear-gradient(145deg, #c0c8c9, #f5feff, #cfdad5);
-    }
-
-    .part-04 .division {
-        border-top: 5px solid #e7ebf1;
-    }
-
-    .part-04 .container {
-        background: linear-gradient(15deg, #d0d8d0, #e4e6ea, #e2eae8, #f5f8ff, #edf5f3);
-        border: 2px solid #dce4e3;
-    }
-
-    .part-04 .rope {
-        height: 100px;
-        margin-top: -82px;
     }
 
 
     .part-01 {
-        margin-top: 20px;
-        background: linear-gradient(95deg, #a59c85, #9e9889, #b9b4a1, #cfc8bb, #d8d2b9);
-        border-bottom: 10px solid #6e6e57;
-        border-right: 8px solid #939386;
+        border-bottom: 15px solid #898e98;
+        border-right: 12px solid #c6cad1;
     }
-
-    .part-01 .scroll {
-        border: 3px solid #ebe6db;
-    }
-
-    .part-01 .holes {
-        background: linear-gradient(145deg, #beb5a4, #dcd8c7, #b3b3a6);
-        border-bottom: 5px solid #b2b1ad;
-    }
-
-    .part-01 .division {
-        border-top: 5px solid #e3e0d6;
-    }
-
-    .part-01 .container {
-        background: linear-gradient(15deg, #c1baa9, #dbdbd6, #e4dfd3, #cbc5ba);
-        border: 2px solid #e8e4db;
-    }
-
 
     .part-02 {
         margin-top: 80px;
         background: linear-gradient(95deg, #0a0a0c, #38373f, #1f1e26, #505256, #888692);
-        border-bottom: 10px solid #212127;
-        border-right: 8px solid #acadb1;
+        border-bottom: 15px solid #212127;
+        border-right: 12px solid #acadb1;
     }
 
     .part-02 .holes {
@@ -1157,7 +1111,6 @@ a {
     .part-02 .container {
         background: linear-gradient(15deg, #1d1c22, #191a1c, #0c0c10, #202123, #000);
         color: #fff;
-        border: 2px solid #666;
     }
 
     .part-02 .dia-svg {
@@ -1166,8 +1119,51 @@ a {
 
 
     .part-03 {
-        border-bottom: 10px solid #8e9197;
-        border-right: 8px solid #cfcfcf;
+        margin-top: 20px;
+        background: linear-gradient(95deg, #a59c85, #9e9889, #b9b4a1, #cfc8bb, #d8d2b9);
+        border-bottom: 15px solid #6e6e57;
+        border-right: 12px solid #939386;
+    }
+
+    .part-03 .scroll {
+        border: 3px solid #ebe6db;
+    }
+
+    .part-03 .holes {
+        background: linear-gradient(145deg, #beb5a4, #dcd8c7, #b3b3a6);
+        border-bottom: 5px solid #b2b1ad;
+    }
+
+    .part-03 .division {
+        border-top: 5px solid #e3e0d6;
+    }
+
+    .part-03 .container {
+        background: linear-gradient(15deg, #c1baa9, #dbdbd6, #e4dfd3, #cbc5ba);
+    }
+
+    .part-04 {
+        margin-top: 40px;
+        background: linear-gradient(45deg, #ced5d5, #d8dada, #f0f8fb, #c9d0d1, #e4eaed);
+        border-bottom: 15px solid #9ba3a1;
+        border-right: 12px solid #bfc6c2;
+    }
+
+    .part-04 .holes {
+        background: linear-gradient(145deg, #c0c8c9, #f5feff, #cfdad5);
+    }
+
+    .part-04 .division {
+        border-top: 5px solid #e7ebf1;
+    }
+
+    .part-04 .container {
+        background: linear-gradient(15deg, #d0d8d0, #e4e6ea, #e2eae8, #f5f8ff, #edf5f3);
+    }
+
+    .part-04 .rope {
+        height: 110px;
+        margin-top: -92px;
     }
 
 
@@ -1178,12 +1174,42 @@ a {
     }
 
     .scroll {
+        overflow-x: hidden;
         overflow-y: scroll;
-        height: 450px;
+        height: 60vh;
         border-radius: 25px;
         border: 3px solid #eee;
         box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
         box-sizing: border-box;
+    }
+
+    * {
+        scroll-behavior: smooth;
+        scrollbar-width: thin;
+    }
+
+    .part-01 {
+        scrollbar-color: #d8d7e1 #fdfdfd;
+    }
+
+    .part-02 {
+        scrollbar-color: #323237 #0d0d0e;
+    }
+
+    .part-03 {
+        scrollbar-color: #f3efe6 #d4cec3;
+    }
+
+    .part-04 {
+        scrollbar-color: #d8e6e9 #eff4f6;
+    }
+
+    .scroll::-webkit-scrollbar-track {
+        border-radius: 20px;
+    }
+
+    .scroll::-webkit-scrollbar-thumb {
+        border-radius: 20px;
     }
 
     body {
@@ -1211,7 +1237,7 @@ a {
         border-top: 0.6vw solid transparent;
         border-bottom: 0.6vw solid transparent;
         position: relative;
-        bottom: 15px;
+        bottom: 0;
         margin: 0 auto;
         left: -6vw;
         border-radius: 0 0 2px 2px;
@@ -1229,29 +1255,28 @@ a {
     }
 
     .shadow-1 {
-        bottom: -30px;
     }
 
     .shadow-2 {
-        bottom: -70px;
+        bottom: -30px;
         left: -7vw
     }
 
     .shadow-3 {
-        bottom: -10px;
         left: -7vw
     }
 
     .shadow-4 {
-        bottom: -50px;
+        bottom: -20px;
         left: -8vw
     }
 
     .rope {
-        width: 1.6vw;
+        width: 1.8vw;
         height: 92px;
         position: absolute;
-        margin: -72px 0 0 8.75vw;
+        margin: -72px 0 0 8.5vw;
+        border-radius: 0 0 5px 5px;
         background: linear-gradient(to bottom, rgba(53, 53, 53, 0.12), rgba(34, 34, 34, 0.7), #252525);
     }
 
@@ -1289,7 +1314,8 @@ a {
         border-radius: 20px;
         padding: 0 10px 20px;
         box-shadow: none;
-        border-top: 1px solid #eee;
+        border: none;
+        border-top: 1px solid transparent;
     }
 
     .container:last-child {
