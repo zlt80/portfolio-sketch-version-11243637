@@ -1232,17 +1232,17 @@ a {
 
     .part-04 .rope {
         height: 140px;
-        width: 15px;
+        width: 2vw;
         margin-top: -120px;
         background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.07), #20181b), url("../images/background/rope4.png");
         background-size: cover;
         background-blend-mode: hard-light;
-        margin-left: 3vw;
+        margin-left: 2vw;
     }
 
     .part-04 .rope:nth-child(2) {
         height: 140px;
-        width: 15px;
+        width: 2vw;
         margin-top: -120px;
         background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.07), #20181b), url("../images/background/rope4.png");
         background-size: cover;
@@ -1442,7 +1442,7 @@ a {
     }
 
     span {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     p {
@@ -1462,7 +1462,7 @@ a {
     }
 
     .about .item {
-        padding-bottom: 15px
+        padding-bottom: 40px
     }
 
     .about .number {
