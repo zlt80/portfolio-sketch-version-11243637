@@ -1337,7 +1337,7 @@ a {
         border-bottom: 0.6vw solid transparent;
         position: relative;
         bottom: 0;
-        margin: 0 auto;
+        margin: 0 auto -30px;
         left: -9vw;
         border-radius: 0 0 2px 2px;
         filter: blur(15px);
