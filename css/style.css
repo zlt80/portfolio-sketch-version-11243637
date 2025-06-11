@@ -1107,6 +1107,8 @@ a {
         height: 140px;
         margin-top: -120px;
         background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back.png");
+        background-size: cover;
+        background-blend-mode: hard-light;
     }
 
     .part-01 .rope:nth-child(2) {
@@ -1114,6 +1116,8 @@ a {
         margin-top: -120px;
         margin-left: 11vw;
         background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back.png");
+        background-size: cover;
+        background-blend-mode: hard-light;
     }
 
     .part-01 .holes {
@@ -1173,9 +1177,9 @@ a {
 
     .part-03 {
         margin-top: 20px;
-        background: linear-gradient(95deg, #a59c85, #9e9889, #fff0e1, #cfc8bb, #d8d2b9);
-        border-bottom: 15px solid #6e6e57;
-        border-right: 12px solid #939386;
+        background: linear-gradient(95deg, #c0ab9f, #bfb9b3, #fff0e1, #ece5da, #d7c7c2);
+        border-bottom: 15px solid #bfbbb7;
+        border-right: 12px solid #efece9;
     }
 
     .part-03 .rope {
@@ -1209,21 +1213,21 @@ a {
     .part-04 {
         width: 32vw;
         margin-top: 50px;
-        background: linear-gradient(45deg, #ced5d5, #d8dada, #d7e1e5, #c9d0d1, #e4eaed);
-        border-bottom: 15px solid #9ba3a1;
-        border-right: 12px solid #bfc6c2;
+        background: linear-gradient(75deg, #bfb4b9, #dddadc, #ede4e6, #fff5fa, #e3d1d8);
+        border-bottom: 15px solid #bdb0b7;
+        border-right: 12px solid #e1dcdc;
     }
 
     .part-04 .holes {
-        background: linear-gradient(145deg, #c0c8c9, #f5feff, #cfdad5);
+        background: linear-gradient(145deg, #c9c4c0, #f3ebee, #dacfd4);
     }
 
     .part-04 .division {
-        border-top: 5px solid #e7ebf1;
+        border-top: 5px solid #faeef1;
     }
 
     .part-04 .container {
-        background: linear-gradient(15deg, #d0d8d0, #e4e6ea, #e2eae8, #f5f8ff, #edf5f3);
+        background: linear-gradient(15deg, #fffbfe, #fafcff, #ffffff, #fffbfe, #fff);
     }
 
     .part-04 .rope {
@@ -1286,7 +1290,7 @@ a {
     }
 
     .part-04 {
-        scrollbar-color: #d8e6e9 #eff4f6;
+        scrollbar-color: #e9d8e5 #fff;
     }
 
     .scroll::-webkit-scrollbar-track {
