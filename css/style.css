@@ -1046,9 +1046,11 @@ a {
         padding: 6vw 3vw 10vw;
     }
 
-    .shadows {
+    .shadows,
+    .part-01 .rope:nth-child(2) {
         display: none;
     }
+
 
 }
 
@@ -1065,10 +1067,10 @@ a {
     }
 
     .rope {
-        width: 2.1vw;
+        width: 0.7vw;
         height: 92px;
         position: absolute;
-        margin: -72px 0 0 6.4vw;
+        margin: -72px 0 0 3vw;
         border-radius: 0 0 10px 10px;
     }
 
@@ -1077,7 +1079,7 @@ a {
     .part-03,
     .part-04 {
         box-sizing: border-box;
-        height: 76vh;
+        height: 81vh;
         width: 22vw;
         overflow: hidden;
         padding: 20px;
@@ -1091,25 +1093,27 @@ a {
     .part-02,
     .part-03 {
         width: 18vw;
-        height: 500px;
+        height: 520px;
     }
 
     .part-01 {
-        margin-top: 30px;
+        margin-top: 70px;
         border-bottom: 15px solid #898e98;
         border-right: 12px solid #c6cad1;
         background: linear-gradient(95deg, #b1bbda, #c5ccda, #cdd5e4, #fff2fc, #eee, #cdd5e4);
     }
 
     .part-01 .rope {
-        width: 1vw;
-        height: 100px;
-        margin-top: -80px;
-        margin-left: 7vw;
+        height: 140px;
+        margin-top: -120px;
         background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back.png");
-        background-size: cover;
-        background-position: center;
-        background-blend-mode: hard-light;
+    }
+
+    .part-01 .rope:nth-child(2) {
+        height: 140px;
+        margin-top: -120px;
+        margin-left: 11vw;
+        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back.png");
     }
 
     .part-01 .holes {
@@ -1144,6 +1148,15 @@ a {
         background-blend-mode: hard-light;
     }
 
+    .part-02 .rope:nth-child(2) {
+        height: 220px;
+        margin-top: -200px;
+        margin-left: 11vw;
+        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back2.png");
+        background-size: cover;
+        background-blend-mode: hard-light;
+    }
+
     .part-02 .division {
         border-top: 5px solid #0a0613;
     }
@@ -1166,6 +1179,15 @@ a {
     }
 
     .part-03 .rope {
+        width: 0.6vw;
+        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back3.png");
+        background-size: cover;
+        background-blend-mode: hard-light;
+    }
+
+    .part-03 .rope:nth-child(2) {
+        width: 0.6vw;
+        margin-left: 11vw;
         background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back3.png");
         background-size: cover;
         background-blend-mode: hard-light;
@@ -1185,8 +1207,8 @@ a {
     }
 
     .part-04 {
-        width: 30vw;
-        margin-top: 70px;
+        width: 32vw;
+        margin-top: 50px;
         background: linear-gradient(45deg, #ced5d5, #d8dada, #d7e1e5, #c9d0d1, #e4eaed);
         border-bottom: 15px solid #9ba3a1;
         border-right: 12px solid #bfc6c2;
@@ -1205,31 +1227,24 @@ a {
     }
 
     .part-04 .rope {
-        height: 150px;
+        height: 140px;
         width: 15px;
-        margin-top: -130px;
-        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgb(255, 255, 255), #000);
+        margin-top: -120px;
+        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back4.png");
+        background-size: cover;
+        background-blend-mode: hard-light;
         margin-left: 3vw;
     }
 
     .part-04 .rope:nth-child(2) {
-        height: 150px;
-        width: 50px;
-        margin-top: -130px;
+        height: 140px;
+        width: 15px;
+        margin-top: -120px;
         background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), #000), url("../images/background/back4.png");
         background-size: cover;
         background-blend-mode: hard-light;
-        margin-left: 12vw;
+        margin-left: 25vw;
     }
-
-    .part-04 .rope:nth-child(3) {
-        height: 150px;
-        width: 15px;
-        margin-top: -130px;
-        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgb(255, 255, 255), #000);
-        margin-left: 22vw;
-    }
-
 
     .part-02 .id-card-top,
     .part-03 .id-card-top,
@@ -1240,7 +1255,7 @@ a {
     .scroll {
         overflow-x: hidden;
         overflow-y: scroll;
-        height: 60vh;
+        height: 64.5vh;
         border-radius: 25px;
         box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
         box-sizing: border-box;
@@ -1250,7 +1265,7 @@ a {
     .part-01 .scroll,
     .part-02 .scroll,
     .part-03 .scroll {
-        height: 370px;
+        height: 385px;
     }
 
     * {
@@ -1339,12 +1354,12 @@ a {
     }
 
     .shadow-2 {
-        bottom: -10px;
+        bottom: 10px;
         left: -10vw
     }
 
     .shadow-3 {
-        bottom: 10px;
+        bottom: 90px;
         left: -15vw
     }
 
@@ -1401,12 +1416,13 @@ a {
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 22px;
         margin: 0;
+        text-transform: uppercase;
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 22px;
         letter-spacing: 0.04em;
     }
 
@@ -1462,12 +1478,13 @@ a {
     }
 
     .profile .profile-image {
-        margin: 20px auto 0;
+        margin: 15px auto 0;
     }
 
     .profile .profile-image .image {
-        width: 65%;
+        width: 68%;
         margin: 0 auto;
+        padding-bottom: 1.5vw;
     }
 
     .profile .profile-image .image img {
