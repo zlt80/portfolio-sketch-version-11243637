@@ -39,20 +39,28 @@ h5 {
 }
 
 span {
+    font-family: "Figtree", sans-serif;
     display: block;
-    font-size: 4.2vw;
+    font-size: 4.7vw;
 }
 
 p {
     display: block;
     font-size: 3.6vw;
+    font-family: "Outfit", sans-serif;
 }
 
-a {
-    font-size: 5vw;
+h6 {
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+h6, a {
+    font-size: 5.2vw;
     font-weight: 600;
     letter-spacing: -0.05em;
     text-transform: capitalize;
+    font-family: "Figtree", sans-serif;
 }
 
 .light {
@@ -247,20 +255,18 @@ a {
 }
 
 .about h5 {
-    display: flex;
     font-weight: 400;
 }
 
 .about span {
-    font-weight: 600;
     line-height: 1.6;
     margin-bottom: 3vw;
-    font-size: 16px;
     letter-spacing: -0.03em;
+    display: flex;
 }
 
 .about .location {
-    width: 8vw;
+    width: 9vw;
     display: block;
 }
 
@@ -450,6 +456,17 @@ a {
     }
 }
 
+.hobbies h6,
+.my-vision__Box h6 {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.my-vision__Box {
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
 .software {
     text-align: center;
     padding: 7vw 2vw 10vw;
@@ -473,8 +490,6 @@ a {
 }
 
 .timeline span {
-    font-size: 4.5vw;
-    padding-bottom: 1.7vw;
 }
 
 .timeline .item {
@@ -1463,12 +1478,12 @@ a {
         font-size: 13px;
     }
 
-    a {
+    h6, a {
         font-size: 17px;
     }
 
     .about .location {
-        width: 18px
+        width: 24px
     }
 
     .about span {
@@ -1480,11 +1495,12 @@ a {
     }
 
     .about .number {
-        width: 16px;
-        margin-bottom: -4px;
+        width: 18px;
+        margin-bottom: -3px;
     }
 
     .swatch div {
+        margin-top: 10px;
         width: 30px;
         height: 50px;
     }
