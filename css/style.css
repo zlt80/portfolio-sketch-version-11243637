@@ -1040,6 +1040,11 @@ a {
 }
 
 @media only screen and (max-width: 980px) {
+
+    .profile h4 {
+        font-size: 4.8vw;
+    }
+
     .wrapper {
         overflow: hidden;
         padding: 5vw;
