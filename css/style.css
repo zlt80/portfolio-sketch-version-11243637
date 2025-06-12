@@ -33,13 +33,12 @@ h4 {
 }
 
 h5 {
-    font-family: "Edu VIC WA NT Hand", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-size: 4.3vw;
     padding-bottom: 3vw;
 }
 
 span {
-    font-family: "Manrope", sans-serif;
     display: block;
     font-size: 4.2vw;
 }
@@ -247,9 +246,17 @@ a {
     }
 }
 
+.about h5 {
+    display: flex;
+    font-weight: 400;
+}
+
 .about span {
+    font-weight: 600;
     line-height: 1.6;
     margin-bottom: 3vw;
+    font-size: 16px;
+    letter-spacing: -0.03em;
 }
 
 .about .location {
@@ -1439,12 +1446,12 @@ a {
     }
 
     h5 {
-        font-size: 14px;
-        padding-bottom: 10px
+        font-size: 16px;
+        padding-bottom: 5px;
     }
 
     span {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     p {
@@ -1456,7 +1463,7 @@ a {
     }
 
     .about .location {
-        width: 20px
+        width: 18px
     }
 
     .about span {
