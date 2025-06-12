@@ -33,11 +33,13 @@ h4 {
 }
 
 h5 {
+    font-family: "Edu VIC WA NT Hand", sans-serif;
     font-size: 4.3vw;
     padding-bottom: 3vw;
 }
 
 span {
+    font-family: "Manrope", sans-serif;
     display: block;
     font-size: 4.2vw;
 }
