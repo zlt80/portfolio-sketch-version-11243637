@@ -41,8 +41,9 @@ h5 {
 }
 
 span {
+    font-weight: 600;
     display: block;
-    font-size: 4.7vw;
+    font-size: 4.2vw;
     letter-spacing: -0.05em;
     font-family: "Orbit", sans-serif;
 }
