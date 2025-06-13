@@ -50,17 +50,17 @@ p {
     font-family: "Nunito", sans-serif;
 }
 
-h6 {
-    font-weight: 400;
-}
 
 h6, a {
     font-size: 6vw;
     font-weight: 400;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.03em;
     text-transform: capitalize;
     font-family: "Archivo", sans-serif;
-    line-height: 1.7;
+}
+
+h6 {
+    font-size: 5.5vw;
 }
 
 .light {
@@ -254,13 +254,9 @@ h6, a {
     }
 }
 
-.about h5 {
-    font-weight: 400;
-}
-
 .about span {
     line-height: 1.2;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
     letter-spacing: -0.03em;
     display: flex;
 }
@@ -320,7 +316,8 @@ h6, a {
     height: 25vw;
     border-radius: 5px;
     text-align: center;
-    margin-left: -35px;
+    margin-left: -36px;
+    margin-top: 10px;
     display: inline-block;
     box-sizing: border-box;
     transform: rotate(0deg);
@@ -459,8 +456,6 @@ h6, a {
 
 .hobbies h6,
 .my-vision__Box h6 {
-    font-size: 18px;
-    letter-spacing: -0.01em;
 }
 
 .my-vision__Box {
