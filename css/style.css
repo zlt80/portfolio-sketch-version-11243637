@@ -263,10 +263,10 @@ h6 {
 }
 
 .about span {
-    line-height: 1.2;
-    margin-bottom: 1vw;
-    letter-spacing: -0.03em;
     display: flex;
+    line-height: 1.2;
+    margin-bottom: 2vw;
+    letter-spacing: -0.03em;
 }
 
 .about .location {
