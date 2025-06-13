@@ -25,11 +25,12 @@ h3 {
 }
 
 h4 {
-    font-size: 5.5vw;
+    font-size: 5vw;
     margin-top: 2vw;
     line-height: 1.7;
     margin-bottom: 15vw;
-    font-family: 'KOTRA_BOLD-Bold', sans-serif;
+    letter-spacing: 0.02em;
+    font-family: "IBM Plex Sans KR", sans-serif;
 }
 
 h5 {
