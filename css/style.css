@@ -191,11 +191,12 @@ h6 {
     margin-top: -55%;
     margin-left: 40%;
     position: absolute;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.6em;
+    font-weight: 100;
     writing-mode: vertical-lr;
     text-shadow: 2px 3px 1px #000000c7;
     animation: fadein 3s ease-out forwards;
-    font-family: "IBM Plex Sans KR", sans-serif;
+    font-family: "Noto Serif KR", sans-serif;
 }
 
 .profile .contact {
