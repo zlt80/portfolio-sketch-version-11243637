@@ -39,6 +39,7 @@ h5, h6, a, label {
     font-weight: 600;
     letter-spacing: -0.02em;
     padding-bottom: 3vw;
+    text-transform: capitalize;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -65,10 +66,6 @@ p {
     font-weight: 600;
     letter-spacing: -0.02em;
     font-family: "Montserrat", sans-serif;
-}
-
-.hobbies h6,
-.my-vision__Box h6 {
 }
 
 .light {
@@ -460,10 +457,6 @@ p {
 
 .timeline .item {
     margin-bottom: 22vw;
-}
-
-.timeline .item h6 {
-    font-size: 5.4vw
 }
 
 .timeline .item img:nth-child(2) {
