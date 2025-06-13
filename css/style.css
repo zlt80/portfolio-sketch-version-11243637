@@ -48,12 +48,13 @@ a {
 
 span {
     color: #666;
+    line-height: 2;
     display: block;
-    line-height: 1.2;
+    margin-top: 12vw;
     font-weight: 600;
     font-size: 4.2vw;
     margin-bottom: 2vw;
-    letter-spacing: -0.05em;
+    letter-spacing: 0.04em;
     font-family: "Orbit", sans-serif;
 }
 
@@ -275,14 +276,6 @@ p {
 .about .location {
     width: 9vw;
     display: block;
-}
-
-.about .item {
-    padding-bottom: 12vw;
-}
-
-.about .item.vision {
-    padding-bottom: 0;
 }
 
 .about .number {
@@ -546,13 +539,6 @@ p {
 
 
 /* experience start */
-.experiences span {
-    line-height: 2;
-    letter-spacing: 0.04em;
-    margin-top: 12vw;
-    display: block;
-}
-
 .experiences .websites {
     display: flex;
     flex-wrap: wrap;
