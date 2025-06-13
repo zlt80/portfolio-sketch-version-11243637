@@ -41,7 +41,7 @@ h5 {
 }
 
 span {
-    font-family: "Nunito", sans-serif;
+    font-family: "Orbit", sans-serif;
     display: block;
     font-size: 4.7vw;
 }
@@ -460,9 +460,11 @@ h6 {
     margin: auto;
 }
 
-.timeline span {
+.timeline p {
+    font-size: 4.5vw;
     padding-bottom: 3vw;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.02em;
+    font-family: "Asta Sans", sans-serif;
 }
 
 .timeline .item {
