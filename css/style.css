@@ -56,11 +56,16 @@ h6, a {
     font-weight: 400;
     letter-spacing: -0.03em;
     text-transform: capitalize;
-    font-family: "Archivo", sans-serif;
+    font-family: "IBM Plex Sans KR", sans-serif;
 }
 
 h6 {
     font-size: 5vw;
+}
+
+.hobbies h6,
+.my-vision__Box h6 {
+    font-size: 4.7vw;
 }
 
 .light {
@@ -452,11 +457,6 @@ h6 {
     10% {
         transform: rotate(0deg);
     }
-}
-
-.hobbies h6,
-.my-vision__Box h6 {
-    font-size: 4.7vw;
 }
 
 .my-vision__Box {
