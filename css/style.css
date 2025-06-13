@@ -285,31 +285,31 @@ h6 {
 }
 
 .about .n-1 {
-    filter: hue-rotate(190deg) brightness(1.5) saturate(0.5);
+    filter: hue-rotate(190deg) brightness(1.5) saturate(0.2);
 }
 
 .about .n-2 {
-    filter: hue-rotate(85deg) saturate(0.5);
+    filter: hue-rotate(85deg) saturate(0.2);
 }
 
 .about .n-3 {
-    filter: hue-rotate(350deg) saturate(0.5) brightness(1.1);
+    filter: hue-rotate(350deg) saturate(0.2) brightness(1.1);
 }
 
 .about .n-4 {
-    filter: hue-rotate(7deg) saturate(0.5);
+    filter: hue-rotate(7deg) saturate(0.2);
 }
 
 .about .n-5 {
-    filter: hue-rotate(290deg) saturate(0.5);
+    filter: hue-rotate(290deg) saturate(0.2);
 }
 
 .about .n-6 {
-    filter: brightness(1.2) saturate(0.5);
+    filter: brightness(1.2) saturate(0.2);
 }
 
 .about .n-7 {
-    filter: hue-rotate(250deg) brightness(1.1) saturate(0.2);
+    filter: hue-rotate(250deg) brightness(1.1) saturate(0.1);
 }
 
 .swatch {
