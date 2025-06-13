@@ -462,11 +462,15 @@ h6 {
 
 .timeline span {
     padding-bottom: 3vw;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.05em;
 }
 
 .timeline .item {
-    margin-bottom: 25vw;
+    margin-bottom: 22vw;
+}
+
+.timeline .item h6 {
+    font-size: 5.4vw
 }
 
 .timeline .item img:nth-child(2) {
