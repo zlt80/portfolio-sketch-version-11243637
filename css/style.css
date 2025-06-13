@@ -52,15 +52,15 @@ p {
 
 h6 {
     font-weight: 400;
-    line-height: 1.6;
 }
 
 h6, a {
-    font-size: 5.2vw;
-    font-weight: 600;
+    font-size: 6vw;
+    font-weight: 400;
     letter-spacing: -0.05em;
     text-transform: capitalize;
-    font-family: "Manrope", sans-serif;
+    font-family: "Archivo", sans-serif;
+    line-height: 1.7;
 }
 
 .light {
@@ -259,7 +259,7 @@ h6, a {
 }
 
 .about span {
-    line-height: 1.6;
+    line-height: 1.2;
     margin-bottom: 3vw;
     letter-spacing: -0.03em;
     display: flex;
@@ -271,7 +271,7 @@ h6, a {
 }
 
 .about .item {
-    padding-bottom: 7vw;
+    padding-bottom: 10vw;
 }
 
 .about .number {
@@ -309,8 +309,8 @@ h6, a {
 
 .swatch {
     display: block;
-    text-align: center;
     position: relative;
+    text-align: center;
 }
 
 .swatch div {
@@ -458,7 +458,6 @@ h6, a {
 
 .hobbies h6,
 .my-vision__Box h6 {
-    font-weight: 400;
     font-size: 17px;
 }
 
@@ -1489,7 +1488,6 @@ h6, a {
     }
 
     .about span {
-        margin-bottom: 5px;
     }
 
     .about .item {
