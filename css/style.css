@@ -34,7 +34,7 @@ h4 {
     font-family: "Asta Sans", sans-serif;
 }
 
-h5, a {
+h5, a, label {
     font-family: "Nunito", sans-serif;
     font-size: 4.3vw;
     padding-bottom: 3vw;
@@ -685,10 +685,9 @@ h6 {
 
 .experiences .details .button {
     width: 100%;
-    padding: 2vw 0;
-    line-height: 2;
-    font-size: 4.6vw;
+    padding: 3vw 0;
     background: #fff;
+    font-weight: bold;
     position: relative;
     border-radius: 25px;
     display: inline-block;
