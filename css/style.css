@@ -34,7 +34,7 @@ h4 {
     font-family: "Asta Sans", sans-serif;
 }
 
-h5, a, label {
+h5, h6, a, label {
     font-family: "Nunito", sans-serif;
     font-size: 4.3vw;
     padding-bottom: 3vw;
@@ -64,21 +64,21 @@ p {
 }
 
 
-h6 {
-    font-size: 6vw;
-    font-weight: 400;
-    letter-spacing: -0.03em;
-    text-transform: capitalize;
-    font-family: "IBM Plex Sans KR", sans-serif;
-}
+/*h6 {*/
+/*    font-size: 6vw;*/
+/*    font-weight: 400;*/
+/*    letter-spacing: -0.03em;*/
+/*    text-transform: capitalize;*/
+/*    font-family: "IBM Plex Sans KR", sans-serif;*/
+/*}*/
 
-h6 {
-    font-size: 5vw;
-}
+/*h6 {*/
+/*    font-size: 5vw;*/
+/*}*/
 
 .hobbies h6,
 .my-vision__Box h6 {
-    font-size: 4.7vw;
+    font-size: 4vw;
 }
 
 .light {
