@@ -41,9 +41,10 @@ h5 {
 }
 
 span {
-    font-family: "Orbit", sans-serif;
     display: block;
     font-size: 4.7vw;
+    letter-spacing: -0.05em;
+    font-family: "Orbit", sans-serif;
 }
 
 p {
@@ -262,10 +263,10 @@ h6 {
 }
 
 .about span {
+    color: #666;
     display: flex;
     line-height: 1.2;
     margin-bottom: 2vw;
-    letter-spacing: -0.03em;
 }
 
 .about .location {
