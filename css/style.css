@@ -36,7 +36,8 @@ h4 {
 
 h5, h6, a, label {
     font-size: 4.5vw;
-    font-weight: 400;
+    font-weight: 600;
+    letter-spacing: -0.02em;
     padding-bottom: 3vw;
     font-family: "Kanit", sans-serif;
 }
@@ -52,7 +53,7 @@ span {
     display: block;
     margin-top: 10vw;
     font-weight: 600;
-    font-size: 4.2vw;
+    font-size: 4.3vw;
     margin-bottom: 2vw;
     letter-spacing: 0.04em;
     font-family: "Orbit", sans-serif;
