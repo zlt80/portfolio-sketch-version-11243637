@@ -41,9 +41,12 @@ h5 {
 }
 
 span {
-    font-weight: 600;
+    color: #666;
     display: block;
+    line-height: 1.2;
+    font-weight: 600;
     font-size: 4.2vw;
+    margin-bottom: 2vw;
     letter-spacing: -0.05em;
     font-family: "Orbit", sans-serif;
 }
@@ -261,13 +264,6 @@ h6 {
     to {
         opacity: 1;
     }
-}
-
-.about span {
-    color: #666;
-    display: flex;
-    line-height: 1.2;
-    margin-bottom: 2vw;
 }
 
 .about .location {
