@@ -50,7 +50,7 @@ span {
     color: #666;
     line-height: 2;
     display: block;
-    margin-top: 12vw;
+    margin-top: 10vw;
     font-weight: 600;
     font-size: 4.2vw;
     margin-bottom: 2vw;
@@ -674,7 +674,6 @@ p {
     width: 100%;
     padding: 3vw 0;
     background: #fff;
-    font-weight: bold;
     position: relative;
     border-radius: 25px;
     display: inline-block;
