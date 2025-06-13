@@ -35,15 +35,15 @@ h4 {
 }
 
 h5, h6, a, label {
-    font-family: "Nunito", sans-serif;
-    font-size: 4.3vw;
+    font-size: 4.5vw;
+    font-weight: 400;
     padding-bottom: 3vw;
+    font-family: "Kanit", sans-serif;
 }
 
 a {
     font-size: 4.7vw;
     text-transform: capitalize;
-    font-family: "Kanit", sans-serif;
 }
 
 span {
