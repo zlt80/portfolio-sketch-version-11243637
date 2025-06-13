@@ -33,13 +33,13 @@ h4 {
 }
 
 h5 {
-    font-family: "Outfit", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 4.3vw;
     padding-bottom: 3vw;
 }
 
 span {
-    font-family: "Figtree", sans-serif;
+    font-family: "Nunito", sans-serif;
     display: block;
     font-size: 4.7vw;
 }
@@ -47,7 +47,7 @@ span {
 p {
     display: block;
     font-size: 3.6vw;
-    font-family: "Outfit", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 h6 {
@@ -60,7 +60,7 @@ h6, a {
     font-weight: 600;
     letter-spacing: -0.05em;
     text-transform: capitalize;
-    font-family: "Figtree", sans-serif;
+    font-family: "Manrope", sans-serif;
 }
 
 .light {
@@ -1037,11 +1037,11 @@ h6, a {
     border-radius: 30px;
     text-decoration: none;
     flex-direction: column;
-    font-family: sans-serif;
     justify-content: center;
     border: 1px solid #d5d5d5;
     letter-spacing: 0.01em;
     text-transform: uppercase;
+    font-family: "Nunito", sans-serif;
     -webkit-tap-highlight-color: transparent;
     transition: background-color 0.1s ease-in-out;
     background-image: linear-gradient(to top, rgba(216, 217, 219, 0.6) 0%, rgba(255, 255, 255, 0.97) 80%, rgba(253, 253, 253, 0.57) 100%);
