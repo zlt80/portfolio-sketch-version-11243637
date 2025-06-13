@@ -458,7 +458,8 @@ h6, a {
 
 .hobbies h6,
 .my-vision__Box h6 {
-    font-size: 17px;
+    font-size: 18px;
+    letter-spacing: -0.03em;
 }
 
 .my-vision__Box {
