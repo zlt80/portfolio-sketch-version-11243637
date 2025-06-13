@@ -286,6 +286,7 @@ h6 {
 
 .about .n-1 {
     filter: hue-rotate(190deg) brightness(1.5) saturate(0.2);
+    margin-bottom: -1.2vw;
 }
 
 .about .n-2 {
