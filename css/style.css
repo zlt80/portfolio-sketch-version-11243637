@@ -1030,7 +1030,7 @@ h6 {
     border: 1px solid #d5d5d5;
     letter-spacing: -0.01em;
     text-transform: uppercase;
-    font-family: "Nunito", sans-serif;
+    font-family: "Kanit", sans-serif;
     -webkit-tap-highlight-color: transparent;
     transition: background-color 0.1s ease-in-out;
     background-image: linear-gradient(to top, rgba(216, 217, 219, 0.6) 0%, rgba(255, 255, 255, 0.97) 80%, rgba(253, 253, 253, 0.57) 100%);
