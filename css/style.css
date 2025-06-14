@@ -184,11 +184,11 @@ p {
 .profile .profile-image .image span {
     color: #fff;
     opacity: 0.3;
-    font-size: 5vw;
-    margin-top: -55%;
+    font-size: 4.5vw;
+    margin-top: -50%;
     margin-left: 40%;
     position: absolute;
-    letter-spacing: 0.6em;
+    letter-spacing: 0.7em;
     font-weight: 100;
     writing-mode: vertical-lr;
     text-shadow: 2px 3px 1px #000000c7;
