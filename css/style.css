@@ -217,8 +217,7 @@ p {
 }
 
 .profile .contact .info h5 .phone {
-    width: 25vw !important;
-    margin-bottom: -9px !important;
+    width: 30vw !important;
 }
 
 @keyframes fadein {
