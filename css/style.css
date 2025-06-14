@@ -948,7 +948,7 @@ p {
     margin: 0 auto;
     text-align: center;
     font-size: 20vw;
-    filter: saturate(0) brightness(1.4)
+    filter: saturate(0) brightness(1.4) opacity(0.5);
 }
 
 .nav {
