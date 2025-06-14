@@ -200,20 +200,16 @@ p {
 
 .profile .contact .info {
     width: fit-content;
-    text-align: center;
-    margin: 10vw auto 2vw;
+    margin: 15vw auto 10vw;
 }
 
-.profile .contact .info h5 {
-    padding: 2vw 0;
-    font-size: 3.8vw;
+.profile .contact .info img {
+    display: block;
+    width: 48vw !important;
+    margin: 5vw auto;
 }
 
-.profile .contact .info h5 img {
-    width: 46vw !important;
-}
-
-.profile .contact .info h5 .phone {
+.profile .contact .info .phone {
     width: 30vw !important;
 }
 
