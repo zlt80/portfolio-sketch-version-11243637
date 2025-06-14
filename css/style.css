@@ -35,12 +35,12 @@ h4 {
 }
 
 h5, h6, a, label {
-    font-size: 4.5vw;
+    font-size: 5vw;
     font-weight: 600;
     letter-spacing: -0.02em;
     padding-bottom: 3vw;
     text-transform: capitalize;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Do Hyeon", sans-serif;
 }
 
 a {
@@ -247,6 +247,10 @@ p {
     to {
         opacity: 1;
     }
+}
+
+.about h6 {
+    font-family: "Do Hyeon", sans-serif;
 }
 
 .about .location {
