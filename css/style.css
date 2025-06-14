@@ -538,7 +538,7 @@ p {
     padding-bottom: 3vw;
     border-radius: 10px;
     box-sizing: border-box;
-    border: 0.5px solid #c3c3c3;
+    border: 1px solid #c3c3c3;
     box-shadow: 0 4px #cbcbcb36, 0 10px 15px rgb(0 0 0 / 13%);
 }
 
