@@ -942,13 +942,13 @@ p {
 }
 
 .thank-you .back-to-top-link {
-    width: 25vw;
-    height: 25vw;
+    width: 45vw;
+    height: 45vw;
     display: block;
     margin: 0 auto;
     text-align: center;
-    font-size: 15vw;
-    filter: saturate(0.4) brightness(1)
+    font-size: 20vw;
+    filter: saturate(0) brightness(1.4)
 }
 
 .nav {
