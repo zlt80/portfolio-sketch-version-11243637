@@ -210,10 +210,7 @@ p {
 }
 
 .profile .contact .info h5 img {
-    background: #fff;
     width: 46vw !important;
-    margin-bottom: -9px !important;
-    filter: contrast(1.1) brightness(1.1);
 }
 
 .profile .contact .info h5 .phone {
