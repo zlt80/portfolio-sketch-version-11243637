@@ -50,14 +50,11 @@ a {
 }
 
 span {
-    color: #999;
     line-height: 2;
     display: block;
     margin-top: 10vw;
-    font-weight: 600;
-    font-size: 4.7vw;
+    font-size: 4vw;
     margin-bottom: 2vw;
-    letter-spacing: 0.04em;
     text-transform: uppercase;
     font-family: "Do Hyeon", sans-serif;
 }
