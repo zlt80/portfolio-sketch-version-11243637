@@ -425,13 +425,9 @@ p {
     line-height: 1.7;
 }
 
-.software {
-    text-align: center;
-    padding: 7vw 2vw 10vw;
-}
-
 .software .grid {
     display: grid;
+    text-align: center;
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -464,7 +460,7 @@ p {
     margin-bottom: 20vw;
 }
 
-.timeline .item img:nth-child(2) {
+.timeline .item img:nth-child(1) {
     width: 100%;
     height: 40vw;
     padding: 2px;

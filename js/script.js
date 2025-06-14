@@ -1,20 +1,3 @@
-// const parentDivs1 = document.querySelectorAll('.container');
-// parentDivs1.forEach(parentDiv => {
-//     const childDivStart = document.createElement('img');
-//     const childDivEnd = document.createElement('img');
-//
-//     childDivStart.className = 'dia-svg';
-//     childDivStart.src = './images/svg/start.svg';
-//     childDivStart.alt = 'svg';
-//
-//     childDivEnd.className = 'dia-svg';
-//     childDivEnd.src = './images/svg/end.svg';
-//     childDivEnd.alt = 'svg';
-//
-//     parentDiv.prepend(childDivStart);
-//     parentDiv.appendChild(childDivEnd);
-// });
-
 const parentDivs2 = document.querySelectorAll('.website');
 parentDivs2.forEach(parentDiv2 => {
     const childDiv = document.createElement('div');
