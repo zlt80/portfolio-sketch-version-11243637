@@ -986,6 +986,7 @@ p {
     padding: 0;
     font-size: 3.6vw;
     overflow: hidden;
+    font-weight: 400;
     align-items: center;
     white-space: nowrap;
     border-radius: 30px;
