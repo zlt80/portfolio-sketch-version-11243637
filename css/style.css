@@ -62,7 +62,7 @@ span {
 
 p {
     display: block;
-    font-size: 3.6vw;
+    font-size: 3.8vw;
     letter-spacing: -0.02em;
     font-family: "Montserrat", sans-serif;
 }
@@ -441,6 +441,7 @@ p {
 
 .software .grid .item img {
     width: 22vw;
+    height: 22vw;
 }
 
 .software .grid .item p {
