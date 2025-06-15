@@ -61,9 +61,8 @@ span {
 
 p {
     display: block;
-    font-size: 4vw;
+    font-size: 4.2vw;
     letter-spacing: -0.01em;
-    font-family: "Montserrat", sans-serif;
 }
 
 .light {
@@ -436,7 +435,7 @@ p {
 }
 
 .software .grid .item p {
-    margin: auto;
+    margin: -1.5vw auto 0;
     font-family: "Do Hyeon", sans-serif;
 }
 
