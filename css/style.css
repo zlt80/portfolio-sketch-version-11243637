@@ -43,8 +43,12 @@ h5, h6, a, label {
     font-family: "Do Hyeon", sans-serif;
 }
 
+h5 {
+    font-size: 6vw;
+}
+
 a {
-    font-size: 4.7vw;
+    font-size: 5.4vw;
     text-transform: capitalize;
 }
 
