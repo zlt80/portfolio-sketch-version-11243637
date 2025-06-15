@@ -277,8 +277,7 @@ p {
     height: 25vw;
     border-radius: 5px;
     text-align: center;
-    margin-left: -36px;
-    margin-top: 10px;
+    margin: 10px 0 30px -36px;
     display: inline-block;
     box-sizing: border-box;
     transform: rotate(0deg);
@@ -454,7 +453,7 @@ p {
 }
 
 .timeline .item {
-    margin-bottom: 20vw;
+    margin-bottom: 10vw;
 }
 
 .timeline .item img:nth-child(2) {
