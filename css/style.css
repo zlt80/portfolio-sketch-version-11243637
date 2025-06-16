@@ -54,13 +54,12 @@ a {
 
 span {
     color: #333;
-    line-height: 2;
     display: block;
     margin-top: 5vw;
     font-size: 4vw;
     margin-bottom: 2vw;
     text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Do Hyeon", sans-serif;
 }
 
 p {
@@ -1409,6 +1408,7 @@ p {
 
     h3 {
         font-size: 22px;
+        margin-top: 50px;
         letter-spacing: 0.04em;
     }
 
@@ -1512,13 +1512,30 @@ p {
 
     .software .grid .item img {
         width: 60px;
+        height: 60px;
     }
 
-    .timeline .item .w-logo {
+    .software .grid .item p {
+        margin: 0 auto;
+    }
+
+    .timeline .item .logo {
         height: 30px;
         margin-left: -5px;
-        margin-bottom: -2px;
+        margin-bottom: -5px !important;
     }
+
+    .timeline p {
+        padding: 0;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .timeline h6 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
 
     .timeline .item img:nth-child(2) {
         margin: 10px 0;
