@@ -459,7 +459,7 @@ p {
 }
 
 .timeline .item .kg-image {
-    border: 1px solid #eee;
+    border: 2px solid #c5c5c5;
     filter: invert(1) hue-rotate(270deg) saturate(1.2) brightness(1.8);
 }
 
