@@ -224,7 +224,6 @@ p {
 
 .about {
     background: linear-gradient(0deg, #eae0e3, #fff, #fff, #f7f6f8, #eae0e3);
-    padding: 0 8vw 10vw;
 }
 
 .about h4 {
@@ -399,6 +398,7 @@ p {
 
 .software {
     background: linear-gradient(0deg, #e8eae0, #fff, #fff, #f8f8f6, #e8eae0);
+    padding: 0 5vw 10vw;
 }
 
 .software .grid {
