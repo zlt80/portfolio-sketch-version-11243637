@@ -503,6 +503,7 @@ p {
 /* experience start */
 .experiences {
     background: linear-gradient(0deg, #eae0e3, #fff, #fff, #fffdff, #eae0e3);
+    padding-bottom: 20vw;
 }
 
 .experiences .websites {
