@@ -129,7 +129,7 @@ p {
 
 .profile {
     margin-top: 15vw;
-    background: linear-gradient(0deg, #fff, #fff, #eceded, #cfd2da);
+    background: linear-gradient(0deg, #eceded, #fff, #fff, #eceded, #cfd2da);
 }
 
 .profile .profile-image {
@@ -223,7 +223,7 @@ p {
 }
 
 .about {
-    background: linear-gradient(0deg, #fff, #fff, #f7f6f8, #e6e0ea);
+    background: linear-gradient(0deg, #fff, #fff, #f7f6f8, #eae0e3);
 }
 
 .about h4 {
