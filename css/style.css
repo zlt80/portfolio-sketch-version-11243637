@@ -928,6 +928,10 @@ p {
     background: linear-gradient(20deg, #f1f7eb, #a0b07d, #679ec0);
 }
 
+.thank-you {
+    background: linear-gradient(0deg, #efefef, #fff, #fff, #f8f8f8, #eee);
+}
+
 .thank-you .svg-smile {
     width: 4vw;
     margin-bottom: -0.2vw
