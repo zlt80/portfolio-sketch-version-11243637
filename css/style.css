@@ -118,7 +118,7 @@ p {
     background: #fff;
     border-radius: 25px;
     padding: 0 7vw 10vw;
-    border: 2px solid #eee;
+    border: 5px solid #eee;
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
 }
 
@@ -130,7 +130,6 @@ p {
 
 .profile {
     margin-top: 15vw;
-    border-top: 5px solid #eee;
     background: linear-gradient(0deg, #fff, #fff, #eceded, #cfd2da);
 }
 
@@ -225,7 +224,7 @@ p {
 }
 
 .about {
-    background: linear-gradient(0deg, #fff, #fff, #f8f7f6, #e8e1df);
+    background: linear-gradient(0deg, #fff, #fff, #f8f7f6, #e8e4df);
 }
 
 .about h4 {
