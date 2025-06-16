@@ -397,7 +397,7 @@ p {
 }
 
 .software {
-    background: linear-gradient(0deg, #fff, #fff, #f8f8f6, #e8eae0);
+    background: linear-gradient(0deg, #e8eae0, #fff, #fff, #f8f8f6, #e8eae0);
 }
 
 .software .grid {
@@ -420,11 +420,11 @@ p {
 }
 
 .timeline.career {
-    background: linear-gradient(0deg, #fff, #fff, #f6f8f8, #e0e6ea);
+    background: linear-gradient(0deg, #e0e6ea, #fff, #fff, #f6f8f8, #e0e6ea);
 }
 
 .timeline {
-    background: linear-gradient(0deg, #fff, #fff, #f6f8f7, #e0eae6);
+    background: linear-gradient(0deg, #e0eae6, #fff, #fff, #f6f8f7, #e0eae6);
 }
 
 .timeline p {
@@ -502,7 +502,7 @@ p {
 
 /* experience start */
 .experiences {
-    background: linear-gradient(0deg, #fff, #fff, #fffdff, #eae0e3);
+    background: linear-gradient(0deg, #eae0e3, #fff, #fff, #fffdff, #eae0e3);
 }
 
 .experiences .websites {
