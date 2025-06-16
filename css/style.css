@@ -32,8 +32,8 @@ h3, a {
 span {
     color: #333;
     display: block;
-    margin-top: 10vw;
     font-size: 4vw;
+    margin-top: 10vw;
     text-transform: uppercase;
 }
 
