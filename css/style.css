@@ -1,53 +1,29 @@
-h2, h3, h4 {
+h1 {
+    font-size: 8.4vw;
+    margin-top: 20vw;
     text-align: center;
-}
-
-h2, h3 {
-    font-family: "Special Gothic Expanded One", sans-serif;
-}
-
-h2, span {
-    text-transform: capitalize;
-}
-
-h2 {
-    font-size: 7.2vw;
-    margin: 20vw 0 0;
-}
-
-h3, p {
+    letter-spacing: 0.02em;
     text-transform: uppercase;
 }
 
-h3 {
-    font-size: 8.4vw;
-    margin-top: 20vw;
-    font-family: "Do Hyeon", sans-serif;
-}
-
-h4 {
+h2 {
     font-size: 5vw;
     line-height: 1.7;
+    font-weight: 600;
+    text-align: center;
     margin-bottom: 10vw;
     letter-spacing: 0.02em;
-    font-weight: 600;
-    font-family: "Do Hyeon", sans-serif;
+    text-transform: capitalize;
 }
 
-h5, h6, a, label {
+h3, h4, a, label, span {
     font-size: 5vw;
     font-weight: 600;
-    letter-spacing: -0.02em;
     padding-bottom: 3vw;
     text-transform: capitalize;
-    font-family: "Do Hyeon", sans-serif;
 }
 
-h5 {
-    font-size: 6vw;
-}
-
-a {
+h3, a {
     font-size: 6vw;
     text-transform: capitalize;
 }
@@ -59,21 +35,18 @@ span {
     font-size: 4vw;
     margin-bottom: 2vw;
     text-transform: uppercase;
-    font-family: "Do Hyeon", sans-serif;
 }
 
 p {
-    display: block;
     font-size: 4.2vw;
-    letter-spacing: -0.01em;
 }
 
 .light {
     z-index: 3;
     top: -10vw;
-    left: -150px;
     width: 10vw;
     height: 100%;
+    left: -150px;
     position: fixed;
     overflow: hidden;
     transform: rotateZ(183deg);
@@ -113,8 +86,8 @@ p {
 .hole1,
 .hole2,
 .hole3 {
-    height: 3vw;
     width: 14vw;
+    height: 3vw;
     border-radius: 15px;
 }
 
@@ -251,8 +224,7 @@ p {
     }
 }
 
-.about h6 {
-    font-family: "Do Hyeon", sans-serif;
+.about h4 {
     line-height: 1.4;
 }
 
@@ -439,7 +411,6 @@ p {
 
 .software .grid .item p {
     margin: -1.5vw auto 0;
-    font-family: "Do Hyeon", sans-serif;
 }
 
 .timeline p {
@@ -447,12 +418,10 @@ p {
     padding: 2vw 0 3.5vw;
     font-weight: 400;
     letter-spacing: 0.02em;
-    font-family: "Do Hyeon", sans-serif;
 }
 
-.timeline h6 {
+.timeline h4 {
     font-size: 5.2vw;
-    font-family: "Do Hyeon", sans-serif;
 }
 
 .timeline .item {
@@ -992,7 +961,6 @@ p {
     border: 1px solid #d5d5d5;
     letter-spacing: -0.01em;
     text-transform: uppercase;
-    font-family: "Do Hyeon", sans-serif;
     -webkit-tap-highlight-color: transparent;
     transition: background-color 0.1s ease-in-out;
     background-image: linear-gradient(to top, rgba(216, 217, 219, 0.6) 0%, rgba(255, 255, 255, 0.97) 80%, rgba(253, 253, 253, 0.57) 100%);
@@ -1007,7 +975,11 @@ p {
 
 @media only screen and (max-width: 980px) {
 
-    .profile h3 {
+    * {
+        font-family: "Do Hyeon", sans-serif;
+    }
+
+    .profile h1 {
         font-size: 9vw;
         margin-top: 20vw
     }
@@ -1400,25 +1372,19 @@ p {
         margin: 30px auto 10px;
     }
 
-    h2 {
-        font-size: 22px;
-        margin: 0;
-        text-transform: uppercase;
-    }
-
-    h3 {
+    h1 {
         font-size: 22px;
         margin-top: 50px;
         letter-spacing: 0.04em;
     }
 
-    h4 {
+    h2 {
         font-size: 17px;
         margin-top: 0;
         margin-bottom: 40px;
     }
 
-    h5, a {
+    h3, a {
         font-size: 16px;
         padding-bottom: 5px;
     }
@@ -1431,7 +1397,7 @@ p {
         font-size: 13px;
     }
 
-    h6 {
+    h4 {
         font-size: 17px;
     }
 
@@ -1489,15 +1455,15 @@ p {
         padding: 10px 0 0;
     }
 
-    .profile .contact .info h5 img {
+    .profile .contact .info h3 img {
         width: 140px !important;
     }
 
-    .profile .contact .info h5 .phone {
+    .profile .contact .info h3 .phone {
         width: 80px !important;
     }
 
-    .profile .contact .info h5 {
+    .profile .contact .info h3 {
         padding: 0;
         font-size: 19px;
     }
@@ -1531,7 +1497,7 @@ p {
         margin-top: 10px;
     }
 
-    .timeline h6 {
+    .timeline h4 {
         font-size: 20px;
         margin-top: 15px;
     }
