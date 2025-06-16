@@ -487,8 +487,9 @@ p {
 .timeline .item .w-logo {
     height: 9vw;
     margin-left: -2vw;
-    margin-bottom: 1vw !important;
-    filter: contrast(1.2);
+    margin-top: 2vw !important;
+    margin-bottom: -1vw;
+    filter: contrast(1.2) saturate(1.5);
 }
 
 .timeline .item .kg-logo {
