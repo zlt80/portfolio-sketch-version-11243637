@@ -396,6 +396,10 @@ p {
     line-height: 1.7;
 }
 
+.software {
+    background: linear-gradient(0deg, #fff, #fff, #f8f8f6, #e8eae0);
+}
+
 .software .grid {
     display: grid;
     text-align: center;
