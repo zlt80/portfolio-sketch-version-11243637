@@ -419,6 +419,10 @@ p {
     margin: -1.5vw auto 0;
 }
 
+.timeline.career {
+    background: linear-gradient(0deg, #fff, #fff, #f6f8f8, #e0e6ea);
+}
+
 .timeline {
     background: linear-gradient(0deg, #fff, #fff, #f8f7f6, #eae2e0);
 }
@@ -497,7 +501,6 @@ p {
 
 
 /* experience start */
-
 .experiences {
     background: linear-gradient(0deg, #fff, #fff, #f8f6f8, #eae0e3);
 }
