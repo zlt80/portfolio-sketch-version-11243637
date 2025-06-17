@@ -520,37 +520,15 @@ p {
     padding-bottom: 20vw;
 }
 
-.experiences .websites {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 3vw;
-}
-
-.experiences .websites label {
-    order: 1;
-    width: 100%;
-    display: flex;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background ease 0.2s;
-}
-
 .experiences .websites .website {
     width: 100%;
+    margin-top: 1vw;
     margin-bottom: 3vw;
     border-radius: 10px;
     padding-bottom: 2vw;
     box-sizing: border-box;
     border: 2px solid #eee;
     box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
-}
-
-.experiences .websites input[type="radio"]:checked + label {
-    opacity: 1;
-}
-
-.experiences .websites input[type="radio"]:checked + label + .website {
-    display: block;
 }
 
 .experiences .websites label img.svg {
