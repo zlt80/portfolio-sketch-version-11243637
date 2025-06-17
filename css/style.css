@@ -845,7 +845,6 @@ p {
     border: 4px solid #bcc2bf
 }
 
-
 .brand1-01 {
     background: linear-gradient(20deg, #ffe47a, #ff33af, #ff93a7);
 }
@@ -855,15 +854,15 @@ p {
 }
 
 .brand4-01 {
-    background: linear-gradient(20deg, #dbff8a, #ed3dbf, #ffccf1);
+    background: linear-gradient(20deg, #fff36f, #ff7190, #f1e08e);
 }
 
 .brand4-02 {
-    background: linear-gradient(20deg, #470c00, #a66213, #ce1429);
+    background: linear-gradient(20deg, #470c00, #aa8961, #c96d77);
 }
 
 .brand4-03 {
-    background: linear-gradient(20deg, #031006, #6f748d, #9c913f);
+    background: linear-gradient(20deg, #07103a, #031006, #f6f6cf);
 }
 
 .brand5-01 {
