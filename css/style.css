@@ -528,7 +528,6 @@ p {
     padding-bottom: 2vw;
     box-sizing: border-box;
     border: 2px solid #eee;
-    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
 }
 
 .experiences .websites label img.svg {
