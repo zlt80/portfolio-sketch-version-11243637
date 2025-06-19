@@ -738,6 +738,14 @@ p {
     background: #cc1429;
 }
 
+.card-container:nth-child(1) .card:nth-child(1) .box .icon .iconBox {
+    background: #fd6f92;
+}
+
+.card-container:nth-child(1) .card:nth-child(2) .box .icon .iconBox {
+    background: #838cb3;
+}
+
 .card-container .box .icon .iconBox img {
     filter: invert(1);
     width: 60%;
