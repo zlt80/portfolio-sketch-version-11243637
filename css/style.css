@@ -758,26 +758,23 @@ p {
     filter: none;
 }
 
-
 .card-container .card ul {
-    margin: 0;
+    gap: 0.2vw;
     padding: 0;
-    list-style-type: none;
+    width: 100%;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1vw;
+    list-style-type: none;
+    margin: -1.1vw 0 0.34vw;
 }
 
 .card-container .card ul li {
     color: #000;
     height: 7vw;
-    width: 32.3%;
     font-size: 3vw;
     line-height: 7vw;
     text-align: center;
-    border-radius: 5px;
     text-transform: uppercase;
+    width: -webkit-fill-available;
 }
 
 .card-container .logo {
@@ -786,6 +783,8 @@ p {
     margin: 2vw 0 0;
     object-fit: cover;
     border-radius: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .card-container .card .content p {
@@ -796,20 +795,18 @@ p {
 }
 
 .card-container .card-inner {
-    position: relative;
-    width: inherit;
     height: 35vw;
-    border-radius: 5px;
-    border-bottom-right-radius: 0;
+    width: inherit;
     overflow: hidden;
-    margin-top: 1.4vw;
+    position: relative;
+    border-bottom-left-radius: 8px;
 }
 
 .card-container .card-inner .box {
     width: 100%;
     height: 100%;
     background: #fff;
-    border-radius: 1.25rem;
+    border-radius: 8px;
     overflow: hidden;
 }
 
