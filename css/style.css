@@ -769,6 +769,11 @@ p {
     background: #fd6f92;
 }
 
+.exp4 .imgBox img {
+    object-fit: contain;
+    object-position: top;
+}
+
 .card-container .box .icon .iconBox img {
     filter: invert(1);
     width: 60%;
