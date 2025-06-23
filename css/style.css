@@ -855,6 +855,28 @@ p {
     box-shadow: 1px -4px 6px rgba(60, 60, 60, 0.16);
 }
 
+.exp4 .website-container:nth-child(4) .website-image .imgBox {
+    justify-content: end;
+}
+
+.exp4 .website-container:nth-child(4) .website-image .imgBox span {
+    margin: 2vw 0 0 0;
+    background: none;
+    text-shadow: none;
+    font-size: 4vw;
+    border: none;
+    font-weight: 600;
+    box-shadow: none;
+    color: #000;
+    letter-spacing: -0.07em;
+    font-family: sans-serif;
+}
+
+
+.exp4 .website-container:nth-child(4) .website-image .imgBox span {
+
+}
+
 .exp1 .website-container:nth-child(1) .imgBox {
     background: linear-gradient(45deg, rgba(255, 41, 92, 0.66), transparent, rgba(255, 221, 215, 0.55)), url('../images/exp/brand1.png');
     background-size: cover;
@@ -916,10 +938,16 @@ p {
     background-position: top;
 }
 
-.exp4 .website-container:nth-child(4) .imgBox {
-    background: linear-gradient(180deg, rgba(255, 163, 180, 0.51), rgba(180, 242, 255, 0.32), transparent, rgba(214, 229, 255, 0.91), rgba(237, 211, 255, 0.89)), url('../images/exp/brand888888.png');
+.exp4 .website-container:nth-child(4) .website-image:nth-child(3) .imgBox {
+    background: linear-gradient(180deg, rgba(201, 220, 255, 0.85), rgba(207, 229, 251, 0.67), transparent, rgba(214, 229, 255, 0.91), rgb(219 167 255 / 89%)), url('../images/exp/brand888888.png');
     background-size: cover;
     background-position: bottom;
+}
+
+.exp4 .website-container:nth-child(4) .website-image:nth-child(4) .imgBox {
+    background: linear-gradient(80deg, rgb(171 180 251 / 74%), rgb(200 210 255 / 20%), transparent, rgb(255 195 189 / 42%), #ffe289a6), url(../images/exp/brand8888889.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .exp4 .website-container:nth-child(5) .website-image:nth-child(3) .imgBox {
