@@ -913,7 +913,7 @@ p {
 }
 
 .exp4 .card:nth-child(2) .imgBox {
-    background: linear-gradient(45deg, rgba(0, 3, 165, 0.31), transparent, rgba(255, 132, 193, 0.42)), url('../images/exp/brand888.png');
+    background: linear-gradient(45deg, rgba(88, 178, 243, 0.48), transparent, rgba(181, 87, 112, 0.42)), url('../images/exp/brand888.png');
     background-size: cover;
     background-position: center;
 }
