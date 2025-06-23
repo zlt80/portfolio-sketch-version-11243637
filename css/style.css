@@ -847,18 +847,17 @@ p {
 }
 
 .card-container .card-inner .box .imgBox span {
-    height: 10vw;
+    height: 8vw;
     margin: auto;
     padding: 0 5vw;
     font-size: 8vw;
-    line-height: 1.4;
+    line-height: 1.2;
     width: fit-content;
     border-radius: 5px;
-    letter-spacing: 0.05em;
     font-family: "Nanum Pen Script", sans-serif;
     text-shadow: 2px 2px 7px rgba(182, 0, 72, 0.04);
     color: rgb(253, 111, 146);
-    background: linear-gradient(45deg, rgb(244, 180, 203), rgba(244, 213, 241, 0.83));
+    background: linear-gradient(45deg, rgba(255, 224, 235, 0.73), rgba(244, 213, 241, 0.83));
     box-shadow: 1px -4px 6px rgba(60, 60, 60, 0.16);
 }
 
