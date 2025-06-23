@@ -783,6 +783,10 @@ p {
     filter: none;
 }
 
+.card-container .box .icon .iconBox img.ivory {
+    filter: invert(93%) sepia(6%) saturate(626%) hue-rotate(351deg) brightness(106%) contrast(98%);
+}
+
 .card-container .card ul {
     gap: 1px;
     padding: 0;
@@ -838,6 +842,23 @@ p {
 .card-container .card-inner .box .imgBox {
     position: absolute;
     inset: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container .card-inner .box .imgBox span {
+    height: 10vw;
+    margin: auto;
+    padding: 0 5vw;
+    font-size: 7vw;
+    line-height: 1.5;
+    width: fit-content;
+    border-radius: 5px;
+    letter-spacing: 0.05em;
+    text-shadow: 2px 2px 7px rgba(182, 0, 72, 0.32);
+    color: rgba(255, 64, 111, 0.6);
+    background: linear-gradient(45deg, rgba(255, 224, 243, 0.81), rgba(213, 196, 188, 0.84));
+    box-shadow: 1px -4px 6px rgba(60, 60, 60, 0.16);
 }
 
 .exp1 .card:nth-child(1) .imgBox {
@@ -890,7 +911,7 @@ p {
 }
 
 .exp4 .card:nth-child(2) .imgBox {
-    background: linear-gradient(45deg, rgba(0, 65, 165, 0.31), transparent, rgba(119, 155, 221, 0.42)), url('../images/exp/brand888.png');
+    background: linear-gradient(45deg, rgba(0, 3, 165, 0.31), transparent, rgba(255, 132, 193, 0.42)), url('../images/exp/brand888.png');
     background-size: cover;
     background-position: center;
 }
@@ -902,7 +923,7 @@ p {
 }
 
 .exp4 .card:nth-child(4) .imgBox {
-    background: linear-gradient(180deg, rgba(199, 158, 244, 0.34), rgba(180, 242, 255, 0.32), transparent, rgba(211, 233, 255, 0.89)), url('../images/exp/brand888888.png');
+    background: linear-gradient(180deg, rgba(199, 158, 244, 0.34), rgba(180, 242, 255, 0.32), transparent, rgba(237, 211, 255, 0.89)), url('../images/exp/brand888888.png');
     background-size: cover;
     background-position: bottom;
 }
