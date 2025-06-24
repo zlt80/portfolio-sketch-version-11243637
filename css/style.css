@@ -911,7 +911,7 @@ p {
 }
 
 .exp3 .website-container:nth-child(3) .imgBox {
-    background: linear-gradient(65deg, rgba(171, 223, 251, 0.61), transparent, rgba(253, 251, 207, 0.05), rgba(228, 1, 44, 0.56)), url('../images/exp/brand5.png');
+    background: linear-gradient(65deg, rgba(251, 233, 193, 0.61), transparent, rgba(253, 251, 207, 0.05), rgba(32, 11, 15, 0.73)), url('../images/exp/brand5.png');
     background-size: cover;
 }
 
