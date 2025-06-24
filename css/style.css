@@ -984,31 +984,32 @@ p {
 }
 
 .exp5 .website-container:nth-child(1) .imgBox {
-    background: linear-gradient(80deg, rgba(124, 53, 38, 0.06), transparent, transparent, rgba(132, 212, 255, 0.25)), url('../images/exp/brand3.png');
+    background: url('../images/exp/brand3.png');
     background-size: cover;
     background-position: center;
 }
 
 .exp5 .website-container:nth-child(2) .imgBox {
-    background: linear-gradient(80deg, rgba(85, 122, 177, 0.25), rgba(250, 255, 255, 0.34), rgba(197, 128, 118, 0.11)), url('../images/exp/brand30.png');
+    background: url('../images/exp/brand30.png');
     background-size: cover;
     background-position: center;
 }
 
 .exp5 .website-container:nth-child(3) .imgBox {
-    background: linear-gradient(80deg, rgba(140, 128, 156, 0.21), rgba(239, 222, 238, 0.4), rgba(225, 224, 208, 0.84)), url('../images/exp/brand300.png');
+    background: url('../images/exp/brand300.png');
     background-size: cover;
     background-position: top;
+    filter: hue-rotate(60deg) saturate(0.7) brightness(1.1) contrast(0.9);
 }
 
 .exp5 .website-container:nth-child(4) .imgBox {
-    background: linear-gradient(80deg, rgba(100, 112, 159, 0.21), transparent, rgba(243, 250, 255, 0.89)), url('../images/exp/brand3000.png');
+    background: url('../images/exp/brand3000.png');
     background-size: cover;
     background-position: center;
 }
 
 .exp5 .website-container:nth-child(5) .imgBox {
-    background: linear-gradient(80deg, rgba(150, 248, 184, 0.32), transparent, rgba(132, 255, 255, 0.25)), url('../images/exp/brand30000.png');
+    background: url('../images/exp/brand30000.png');
     background-size: cover;
 }
 
