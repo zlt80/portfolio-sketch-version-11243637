@@ -907,12 +907,12 @@ p {
 }
 
 .exp3 .website-container:nth-child(2) .imgBox {
-    background: linear-gradient(45deg, rgba(28, 74, 0, 0.64), transparent, rgba(250, 255, 237, 0.27)), url('../images/exp/brand6.png');
+    background: linear-gradient(45deg, rgba(24, 23, 39, 0.64), transparent, rgba(250, 255, 237, 0.27)), url('../images/exp/brand6.png');
     background-size: cover;
 }
 
 .exp3 .website-container:nth-child(3) .imgBox {
-    background: linear-gradient(65deg, rgba(251, 233, 193, 0.61), transparent, rgba(253, 251, 207, 0.05), rgba(32, 11, 15, 0.73)), url('../images/exp/brand5.png');
+    background: linear-gradient(65deg, rgba(181, 246, 212, 0.21), transparent, rgba(115, 1, 31, 0.46)), url('../images/exp/brand5.png');
     background-size: cover;
 }
 
