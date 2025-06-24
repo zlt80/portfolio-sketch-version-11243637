@@ -824,7 +824,7 @@ p {
 }
 
 .website-wrapper .website-image {
-    height: 40vw;
+    height: 50vw;
     width: inherit;
     overflow: hidden;
     position: relative;
@@ -836,7 +836,12 @@ p {
 .website-wrapper .website-image .imgBox {
     display: flex;
     justify-content: center;
-    height: 40vw;
+    height: 50vw;
+}
+
+.website-wrapper .website-image:nth-child(3),
+.website-wrapper .website-image:nth-child(3) .imgBox {
+    height: 45vw;
 }
 
 .website-wrapper .website-image .imgBox span {
