@@ -895,13 +895,13 @@ p {
 }
 
 .exp2 .website-container:nth-child(1) .imgBox {
-    background: linear-gradient(45deg, rgba(255, 136, 185, 0.78), rgba(255, 231, 255, 0.06), rgba(255, 200, 219, 0.35)), url('../images/exp/brand33.png');
+    background: linear-gradient(45deg, rgba(138, 33, 77, 0.4), rgba(255, 231, 255, 0.06), rgba(234, 72, 130, 0.35)), url('../images/exp/brand33.png');
     background-size: cover;
     background-position: top;
 }
 
 .exp2 .website-container:nth-child(2) .imgBox {
-    background: linear-gradient(120deg, rgba(113, 80, 73, 0.76), transparent, rgba(84, 108, 152, 0.75)), url('../images/exp/brand333.png');
+    background: linear-gradient(30deg, rgba(10, 15, 44, 0.86), rgba(168, 180, 255, 0.39), rgba(220, 164, 157, 0.48)), url('../images/exp/brand333.png');
     background-size: cover;
     background-position: top;
 }
