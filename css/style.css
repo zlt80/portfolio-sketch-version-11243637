@@ -1029,6 +1029,15 @@ p {
     background-position: bottom;
 }
 
+.exp7 .website-container:nth-child(1) .imgBox {
+    background: linear-gradient(10deg, rgba(255, 179, 220, 0.65), transparent, rgba(249, 224, 255, 0.93)), url('../images/exp/brand90.png');
+    background-size: cover;
+}
+
+.exp7 .website-container:nth-child(2) .imgBox {
+    background: linear-gradient(180deg, rgba(221, 221, 232, 0.87), transparent, rgba(158, 91, 41, 0.38)), url('../images/exp/brand9.png');
+    background-size: cover;
+}
 
 .website-wrapper .website-image .imgBox img {
     width: 100%;
