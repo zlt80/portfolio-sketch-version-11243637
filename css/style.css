@@ -991,19 +991,19 @@ p {
 }
 
 .exp5 .website-container:nth-child(3) .imgBox {
-    background: linear-gradient(80deg, rgba(253, 215, 207, 0.32), rgba(253, 215, 207, 0.32), rgba(246, 255, 243, 0.6)), url('../images/exp/brand300.png');
+    background: linear-gradient(80deg, rgba(253, 215, 207, 0.32), rgba(190, 191, 173, 0.1), rgba(85, 82, 66, 0.6)), url('../images/exp/brand300.png');
     background-size: cover;
     background-position: top;
 }
 
 .exp5 .website-container:nth-child(4) .imgBox {
-    background: linear-gradient(80deg, rgba(217, 207, 253, 0.32), transparent, rgba(228, 219, 246, 0.71)), url('../images/exp/brand3000.png');
+    background: linear-gradient(80deg, rgba(100, 112, 159, 0.21), transparent, rgba(243, 250, 255, 0.89)), url('../images/exp/brand3000.png');
     background-size: cover;
     background-position: center;
 }
 
 .exp5 .website-container:nth-child(5) .imgBox {
-    background: linear-gradient(80deg, rgba(248, 150, 199, 0.32), transparent, rgba(255, 132, 194, 0.25)), url('../images/exp/brand30000.png');
+    background: linear-gradient(80deg, rgba(150, 248, 184, 0.32), transparent, rgba(132, 255, 255, 0.25)), url('../images/exp/brand30000.png');
     background-size: cover;
 }
 
