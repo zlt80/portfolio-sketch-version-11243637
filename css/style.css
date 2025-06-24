@@ -990,13 +990,13 @@ p {
 }
 
 .exp5 .website-container:nth-child(2) .imgBox {
-    background: linear-gradient(80deg, rgba(188, 150, 126, 0.1), rgba(250, 255, 255, 0.34), rgba(197, 128, 118, 0.11)), url('../images/exp/brand30.png');
+    background: linear-gradient(80deg, rgba(85, 122, 177, 0.25), rgba(250, 255, 255, 0.34), rgba(197, 128, 118, 0.11)), url('../images/exp/brand30.png');
     background-size: cover;
     background-position: center;
 }
 
 .exp5 .website-container:nth-child(3) .imgBox {
-    background: linear-gradient(80deg, rgba(253, 215, 207, 0.32), rgba(190, 191, 173, 0.1), rgba(85, 82, 66, 0.6)), url('../images/exp/brand300.png');
+    background: linear-gradient(80deg, rgba(140, 128, 156, 0.21), rgba(239, 222, 238, 0.4), rgba(225, 224, 208, 0.84)), url('../images/exp/brand300.png');
     background-size: cover;
     background-position: top;
 }
