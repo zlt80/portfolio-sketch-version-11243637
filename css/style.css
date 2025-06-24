@@ -1020,7 +1020,7 @@ p {
 }
 
 .exp6 .website-container:nth-child(1) .website-image:nth-child(4) .imgBox {
-    background: linear-gradient(50deg, rgba(84, 86, 117, 0.45), rgba(207, 249, 253, 0.1), transparent, rgba(232, 253, 251, 0.75)), url('../images/exp/brand77.png');
+    background: linear-gradient(50deg, rgba(36, 32, 55, 0.83), rgba(207, 249, 253, 0.1), transparent, rgba(253, 232, 244, 0.75)), url('../images/exp/brand77.png');
     background-size: cover;
     background-position: center;
 }
