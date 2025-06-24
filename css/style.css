@@ -889,7 +889,7 @@ p {
 }
 
 .exp1 .website-container:nth-child(2) .imgBox {
-    background: linear-gradient(45deg, rgba(41, 35, 10, 0.79), rgba(255, 236, 240, 0.16), rgba(56, 48, 108, 0.87)), url('../images/exp/brand2.png');
+    background: linear-gradient(45deg, rgba(28, 28, 4, 0.95), rgba(255, 114, 109, 0.16), rgba(5, 3, 21, 0.87)), url('../images/exp/brand2.png');
     background-size: cover;
     background-position: top;
 }
