@@ -1015,9 +1015,9 @@ p {
 
 
 .exp6 .website-container:nth-child(1) .website-image:nth-child(3) .imgBox {
-    background: linear-gradient(45deg, rgba(53, 24, 0, 0.83), transparent, transparent, rgba(215, 236, 248, 0.9)), url('../images/exp/brand777.png');
+    background: linear-gradient(45deg, rgba(204, 20, 65, 0.5), transparent, rgba(255, 236, 255, 0.5)), url('../images/exp/brand7.png');
     background-size: cover;
-    background-position: center;
+    background-position: right;
 }
 
 .exp6 .website-container:nth-child(1) .website-image:nth-child(4) .imgBox {
@@ -1027,9 +1027,9 @@ p {
 }
 
 .exp6 .website-container:nth-child(1) .website-image:nth-child(5) .imgBox {
-    background: linear-gradient(45deg, rgba(204, 20, 65, 0.5), transparent, rgba(255, 236, 255, 0.5)), url('../images/exp/brand7.png');
+    background: linear-gradient(45deg, rgba(53, 24, 0, 0.83), transparent, transparent, rgba(215, 236, 248, 0.9)), url('../images/exp/brand777.png');
     background-size: cover;
-    background-position: right;
+    background-position: center;
 }
 
 .exp6 .website-container:nth-child(2) .imgBox {
