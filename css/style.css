@@ -833,10 +833,9 @@ p {
 }
 
 .website-wrapper .website-image .imgBox {
-    position: absolute;
-    inset: 0;
     display: flex;
     justify-content: center;
+    height: 40vw;
 }
 
 .website-wrapper .website-image .imgBox span {
@@ -916,17 +915,26 @@ p {
     background-size: cover;
 }
 
-.exp4 .website-container:nth-child(1) .imgBox {
-    background: linear-gradient(45deg, rgba(255, 192, 120, 0.39), transparent, rgba(235, 160, 255, 0.5)), url('../images/exp/brand8888.png');
+.exp4 .website-container:nth-child(1) .website-image:nth-child(3) .imgBox {
+    background: linear-gradient(45deg, rgba(58, 36, 11, 0.28), transparent, rgba(119, 3, 96, 0.18)), url('../images/exp/brand88880.png');
     background-size: cover;
-    background-position: center;
 }
 
-.exp4 .website-container:nth-child(2) .imgBox {
-    background: linear-gradient(45deg, rgba(88, 178, 243, 0.48), transparent, rgba(181, 87, 112, 0.42)), url('../images/exp/brand888.png');
+.exp4 .website-container:nth-child(1) .website-image:nth-child(4) .imgBox {
+    background: linear-gradient(45deg, rgba(81, 108, 52, 0.39), transparent, rgba(211, 187, 162, 0.5)), url('../images/exp/brand8888.png');
     background-size: cover;
-    background-position: center;
 }
+
+.exp4 .website-container:nth-child(2) .website-image:nth-child(3) .imgBox {
+    background: linear-gradient(45deg, rgba(203, 199, 255, 0.54), transparent, rgba(161, 44, 76, 0.24)), url('../images/exp/brand888.png');
+    background-size: cover;
+}
+
+.exp4 .website-container:nth-child(2) .website-image:nth-child(4) .imgBox {
+    background: linear-gradient(45deg, rgba(53, 128, 241, 0.27), transparent, rgba(255, 190, 207, 0.75)), url('../images/exp/brand8880.png');
+    background-size: cover;
+}
+
 
 .exp4 .website-container:nth-child(3) .imgBox {
     background: linear-gradient(65deg, rgba(149, 89, 67, 0.49), rgba(253, 242, 207, 0.32), transparent, rgba(255, 156, 232, 0.63)), url('../images/exp/brand88888.png');
