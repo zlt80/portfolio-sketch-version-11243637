@@ -830,6 +830,7 @@ p {
     position: relative;
     margin-bottom: 1vw;
     border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .website-wrapper .website-image .imgBox {
