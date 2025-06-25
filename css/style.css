@@ -835,8 +835,8 @@ p {
 
 .website-wrapper .website-image .imgBox {
     display: flex;
-    justify-content: center;
     height: 50vw;
+    justify-content: center;
 }
 
 .website-wrapper .website-image:nth-child(3),
@@ -860,11 +860,11 @@ p {
     box-shadow: 1px -4px 6px rgba(60, 60, 60, 0.16);
 }
 
-.exp4 .website-container:nth-child(4) .website-image .imgBox {
+.website-wrapper .website-image .right {
     justify-content: end;
 }
 
-.exp4 .website-container:nth-child(4) .website-image .imgBox span {
+.website-wrapper .website-image .right span {
     margin: 2vw 0 0 0;
     background: none;
     text-shadow: none;
@@ -877,10 +877,6 @@ p {
     font-family: sans-serif;
 }
 
-
-.exp4 .website-container:nth-child(4) .website-image .imgBox span {
-
-}
 
 .exp1 .website-container:nth-child(1) .imgBox {
     background: url('../images/exp/brand1.png');
