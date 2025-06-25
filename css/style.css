@@ -812,6 +812,7 @@ p {
     margin: 2vw 0 0;
     object-fit: cover;
     border-radius: 2px;
+    filter: contrast(1.2);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -983,7 +984,7 @@ p {
 }
 
 .exp5 .website-container:nth-child(2) .imgBox {
-    background: linear-gradient(80deg, transparent, rgba(255, 169, 132, 0.27)), url('../images/exp/brand30.png');
+    background: linear-gradient(80deg, rgba(189, 177, 168, 0.42), transparent, rgba(103, 114, 184, 0.24)), url('../images/exp/brand30.png');
     background-size: cover;
     background-position: 70%;
 }
