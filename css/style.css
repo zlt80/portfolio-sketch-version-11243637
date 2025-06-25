@@ -901,13 +901,13 @@ p {
 }
 
 .exp3 .website-container:nth-child(1) .imgBox {
-    background: url('../images/exp/brand4.png');
+    background: linear-gradient(45deg, rgba(255, 155, 236, 0.34), rgba(234, 115, 51, 0.14), rgba(0, 0, 0, 0)), url('../images/exp/brand4.png');
     background-size: cover;
-    filter: brightness(0.9) saturate(1.5) contrast(1.2) hue-rotate(15deg);
+    filter: saturate(1.5) contrast(1.1) hue-rotate(10deg);
 }
 
 .exp3 .website-container:nth-child(2) .imgBox {
-    background: linear-gradient(45deg, rgba(10, 27, 23, 0.54), transparent, rgba(177, 232, 165, 0.4)), url('../images/exp/brand6.png');
+    background: linear-gradient(45deg, rgba(26, 51, 0, 0.13), rgba(179, 234, 38, 0.19), rgba(80, 85, 49, 0.4)), url('../images/exp/brand6.png');
     background-size: cover;
     background-position: bottom;
     filter: contrast(1.5) brightness(0.9) hue-rotate(340deg);
