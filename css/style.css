@@ -986,9 +986,9 @@ p {
 }
 
 .exp5 .website-container:nth-child(2) .imgBox {
-    background: linear-gradient(80deg, rgba(155, 255, 198, 0.3), transparent, rgba(207, 253, 222, 0.32), transparent, rgba(243, 132, 255, 0.27)), url('../images/exp/brand30.png');
+    background: linear-gradient(80deg, transparent, rgba(243, 132, 255, 0.27)), url('../images/exp/brand30.png');
     background-size: cover;
-    filter: hue-rotate(300deg) contrast(1.1);
+    filter: hue-rotate(310deg) contrast(1.1);
     background-position: bottom;
 }
 
