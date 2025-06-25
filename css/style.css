@@ -883,27 +883,24 @@ p {
 }
 
 .exp1 .website-container:nth-child(1) .imgBox {
-    background: linear-gradient(45deg, rgba(255, 41, 92, 0.66), transparent, rgba(255, 221, 215, 0.55)), url('../images/exp/brand1.png');
+    background: url('../images/exp/brand1.png');
     background-size: cover;
-    background-position: top;
 }
 
 .exp1 .website-container:nth-child(2) .imgBox {
-    background: linear-gradient(45deg, rgba(28, 28, 4, 0.95), rgba(255, 114, 109, 0.16), rgba(5, 3, 21, 0.87)), url('../images/exp/brand2.png');
+    background: url('../images/exp/brand2.png');
     background-size: cover;
-    background-position: top;
 }
 
 .exp2 .website-container:nth-child(1) .imgBox {
-    background: linear-gradient(45deg, rgba(138, 33, 77, 0.4), rgba(255, 231, 255, 0.06), rgba(234, 72, 130, 0.35)), url('../images/exp/brand33.png');
+    background: url('../images/exp/brand33.png');
     background-size: cover;
-    background-position: top;
+    background-position: right;
 }
 
 .exp2 .website-container:nth-child(2) .imgBox {
-    background: linear-gradient(30deg, rgba(18, 29, 83, 0.86), transparent, rgba(80, 36, 67, 0.48)), url('../images/exp/brand333.png');
+    background: linear-gradient(30deg, transparent, rgba(118, 163, 250, 0.35)), url('../images/exp/brand333.png');
     background-size: cover;
-    background-position: top;
 }
 
 .exp3 .website-container:nth-child(1) .imgBox {
