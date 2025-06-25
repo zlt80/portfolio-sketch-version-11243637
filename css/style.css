@@ -934,8 +934,9 @@ p {
 }
 
 .exp4 .website-container:nth-child(2) .website-image:nth-child(4) .imgBox {
-    background: linear-gradient(45deg, rgba(203, 199, 255, 0.54), transparent, rgba(161, 44, 76, 0.24)), url('../images/exp/brand888.png');
+    background: linear-gradient(45deg, rgba(203, 199, 255, 0.54), transparent, rgba(161, 44, 76, 0.24)), url('../images/exp/brand888.jpg');
     background-size: cover;
+    background-position: right;
 }
 
 .exp4 .website-container:nth-child(3) .imgBox {
@@ -986,10 +987,9 @@ p {
 }
 
 .exp5 .website-container:nth-child(2) .imgBox {
-    background: linear-gradient(80deg, transparent, rgba(243, 132, 255, 0.27)), url('../images/exp/brand30.png');
+    background: linear-gradient(80deg, transparent, rgba(255, 169, 132, 0.27)), url('../images/exp/brand30.png');
     background-size: cover;
-    filter: hue-rotate(310deg) contrast(1.1);
-    background-position: bottom;
+    background-position: 70%;
 }
 
 .exp5 .website-container:nth-child(3) .imgBox {
