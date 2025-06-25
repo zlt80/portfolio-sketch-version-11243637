@@ -850,27 +850,10 @@ p {
     font-size: 12vw;
     line-height: 1.4;
     width: fit-content;
-    font-family: serif;
+    letter-spacing: 0.1em;
+    font-family: "Bebas Neue", sans-serif;
     text-shadow: 5px 5px 15px rgba(128, 128, 128, 0.85);
 }
-
-.website-wrapper .website-image .right {
-    justify-content: end;
-}
-
-.website-wrapper .website-image .right span {
-    margin: 2vw 0 0 0;
-    background: none;
-    text-shadow: none;
-    font-size: 4vw;
-    border: none;
-    font-weight: 600;
-    box-shadow: none;
-    color: #000;
-    letter-spacing: -0.07em;
-    font-family: sans-serif;
-}
-
 
 .exp1 .website-container:nth-child(1) .imgBox {
     background: url('../images/exp/brand1.png');
