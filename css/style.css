@@ -882,22 +882,24 @@ p {
 .exp1 .website-container:nth-child(1) .imgBox {
     background: url('../images/exp/brand1.png');
     background-size: cover;
+    filter: saturate(1.4);
 }
 
 .exp1 .website-container:nth-child(2) .imgBox {
-    background: url('../images/exp/brand2.png');
+    background: linear-gradient(20deg, rgba(85, 89, 135, 0.23), transparent, rgba(145, 161, 239, 0.11)), url('../images/exp/brand2.png'), top;
     background-size: cover;
+    filter: saturate(1.3) brightness(1.1);
 }
 
 .exp2 .website-container:nth-child(1) .imgBox {
-    background: url('../images/exp/brand33.png');
+    background: url('../images/exp/brand33.png'), right;
     background-size: cover;
-    background-position: right;
 }
 
 .exp2 .website-container:nth-child(2) .imgBox {
-    background: linear-gradient(30deg, rgba(255, 155, 155, 0.24), rgba(79, 132, 234, 0.25)), url('../images/exp/brand333.png');
+    background: url('../images/exp/brand333.png');
     background-size: cover;
+    filter: saturate(0.6) contrast(1.2);
 }
 
 .exp3 .website-container:nth-child(1) .imgBox {
