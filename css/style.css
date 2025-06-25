@@ -843,19 +843,15 @@ p {
 }
 
 .website-wrapper .website-image .imgBox span {
-    height: 5.5vw;
+    color: #fff;
+    height: 20vw;
     margin: auto;
     padding: 0 3vw;
-    font-size: 4vw;
+    font-size: 12vw;
     line-height: 1.4;
     width: fit-content;
-    border-radius: 5px;
-    font-family: "Do Hyeon", serif;
-    text-shadow: 2px 2px 7px rgba(182, 0, 72, 0.04);
-    color: rgb(55, 43, 46);
-    border: 0.5vw solid rgba(216, 173, 221, 0.2);
-    background: linear-gradient(45deg, rgba(244, 240, 246, 0.73), rgba(245, 241, 250, 0.66));
-    box-shadow: 1px -4px 6px rgba(60, 60, 60, 0.16);
+    font-family: serif;
+    text-shadow: 5px 5px 15px rgba(128, 128, 128, 0.85);
 }
 
 .website-wrapper .website-image .right {
