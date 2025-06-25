@@ -852,7 +852,7 @@ p {
     width: fit-content;
     letter-spacing: 0.1em;
     font-family: "Bebas Neue", sans-serif;
-    text-shadow: 5px 5px 15px rgba(128, 128, 128, 0.85);
+    text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.85);
 }
 
 .exp1 .website-container:nth-child(1) .imgBox {
