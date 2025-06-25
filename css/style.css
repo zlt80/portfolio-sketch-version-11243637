@@ -844,12 +844,13 @@ p {
 
 .website-wrapper .website-image .imgBox span {
     color: #fff;
-    height: 20vw;
+    height: 14vw;
     margin: auto;
     padding: 0 3vw;
     font-size: 12vw;
-    line-height: 1.4;
+    line-height: 1;
     width: fit-content;
+    text-align: center;
     letter-spacing: 0.1em;
     font-family: "Bebas Neue", sans-serif;
 }
