@@ -808,10 +808,9 @@ p {
     height: 15vw;
     margin: 2vw 0 0;
     object-fit: cover;
-    border-radius: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     filter: contrast(1.2);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
 }
 
 .website-wrapper .website-container .website-colors p {
@@ -834,7 +833,7 @@ p {
 .website-wrapper .website-image .imgBox {
     height: 50vw;
     display: flex;
-    border-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 
 .website-wrapper .website-image:nth-child(3),
