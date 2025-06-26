@@ -772,8 +772,8 @@ p {
     background: #838cb3;
 }
 
-.exp4 .website:nth-child(3) .icon .iconBox {
-    background: #0c1019;
+.exp4 .website:nth-child(4) .icon .iconBox {
+    background: #add6ee;
 }
 
 .exp4 .website:nth-child(5) .icon .iconBox {
@@ -934,37 +934,38 @@ p {
     filter: saturate(1.4) contrast(0.9) hue-rotate(340deg);
 }
 
-.exp4 .website:nth-child(3) .website-image:nth-child(3) .imgBox {
-    background: linear-gradient(225deg, rgba(175, 243, 186, 0.21), rgba(197, 248, 255, 0.18), rgba(16, 11, 90, 0.55)), url(../images/exp/brand888888.png) bottom;
-    background-size: cover;
-    filter: hue-rotate(157deg) saturate(0.5) brightness(1.1);
-}
-
-.exp4 .website:nth-child(3) .website-image:nth-child(4) .imgBox {
-    background: linear-gradient(80deg, rgba(216, 236, 236, 0.58), rgba(197, 243, 228, 0.17), transparent, rgba(236, 206, 229, 0.2), rgba(132, 177, 188, 0.32)), url(../images/exp/brand8888889.png) center;
-    background-size: cover;
-    filter: contrast(1.3);
-}
-
 .exp4 .website:nth-child(4) .website-image:nth-child(3) .imgBox {
+    background: linear-gradient(80deg, rgba(152, 177, 193, 0.58), rgba(197, 243, 228, 0.17), transparent, rgba(236, 206, 229, 0.2), rgba(132, 177, 188, 0.32)), url(../images/exp/brand8888889.png) center;
+    background-size: cover;
+    filter: contrast(1.1);
+}
+
+.exp4 .website:nth-child(4) .website-image:nth-child(4) .imgBox {
+    background: linear-gradient(225deg, rgba(195, 255, 248, 0.6), rgba(197, 248, 255, 0.18), rgba(37, 90, 11, 0.75)), url(../images/exp/brand888888.png) bottom;
+    background-size: cover;
+    filter: hue-rotate(157deg) saturate(0.7);
+}
+
+
+.exp4 .website:nth-child(3) .website-image:nth-child(3) .imgBox {
     background: url('../images/exp/brand12222.png') center;
     background-size: cover;
     filter: hue-rotate(355deg) saturate(1.25);
 }
 
-.exp4 .website:nth-child(4) .website-image:nth-child(4) .imgBox {
+.exp4 .website:nth-child(3) .website-image:nth-child(4) .imgBox {
     background: linear-gradient(80deg, rgba(119, 10, 52, 0.15), transparent, transparent, rgba(124, 39, 54, 0.08)), url('../images/exp/brand12.png') center;
     background-size: cover;
     filter: saturate(1.4);
 }
 
-.exp4 .website:nth-child(4) .website-image:nth-child(5) .imgBox {
+.exp4 .website:nth-child(3) .website-image:nth-child(5) .imgBox {
     background: linear-gradient(80deg, rgba(119, 10, 52, 0.15), transparent, transparent, rgba(124, 39, 54, 0.08)), url('../images/exp/brand1222.png') center;
     background-size: cover;
     filter: saturate(1.1);
 }
 
-.exp4 .website:nth-child(4) .website-image:nth-child(6) .imgBox {
+.exp4 .website:nth-child(3) .website-image:nth-child(6) .imgBox {
     background: linear-gradient(80deg, rgba(255, 146, 237, 0.24), transparent, transparent, rgba(69, 5, 16, 0.08)), url('../images/exp/brand122.png') center;
     background-size: cover;
     filter: saturate(1.1);
