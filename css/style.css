@@ -133,6 +133,10 @@ p {
     background: linear-gradient(0deg, #dbdbe3, rgba(238, 243, 248, 0.56), rgba(248, 250, 255, 0.54), #eceded, #cfd2da);
 }
 
+.thank-you {
+    background: linear-gradient(0deg, #dbdbe3, rgba(238, 243, 248, 0.56), rgba(248, 250, 255, 0.54), #eceded, #cfd2da);
+}
+
 .profile .profile-image {
     width: fit-content;
     margin: 15vw auto 0;
@@ -1268,10 +1272,6 @@ p {
 
 .brand8-01 {
     background: linear-gradient(20deg, #f1f7eb, #a0b07d, #679ec0);
-}
-
-.thank-you {
-    background: linear-gradient(0deg, #e4e4e4, #fff, #fff, #f8f8f8, #dedede);
 }
 
 .thank-you .svg-smile {
