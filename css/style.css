@@ -29,11 +29,10 @@ h3, a {
 }
 
 span {
-    color: #333;
-    display: block;
-    font-size: 3.5vw;
-    margin-top: 6vw;
     line-height: 2;
+    display: block;
+    margin-top: 6vw;
+    font-size: 3.5vw;
     text-transform: uppercase;
 }
 
@@ -936,13 +935,13 @@ p {
 }
 
 .exp4 .website:nth-child(3) .website-image:nth-child(3) .imgBox {
-    background: linear-gradient(140deg, transparent, rgb(200 210 255 / 20%), transparent, rgba(220, 235, 255, 0.35), rgba(255, 214, 239, 0.93)), url('../images/exp/brand888888.png') bottom;
+    background: linear-gradient(225deg, rgba(175, 243, 186, 0.21), rgba(197, 248, 255, 0.18), rgba(16, 11, 90, 0.55)), url(../images/exp/brand888888.png) bottom;
     background-size: cover;
-    filter: hue-rotate(345deg);
+    filter: hue-rotate(157deg) saturate(0.5) brightness(1.1);
 }
 
 .exp4 .website:nth-child(3) .website-image:nth-child(4) .imgBox {
-    background: linear-gradient(80deg, rgba(5, 68, 205, 0.09), rgba(230, 251, 250, 0.08), transparent, rgb(255 195 189 / 42%), rgba(236, 196, 151, 0.65)), url(../images/exp/brand8888889.png) center;
+    background: linear-gradient(80deg, rgba(216, 236, 236, 0.58), rgba(197, 243, 228, 0.17), transparent, rgba(236, 206, 229, 0.2), rgba(132, 177, 188, 0.32)), url(../images/exp/brand8888889.png) center;
     background-size: cover;
     filter: contrast(1.3);
 }
