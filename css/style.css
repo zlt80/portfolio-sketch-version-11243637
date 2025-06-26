@@ -223,10 +223,10 @@ p {
     }
 }
 
-.about {
-    background: linear-gradient(0deg, #eae0e3, #fff, #fff, #f7f6f8, #eae0e3);
-    padding: 0 7.2vw 10vw;
-}
+/*.about {*/
+/*    background: linear-gradient(0deg, #eae0e3, #fff, #fff, #f7f6f8, #eae0e3);*/
+/*    padding: 0 7.2vw 10vw;*/
+/*}*/
 
 .about h4 {
     line-height: 1.4;
@@ -399,10 +399,10 @@ p {
     letter-spacing: -0.02em;
 }
 
-.software {
-    background: linear-gradient(0deg, #e8eae0, #fff, #fff, #f8f8f6, #e8eae0);
-    padding: 0 4vw 10vw;
-}
+/*.software {*/
+/*    background: linear-gradient(0deg, #e8eae0, #fff, #fff, #f8f8f6, #e8eae0);*/
+/*    padding: 0 4vw 10vw;*/
+/*}*/
 
 .software .grid {
     display: grid;
@@ -423,13 +423,13 @@ p {
     margin: -1.5vw auto 0;
 }
 
-.timeline.career {
-    background: linear-gradient(0deg, #e0e6ea, #fff, #fff, #f6f8f8, #e0e6ea);
-}
+/*.timeline.career {*/
+/*    background: linear-gradient(0deg, #e0e6ea, #fff, #fff, #f6f8f8, #e0e6ea);*/
+/*}*/
 
-.timeline {
-    background: linear-gradient(0deg, #fafdf5, #fff, #fff, #f6f8f8, #fafdf5);
-}
+/*.timeline {*/
+/*    background: linear-gradient(0deg, #fafdf5, #fff, #fff, #f6f8f8, #fafdf5);*/
+/*}*/
 
 .timeline p {
     font-size: 4.5vw;
