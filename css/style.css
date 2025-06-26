@@ -839,7 +839,7 @@ p {
 
 .website-wrapper .website-image:nth-child(3),
 .website-wrapper .website-image:nth-child(3) .imgBox {
-    /*height: 50vw;*/
+    height: 45vw;
 }
 
 .website-wrapper .website-image .imgBox span {
@@ -852,6 +852,10 @@ p {
     letter-spacing: 0.05em;
     padding: 0 0.5vw 0 1.5vw;
     backdrop-filter: blur(3px);
+}
+
+.website-wrapper .website-image:nth-child(3) .imgBox span {
+    margin-top: 57%;
 }
 
 .exp1 .website-container:nth-child(1) .imgBox {
