@@ -1346,6 +1346,7 @@ label {
     padding: 0.5vw 3vw 0.7vw;
     /*line-height: 0.8;*/
     font-size: 3.9vw;
+    font-weight: 400;
     position: absolute;
     text-align: center;
     border-radius: 20px;
