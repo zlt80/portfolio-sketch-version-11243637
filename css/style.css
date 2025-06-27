@@ -1339,16 +1339,16 @@ p {
 label {
     background: #fff;
     position: absolute;
-    right: 2vw;
+    right: 3vw;
     bottom: 10vw;
-    width: 14vw;
-    height: 2vw;
-    padding: 2vw;
+    width: 12vw;
+    height: 1.8vw;
+    padding: 1.6vw;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
-    border-radius: 15px;
+    border-radius: 5px;
     font-size: 3vw;
-    letter-spacing: -0.05em;
+    letter-spacing: -0.03em;
     line-height: 0.6;
     z-index: 2;
 }
@@ -1359,18 +1359,19 @@ label:after {
     box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
     -moz-transform: rotate(40deg);
     -webkit-transform: rotate(40deg);
-    bottom: -1.5vw;
+    bottom: -1vw;
     left: 10vw;
-    border-width: 2vw;
+    border-width: 1.6vw;
     border-style: solid;
 }
 
 .exp4 .website:nth-child(1) .imgBox label {
-    color: #d677ce;
+    color: #e876de;
+    background: #ebe4fb;
 }
 
 .exp4 .website:nth-child(1) .imgBox label:after {
-    border-color: transparent #fff #fff transparent;
+    border-color: transparent #ebe4fb #ebe4fb transparent;
 
 }
 
