@@ -1339,16 +1339,16 @@ p {
 label {
     background: #fff;
     position: absolute;
-    right: 3vw;
-    bottom: 10vw;
+    right: 2vw;
+    bottom: 11vw;
     width: 12vw;
-    height: 1.8vw;
+    height: 2vw;
     padding: 1.6vw;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 3vw;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.01em;
     line-height: 0.6;
     z-index: 2;
 }
@@ -1367,11 +1367,11 @@ label:after {
 
 .exp4 .website:nth-child(1) .imgBox label {
     color: #e876de;
-    background: #ebe4fb;
+    background: #000;
 }
 
 .exp4 .website:nth-child(1) .imgBox label:after {
-    border-color: transparent #ebe4fb #ebe4fb transparent;
+    border-color: transparent #000 #000 transparent;
 
 }
 
