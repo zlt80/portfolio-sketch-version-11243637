@@ -1046,6 +1046,7 @@ p {
     bottom: -0.375rem;
     position: absolute;
     border-top-left-radius: 50%;
+    z-index: 1;
 }
 
 .websites-wrapper .website-image .icon::before {
@@ -1337,14 +1338,14 @@ p {
 }
 
 label {
-    z-index: 2;
+    z-index: 3;
     width: 16vw;
     height: 3vw;
     right: 1vw;
     bottom: 11vw;
     padding: 1.6vw;
-    font-size: 4vw;
-    line-height: 0.6;
+    font-size: 3.4vw;
+    line-height: 0.8;
     position: absolute;
     text-align: center;
     border-radius: 20px;
@@ -1371,7 +1372,25 @@ label:after {
 
 .exp4 .website:nth-child(1) .imgBox label:after {
     border-color: transparent #000 #000 transparent;
+}
 
+.exp4 .website:nth-child(2) .imgBox label {
+    color: #a6b6f8;
+    background: #000;
+}
+
+.exp4 .website:nth-child(2) .imgBox label:after {
+    border-color: transparent #000 #000 transparent;
+}
+
+
+.exp4 .website:nth-child(3) .imgBox label {
+    color: #ff5b82;
+    background: #000;
+}
+
+.exp4 .website:nth-child(3) .imgBox label:after {
+    border-color: transparent #000 #000 transparent;
 }
 
 @media only screen and (max-width: 980px) {
