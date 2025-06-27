@@ -1340,16 +1340,16 @@ p {
 label {
     z-index: 3;
     width: 16vw;
-    height: 3vw;
+    height: 3.9vw;
     right: 1vw;
     bottom: 11vw;
     padding: 1.6vw;
+    line-height: 1;
     font-size: 3.4vw;
-    line-height: 0.8;
     position: absolute;
     text-align: center;
     border-radius: 20px;
-    letter-spacing: -0.01em;
+    letter-spacing: 0.02em;
     box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
 }
 
