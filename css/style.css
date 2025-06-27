@@ -1365,31 +1365,30 @@ label:after {
     -webkit-transform: rotate(40deg);
 }
 
-.exp4 .website:nth-child(1) .imgBox label {
+.exp4 .website:nth-child(1) label {
     color: #ff97f7;
     background: #000;
 }
 
-.exp4 .website:nth-child(1) .imgBox label:after {
+.exp4 .website:nth-child(1) label:after {
     border-color: transparent #000 #000 transparent;
 }
 
-.exp4 .website:nth-child(2) .imgBox label {
+.exp4 .website:nth-child(2) label {
     color: #a6b6f8;
     background: #000;
 }
 
-.exp4 .website:nth-child(2) .imgBox label:after {
+.exp4 .website:nth-child(2) label:after {
     border-color: transparent #000 #000 transparent;
 }
 
-
-.exp4 .website:nth-child(3) .imgBox label {
+.exp4 .website:nth-child(3) label {
     color: #ff5b82;
     background: #000;
 }
 
-.exp4 .website:nth-child(3) .imgBox label:after {
+.exp4 .website:nth-child(3) label:after {
     border-color: transparent #000 #000 transparent;
 }
 
