@@ -1343,7 +1343,7 @@ label {
     height: 4vw;
     right: 1vw;
     bottom: 11vw;
-    padding: 1.6vw;
+    padding: 1.4vw;
     line-height: 1;
     font-size: 3.4vw;
     position: absolute;
@@ -1356,7 +1356,7 @@ label {
 label:after {
     left: 12vw;
     content: "";
-    bottom: -1vw;
+    bottom: -1.2vw;
     position: absolute;
     border-width: 1.6vw;
     border-style: solid;
