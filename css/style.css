@@ -1340,13 +1340,14 @@ label {
     background: #fff;
     position: absolute;
     right: 2vw;
-    bottom: 12vw;
-    width: 17vw;
-    height: 3vw;
+    bottom: 10vw;
+    width: 14vw;
+    height: 2vw;
     padding: 2vw;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
-    border-radius: 10px;
+    border-radius: 15px;
+    font-size: 3vw;
     letter-spacing: -0.05em;
     line-height: 0.6;
     z-index: 2;
@@ -1359,17 +1360,17 @@ label:after {
     -moz-transform: rotate(40deg);
     -webkit-transform: rotate(40deg);
     bottom: -1.5vw;
-    left: 14vw;
+    left: 10vw;
     border-width: 2vw;
     border-style: solid;
 }
 
 .exp4 .website:nth-child(1) .imgBox label {
-    background: #fdcafd;
+    color: #d677ce;
 }
 
 .exp4 .website:nth-child(1) .imgBox label:after {
-    border-color: transparent #fdcafd #fdcafd transparent;
+    border-color: transparent #fff #fff transparent;
 
 }
 
