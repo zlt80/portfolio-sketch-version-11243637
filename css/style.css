@@ -1402,6 +1402,15 @@ label:after {
     border-color: transparent #000 #000 transparent;
 }
 
+.exp4 .website:nth-child(5) label {
+    color: #c986ff;
+    background: #000;
+}
+
+.exp4 .website:nth-child(5) label:after {
+    border-color: transparent #000 #000 transparent;
+}
+
 .exp6 .website:nth-child(1) label {
     color: #ff68a2;
     background: #000;
