@@ -889,9 +889,9 @@ p {
 }
 
 .exp2 .website:nth-child(2) .imgBox {
-    background: url('../images/exp/brand333.png');
+    background: linear-gradient(45deg, rgba(43, 117, 255, 0.5), transparent, rgba(4, 195, 100, 0.18)), url(../images/exp/brand333.png);
     background-size: cover;
-    filter: saturate(1.2) contrast(1.2);
+    filter: saturate(0.8);
 }
 
 .exp3 .website:nth-child(1) .imgBox {
