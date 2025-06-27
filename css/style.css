@@ -1339,13 +1339,13 @@ p {
 
 label {
     z-index: 3;
-    width: 16vw;
-    height: 3.8vw;
+    width: fit-content;
+    height: fit-content;
     right: 1vw;
     bottom: 11vw;
-    padding: 1.4vw;
-    line-height: 1;
-    font-size: 3.5vw;
+    padding: 0.5vw 3vw 0.7vw;
+    /*line-height: 0.8;*/
+    font-size: 3.9vw;
     position: absolute;
     text-align: center;
     border-radius: 20px;
@@ -1355,7 +1355,7 @@ label {
 }
 
 label:after {
-    left: 12vw;
+    left: 67%;
     content: "";
     bottom: -1.2vw;
     position: absolute;
