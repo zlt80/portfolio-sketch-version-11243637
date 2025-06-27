@@ -1402,6 +1402,24 @@ label:after {
     border-color: transparent #000 #000 transparent;
 }
 
+.exp6 .website:nth-child(1) label {
+    color: #fdbdda;
+    background: #000;
+}
+
+.exp6 .website:nth-child(1) label:after {
+    border-color: transparent #000 #000 transparent;
+}
+
+.exp6 .website:nth-child(2) label {
+    color: #a1b0ec;
+    background: #000;
+}
+
+.exp6 .website:nth-child(2) label:after {
+    border-color: transparent #000 #000 transparent;
+}
+
 @media only screen and (max-width: 980px) {
 
     * {
