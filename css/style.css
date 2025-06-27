@@ -579,6 +579,10 @@ p {
     background: #E3EFC6;
 }
 
+.experiences .details {
+    margin-top: 11vw;
+}
+
 .experiences .details label img {
     width: 5vw;
     top: 3.5vw;
@@ -935,7 +939,7 @@ p {
 }
 
 .exp4 .website:nth-child(4) .website-image:nth-child(3) .imgBox {
-    background: linear-gradient(80deg, rgba(152, 177, 193, 0.58), rgba(197, 243, 228, 0.17), transparent, rgba(236, 206, 229, 0.2), rgba(132, 177, 188, 0.32)), url(../images/exp/brand8888889.png) center;
+    background: linear-gradient(80deg, rgba(152, 177, 193, 0.58), rgba(197, 243, 228, 0.17), transparent, rgba(236, 206, 229, 0.2), rgba(132, 177, 188, 0.32)), url(../images/exp/brand8888889.png) right;
     background-size: cover;
     filter: contrast(1.1);
 }
