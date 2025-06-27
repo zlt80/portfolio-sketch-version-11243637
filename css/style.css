@@ -589,7 +589,8 @@ p {
     right: 3.5vw;
     position: absolute;
     filter: saturate(0) brightness(0.7) contrast(2.5);
-    animation: ripple 0.8s linear infinite;
+    /*animation: ripple 0.8s linear infinite;*/
+    display: none;
 }
 
 @-webkit-keyframes ripple {
@@ -639,56 +640,29 @@ p {
     height: 100%;
 }
 
-.experiences .details .button {
-    color: #fff;
-    height: 12vw;
-    background: #000;
-    line-height: 2.6;
-    padding-left: 4vw;
-    position: relative;
-    border-radius: 5px;
-    display: inline-block;
-    border: 1px solid #333;
-    box-sizing: border-box;
-    box-shadow: 0 4px 0 #666;
-    margin: 1.5vw 0.5vw 2.5vw;
-    text-transform: capitalize;
-    width: -webkit-fill-available;
+.details {
+    display: flex;
+    gap: 5vw;
+    overflow-x: scroll;
 }
 
-.experiences .details .button.disabled {
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 0 #e0e0e0;
+.details .phone-preview {
+    display: flex;
+    gap: 5vw;
 }
 
-.experiences .details .button:hover,
-.experiences .details .button:focus {
-    cursor: pointer;
-}
-
-.experiences .details .button--close {
-    border: none;
-    background: none;
-    box-shadow: none;
-    margin-bottom: 3vw;
-}
-
-.experiences .details .button--close img {
-    width: 5vw;
-    margin: 0 auto;
-    display: block;
-}
-
-.experiences .details .works .phone-frame {
+.phone-frame {
     width: 100%;
-    margin-top: -3vw;
+    margin-top: 3vw;
     text-align: center;
     margin-bottom: 5vw;
     border-radius: 20px;
+    height: fit-content;
     display: inline-block;
+    border: 1px solid;
 }
 
-.experiences .details .works .phone-frame .phone-speaker {
+.phone-frame .phone-speaker {
     height: 10px;
     width: 150px;
     margin-top: 1.5rem;
@@ -697,17 +671,17 @@ p {
     display: inline-block;
 }
 
-.experiences .details .works .phone-frame .phone-screen {
+.phone-frame .phone-screen {
     margin: 3vw 0;
 }
 
-.experiences .details .works .phone-frame .phone-screen .preview {
+.phone-frame .phone-screen .preview {
     margin: 0 !important;
     padding: 0 !important;
     width: 62.5vw !important;
 }
 
-.experiences .details .works .phone-frame .phone-button {
+.phone-frame .phone-button {
     width: 7vw;
     height: 7vw;
     border-radius: 50%;
