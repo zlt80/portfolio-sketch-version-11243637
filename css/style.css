@@ -1339,24 +1339,23 @@ p {
 
 label {
     z-index: 3;
-    width: fit-content;
-    height: fit-content;
     right: 1vw;
     bottom: 11vw;
-    padding: 0.5vw 4vw 0.7vw;
-    /*line-height: 0.8;*/
     font-size: 3.9vw;
     font-weight: 400;
     position: absolute;
     text-align: center;
+    width: fit-content;
+    height: fit-content;
     border-radius: 20px;
     letter-spacing: 0.03em;
+    padding: 0.5vw 4vw 0.7vw;
     font-family: "Kanit", sans-serif;
     box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
 }
 
 label:after {
-    left: 67%;
+    right: 3.5vw;
     content: "";
     bottom: -1.2vw;
     position: absolute;
