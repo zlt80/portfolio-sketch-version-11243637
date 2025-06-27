@@ -480,7 +480,7 @@ p {
 }
 
 .timeline .item .ew-image {
-    filter: hue-rotate(165deg) saturate(0.4) contrast(1.5) brightness(0.9);
+    filter: hue-rotate(165deg) saturate(0.7) contrast(1.5) brightness(0.9);
 }
 
 .timeline .item .s-image {
@@ -529,7 +529,7 @@ p {
 }
 
 .experiences .work .number {
-    width: 12vw;
+    width: 16vw;
     right: 14vw;
     position: absolute;
 }
@@ -857,12 +857,12 @@ p {
 
 .websites-wrapper .website-image .imgBox span {
     height: 5vw;
-    color: #fff;
+    color: #000;
     margin-left: 2%;
     margin-top: 64%;
     font-size: 5vw;
     line-height: 1;
-    letter-spacing: 0.05em;
+    letter-spacing: -0.02em;
     padding: 0 0.5vw 0 1.5vw;
     backdrop-filter: blur(3px);
 }
@@ -1334,6 +1334,43 @@ p {
 .part-03 .id-card-top,
 .part-04 .id-card-top {
     display: none;
+}
+
+label {
+    background: #fff;
+    position: absolute;
+    right: 2vw;
+    bottom: 12vw;
+    width: 17vw;
+    height: 3vw;
+    padding: 2vw;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
+    border-radius: 10px;
+    letter-spacing: -0.05em;
+    line-height: 0.6;
+    z-index: 2;
+}
+
+label:after {
+    content: "";
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
+    -moz-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    bottom: -1.5vw;
+    left: 14vw;
+    border-width: 2vw;
+    border-style: solid;
+}
+
+.exp4 .website:nth-child(1) .imgBox label {
+    background: #fdcafd;
+}
+
+.exp4 .website:nth-child(1) .imgBox label:after {
+    border-color: transparent #fdcafd #fdcafd transparent;
+
 }
 
 @media only screen and (max-width: 980px) {
