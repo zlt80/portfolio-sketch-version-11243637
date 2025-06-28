@@ -16,7 +16,7 @@ h2 {
     text-transform: capitalize;
 }
 
-h3, h4, a, label, span {
+h3, a, label, span {
     font-size: 4vw;
     font-weight: 600;
     text-transform: capitalize;
@@ -27,6 +27,12 @@ h3, a {
     font-size: 4.8vw;
     font-weight: 400;
     text-transform: capitalize;
+}
+
+h4 {
+    font-size: 4.5vw;
+    line-height: 1.6;
+    font-weight: 400;
 }
 
 span {
@@ -552,6 +558,10 @@ p {
     position: absolute;
 }
 
+.experiences .work .details {
+    margin: 1vw 0 2vw 3vw;
+}
+
 .experiences .websites .website {
     width: 100%;
     margin-top: 1vw;
@@ -597,11 +607,11 @@ p {
     background: #E3EFC6;
 }
 
-.experiences .details {
+.experiences .screenshot {
     margin-top: 1vw;
 }
 
-.experiences .details label img {
+.experiences .screenshot label img {
     width: 5vw;
     top: 3.5vw;
     right: 3.5vw;
@@ -629,47 +639,47 @@ p {
     }
 }
 
-.experiences .details input:checked + .works {
+.experiences .screenshot input:checked + .works {
     opacity: 1;
     display: block;
     animation: fade-in 0.4s;
 }
 
-.experiences .details input:checked + .works .work {
+.experiences .screenshot input:checked + .works .work {
     text-align: center;
     transform-origin: 50% 0;
     animation: scoot-up 0.2s;
     animation-timing-function: ease-out;
 }
 
-.experiences .details input {
+.experiences .screenshot input {
     display: none;
 }
 
-.experiences .details .works {
+.experiences .screenshot .works {
     display: none;
     overflow: hidden;
 }
 
-.experiences .details .close {
+.experiences .screenshot .close {
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
 
-.details {
+.screenshot {
     display: flex;
     gap: 5vw;
     overflow-x: scroll;
 }
 
-.details .phone-preview {
+.screenshot .phone-preview {
     display: flex;
     gap: 5vw;
 }
 
-.details label {
+.screenshot label {
     display: none;
 }
 
@@ -2027,7 +2037,7 @@ label:after {
         margin-right: 3px;
     }
 
-    .experiences .details .button {
+    .experiences .screenshot .button {
         padding: 10px 0;
         font-size: 14px;
         margin: 8px auto;
