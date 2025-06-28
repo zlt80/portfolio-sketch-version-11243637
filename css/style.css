@@ -571,7 +571,6 @@ p {
     margin-top: 1vw;
     margin-bottom: 3vw;
     border-radius: 10px;
-    padding-bottom: 2vw;
     box-sizing: border-box;
 }
 
@@ -959,7 +958,6 @@ p {
     background-size: cover;
     filter: hue-rotate(157deg) saturate(0.7);
 }
-
 
 .exp4 .website:nth-child(3) .website-image:nth-child(3) .imgBox {
     background: url('../images/exp/brand12222.png') center;
@@ -1503,7 +1501,7 @@ label:after {
     .part-03,
     .part-04 {
         box-sizing: border-box;
-        height: 81vh;
+        height: 84vh;
         width: 22vw;
         overflow: hidden;
         padding: 20px;
@@ -1521,7 +1519,7 @@ label:after {
     }
 
     .part-01 {
-        margin-top: 70px;
+        margin-top: 10vh;
         border-bottom: 15px solid #898e98;
         border-right: 12px solid #c6cad1;
         background: linear-gradient(95deg, #b1bbda, #c5ccda, #cdd5e4, #fff2fc, #eee, #cdd5e4);
@@ -1598,9 +1596,8 @@ label:after {
         filter: invert(100%);
     }
 
-
     .part-03 {
-        margin-top: 20px;
+        margin-top: 26vh;
         background: linear-gradient(95deg, #c0ab9f, #bfb9b3, #fff0e1, #ece5da, #d7c7c2);
         border-bottom: 15px solid #bfbbb7;
         border-right: 12px solid #efece9;
@@ -1608,22 +1605,25 @@ label:after {
 
     .part-03 .rope {
         width: 0.6vw;
-        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.45)), url("../images/background/rope3.png");
+        height: 30vh;
+        margin-top: -28vh;
         background-size: cover;
         background-blend-mode: hard-light;
+        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.45)), url("../images/background/rope3.png");
     }
 
     .part-03 .rope:nth-child(2) {
         width: 0.6vw;
         margin-left: 12vw;
-        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.45)), url("../images/background/rope3.png");
+        margin-top: -28vh;
         background-size: cover;
         background-blend-mode: hard-light;
+        background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.45)), url("../images/background/rope3.png");
     }
 
     .part-03 .holes {
-        background: linear-gradient(145deg, #e8e2d5, #efece0, #dad6d1);
         border-bottom: 5px solid #b2b1ad;
+        background: linear-gradient(145deg, #e8e2d5, #efece0, #dad6d1);
     }
 
     .part-03 .division {
@@ -1636,10 +1636,10 @@ label:after {
 
     .part-04 {
         width: 32vw;
-        margin-top: 50px;
-        background: linear-gradient(75deg, #efe7eb, #dddadc, #ede4e6, #fff5fa, #e3d1d8);
-        border-bottom: 15px solid #bdb0b7;
+        margin-top: 5vh;
         border-right: 12px solid #e1dcdc;
+        border-bottom: 15px solid #bdb0b7;
+        background: linear-gradient(75deg, #efe7eb, #dddadc, #ede4e6, #fff5fa, #e3d1d8);
     }
 
     .part-04 .holes {
@@ -1656,7 +1656,7 @@ label:after {
 
     .part-04 .rope {
         height: 140px;
-        width: 2vw;
+        width: 1vw;
         margin-top: -120px;
         background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.07), #20181b), url("../images/background/rope4.png");
         background-size: cover;
@@ -1666,7 +1666,7 @@ label:after {
 
     .part-04 .rope:nth-child(2) {
         height: 140px;
-        width: 2vw;
+        width: 1vw;
         margin-top: -120px;
         background: linear-gradient(to bottom, transparent, rgba(250, 255, 255, 0.27), rgb(5 5 5 / 14%), rgba(0, 0, 0, 0.07), #20181b), url("../images/background/rope4.png");
         background-size: cover;
@@ -1726,11 +1726,11 @@ label:after {
     }
 
     body {
-        overflow-x: hidden;
         height: 100vh;
-        background: linear-gradient(to bottom, rgba(250, 253, 255, 0.8), rgba(250, 255, 255, 0.77), rgba(244, 255, 248, 0.87), transparent, rgba(245, 252, 255, 0.8)), url("../images/background/background.jpg");
+        overflow: hidden;
         background-size: cover;
         background-position-y: 40%;
+        background: linear-gradient(to bottom, rgba(250, 253, 255, 0.8), rgba(250, 255, 255, 0.77), rgba(244, 255, 248, 0.87), transparent, rgba(245, 252, 255, 0.8)), url("../images/background/background.jpg");
     }
 
     .portfolio {
