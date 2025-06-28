@@ -562,6 +562,10 @@ p {
     margin: 1vw 0 2vw 3vw;
 }
 
+.experiences .work .details h4 {
+    width: 100%;
+}
+
 .experiences .websites .website {
     width: 100%;
     margin-top: 1vw;
