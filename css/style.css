@@ -25,6 +25,7 @@ h3, h4, a, label, span {
 h3, a {
     padding: 0;
     font-size: 4.8vw;
+    font-weight: 400;
     text-transform: capitalize;
 }
 
@@ -402,11 +403,6 @@ p {
     letter-spacing: -0.02em;
 }
 
-/*.software {*/
-/*    background: linear-gradient(0deg, #e8eae0, #fff, #fff, #f8f8f6, #e8eae0);*/
-/*    padding: 0 4vw 10vw;*/
-/*}*/
-
 .software .grid {
     display: grid;
     text-align: center;
@@ -426,24 +422,47 @@ p {
     margin: -1.5vw auto 0;
 }
 
-/*.timeline.career {*/
-/*    background: linear-gradient(0deg, #e0e6ea, #fff, #fff, #f6f8f8, #e0e6ea);*/
-/*}*/
-
-/*.timeline {*/
-/*    background: linear-gradient(0deg, #fafdf5, #fff, #fff, #f6f8f8, #fafdf5);*/
-/*}*/
-
 .timeline p {
-    font-size: 4.5vw;
+    font-size: 4vw;
+    background: #eee;
     font-weight: 400;
-    padding: 2vw 0 3.5vw;
+    margin: 1.5vw 0 0;
+    width: fit-content;
+    border-radius: 30px;
+    padding: 0.2vw 5vw 1.2vw;
     letter-spacing: 0.02em;
 }
 
+.timeline.career .item:nth-child(3) p {
+    background: #386ee8;
+    color: #fff;
+}
+
+.timeline.career .item:nth-child(4) p {
+    background: #000;
+    color: #fff;
+}
+
+.timeline.education .item:nth-child(3) p {
+    background: #6b8db7;
+    color: #fff;
+}
+
+.timeline.education .item:nth-child(4) p {
+    background: #73446a;
+    color: #fff;
+}
+
+.timeline.education .item:nth-child(5) p {
+    background: #30604e;
+    color: #fff;
+}
+
+
 .timeline h4 {
+    font-weight: 400;
     font-size: 4.5vw;
-    padding-bottom: 2vw;
+    padding-bottom: 1vw;
 }
 
 .timeline.career h4 {
@@ -459,15 +478,15 @@ p {
     margin-bottom: 4vw;
 }
 
-.timeline .item img:nth-child(2) {
+.timeline .item img:nth-child(3) {
     width: 100%;
-    height: 40vw;
+    height: 45vw;
     padding: 2px;
-    margin: 3vw 0;
+    margin: 3vw 0 1vw;
     object-fit: cover;
     border-radius: 10px;
     box-sizing: border-box;
-    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
+    /*box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;*/
 }
 
 .timeline .item .p-image {
@@ -475,7 +494,6 @@ p {
 }
 
 .timeline .item .kg-image {
-    border: 2px solid #c5c5c5;
     filter: invert(1) hue-rotate(270deg) saturate(1.2) brightness(1.8);
 }
 
@@ -484,7 +502,7 @@ p {
 }
 
 .timeline .item .s-image {
-    filter: contrast(1.3) brightness(1.1) saturate(1.8) hue-rotate(20deg);
+    filter: contrast(1.3) saturate(1.8) hue-rotate(20deg);
 }
 
 .timeline .item .s-logo {
@@ -649,6 +667,10 @@ p {
 .details .phone-preview {
     display: flex;
     gap: 5vw;
+}
+
+.details label {
+    display: none;
 }
 
 .phone-frame {
