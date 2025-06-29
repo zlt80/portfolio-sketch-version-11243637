@@ -169,8 +169,8 @@ p {
     right: 15vw;
     left: unset;
     bottom: unset;
-    width: 24vw;
-    height: 56vw !important;
+    width: 22vw;
+    height: 50vw !important;
     transform: rotateZ(340deg);
 }
 
