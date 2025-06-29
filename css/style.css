@@ -145,7 +145,37 @@ p {
 
 .profile .profile-image {
     width: fit-content;
-    margin: 15vw auto 0;
+    margin: -15vw auto -20vw;
+}
+
+.profile .profile-image .decoration {
+    position: relative;
+    height: auto;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.stars {
+    top: 14vw;
+    left: -5vw;
+    right: unset;
+    bottom: unset;
+    width: 21vw;
+}
+
+
+.sticker {
+    bottom: 20vw;
+    left: -6vw;
+    width: 26vw;
+    transform: rotateZ(10deg);
+}
+
+.pencil {
+    bottom: 22vw;
+    left: 10vw;
+    width: 20vw;
+    transform: rotateZ(340deg);
 }
 
 .profile .profile-image .image {
@@ -170,8 +200,9 @@ p {
     margin-top: -56%;
     margin-left: 37%;
     position: absolute;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.3em;
     font-weight: 100;
+    display: none;
     writing-mode: vertical-lr;
     text-shadow: 2px 3px 1px #000000c7;
     animation: fadein 3s ease-out forwards;
