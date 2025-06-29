@@ -274,8 +274,34 @@ p {
     }
 }
 
+.about .highlight {
+    width: 20vw;
+    height: 7vw;
+    margin-bottom: -19vw;
+    margin-left: -2vw;
+}
+
+.about .highlight.h1 {
+    filter: hue-rotate(30deg) saturate(0.2);
+}
+
+.about .highlight.h2 {
+    width: 26vw;
+    height: 10vw;
+    margin-bottom: -19vw;
+    filter: hue-rotate(50deg) saturate(0.2);
+}
+
+.about .highlight.h3 {
+    width: 44vw;
+    height: 16vw;
+    margin-bottom: -19vw;
+    margin-left: -10vw;
+    transform: rotate(5deg);
+    filter: hue-rotate(320deg) saturate(0.2);
+}
+
 .about h4 {
-    line-height: 1.6;
     font-size: 4.2vw;
 }
 
@@ -290,6 +316,10 @@ p {
     margin-left: 0.4vw;
     margin-right: 0.4vw;
     opacity: 0.85;
+}
+
+.about span {
+    margin-bottom: 3vw;
 }
 
 .swatch {
