@@ -282,14 +282,14 @@ p {
 }
 
 .about .highlight.h1 {
-    filter: hue-rotate(120deg) saturate(0.2);
+    filter: hue-rotate(120deg) saturate(0.4);
 }
 
 .about .highlight.h2 {
     width: 26vw;
     height: 10vw;
     margin-bottom: -19vw;
-    filter: hue-rotate(50deg) saturate(0.2);
+    filter: hue-rotate(50deg) saturate(0.4);
 }
 
 .about .highlight.h3 {
@@ -298,7 +298,7 @@ p {
     margin-bottom: -19vw;
     margin-left: -10vw;
     transform: rotate(5deg);
-    filter: hue-rotate(320deg) saturate(0.2);
+    filter: hue-rotate(320deg) saturate(0.4);
 }
 
 .about h4 {
