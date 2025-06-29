@@ -165,12 +165,13 @@ p {
 
 .arrow {
     position: absolute !important;
-    top: 65vw;
-    right: 7vw;
+    top: 70vw;
+    right: 15vw;
     left: unset;
     bottom: unset;
-    width: 35vw;
-    transform: rotateZ(350deg);
+    width: 24vw;
+    height: 56vw !important;
+    transform: rotateZ(340deg);
 }
 
 .sticker {
