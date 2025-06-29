@@ -282,7 +282,7 @@ p {
 }
 
 .about .highlight.h1 {
-    filter: hue-rotate(30deg) saturate(0.2);
+    filter: hue-rotate(120deg) saturate(0.2);
 }
 
 .about .highlight.h2 {
@@ -320,6 +320,10 @@ p {
 
 .about span {
     margin-bottom: 3vw;
+}
+
+.about .item:nth-child(3) {
+    margin-top: -12vw;
 }
 
 .swatch {
