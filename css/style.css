@@ -279,6 +279,7 @@ p {
     height: 7vw;
     margin-bottom: -19vw;
     margin-left: -2vw;
+    opacity: 0.6;
 }
 
 .about .highlight.h1 {
