@@ -156,22 +156,22 @@ p {
 }
 
 .stars {
+    left: unset !important;
+    right: -40vw !important;
     top: 14vw;
-    left: -5vw;
-    right: unset;
     bottom: unset;
-    width: 17vw;
+    width: 16vw;
 }
 
 .arrow {
     position: absolute !important;
+    left: 15vw;
+    right: unset;
     top: 68vw;
-    right: 16vw;
-    left: unset;
     bottom: unset;
-    width: 20vw;
+    width: 24vw;
     height: 35vw !important;
-    transform: rotateZ(350deg);
+    transform: rotateZ(20deg);
 }
 
 .sticker {
