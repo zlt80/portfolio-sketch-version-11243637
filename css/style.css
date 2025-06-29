@@ -163,6 +163,15 @@ p {
     width: 21vw;
 }
 
+.arrow {
+    position: absolute !important;
+    top: 65vw;
+    right: 7vw;
+    left: unset;
+    bottom: unset;
+    width: 35vw;
+    transform: rotateZ(350deg);
+}
 
 .sticker {
     bottom: 20vw;
