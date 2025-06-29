@@ -160,7 +160,7 @@ p {
     left: -5vw;
     right: unset;
     bottom: unset;
-    width: 21vw;
+    width: 17vw;
 }
 
 .arrow {
@@ -175,15 +175,15 @@ p {
 }
 
 .sticker {
-    bottom: 20vw;
+    bottom: 18vw;
     left: -6vw;
-    width: 26vw;
-    transform: rotateZ(10deg);
+    width: 24vw;
+    transform: rotateZ(20deg);
 }
 
 .pencil {
     bottom: 22vw;
-    left: 10vw;
+    left: 12vw;
     width: 16vw;
     transform: rotateZ(340deg);
 }
