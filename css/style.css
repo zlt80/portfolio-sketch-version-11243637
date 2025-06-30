@@ -427,12 +427,8 @@ p {
 }
 
 .timeline.career .career-details {
-    right: 17vw;
-    z-index: 2;
-    position: absolute;
-    margin-top: -14vw;
     display: flex;
-    gap: 1vw;
+    gap: 2vw;
 }
 
 .timeline.career h4 {
@@ -444,7 +440,7 @@ p {
     border-radius: 5px;
     padding: 0.2vw 3vw 0.6vw;
     width: fit-content;
-    margin-top: 2.6vw;
+    margin-top: 3vw;
     font-size: 3.6vw !important;
     border: 1px solid #386de6;
     color: #386de6;
@@ -457,20 +453,13 @@ p {
     background: #fff;
 }
 
-.timeline.career .career-title {
-    position: absolute;
-    z-index: 2;
-    margin-top: 5vw;
-    margin-left: 2vw;
-}
-
 .timeline.career .career-title h4 {
     border-radius: 5px;
     width: fit-content;
     border: 1px solid #192a70;
     color: #bcefff;
     background: #000;
-    margin-bottom: 1vw;
+    margin: 0.5vw 0 2.5vw;
     padding: 0.5vw 3vw 1vw;
     font-size: 4.6vw !important;
 }
@@ -487,7 +476,7 @@ p {
     font-weight: 400;
     margin: 2vw 0 0;
     width: fit-content;
-    border-radius: 30px;
+    border-radius: 5px;
     padding: 0.2vw 5vw 1.2vw;
     letter-spacing: 0.02em;
 }
@@ -539,7 +528,7 @@ p {
 }
 
 .timeline.career .item img:nth-child(4) {
-    height: 75vw;
+    height: 60vw;
 }
 
 .timeline .item .w-image {
