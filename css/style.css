@@ -433,12 +433,13 @@ p {
     padding: 0 4vw 0.4vw;
     width: fit-content;
     display: inline-flex;
-    margin-top: 1.5vw;
+    margin-top: 1vw;
+    font-size: 3.8vw
 }
 
 .timeline.career .item h4:nth-child(7) {
     display: inline-flex;
-    margin-top: 1.5vw;
+    margin-top: 1vw;
 }
 
 .timeline p {
