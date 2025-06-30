@@ -426,6 +426,10 @@ p {
     margin: -1.5vw auto 0;
 }
 
+.timeline {
+    font-family: "Do Hyeon", sans-serif !important;
+}
+
 .timeline.career .career-details {
     display: flex;
     gap: 2vw;
@@ -460,7 +464,7 @@ p {
     background: linear-gradient(145deg, #a4bbe1, #324cb5, #0b3863, #000);
     margin: 0.5vw 0 2.5vw;
     padding: 0.5vw 4vw 1vw;
-    font-size: 4.6vw !important;
+    font-size: 5vw !important;
 }
 
 .timeline.career .item:nth-child(4) .career-title h4 {
@@ -476,8 +480,10 @@ p {
     margin: 2vw 0 0;
     width: fit-content;
     border-radius: 5px;
+    border: 2px solid #fff;
     padding: 0.2vw 5vw 1.2vw;
     letter-spacing: 0.02em;
+    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
 }
 
 .timeline.career .item:nth-child(3) p {
