@@ -549,6 +549,10 @@ p {
     margin: 2vw 0;
 }
 
+.experiences .work span:nth-child(2) {
+    margin-top: 13vw;
+}
+
 .experiences .work .number {
     width: 16vw;
     right: 14vw;
