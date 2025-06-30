@@ -402,6 +402,10 @@ p {
     margin-bottom: 4vw
 }
 
+.software {
+    padding: 0 4vw 10vw;
+}
+
 .software .grid {
     display: grid;
     text-align: center;
