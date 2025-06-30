@@ -568,6 +568,71 @@ p {
     width: 100%;
 }
 
+.experiences .work a {
+    padding: 0 3vw 0.5vw;
+    margin-top: 1vw;
+    color: #fff;
+    border-radius: 25px;
+    display: inline-flex;
+    width: fit-content;
+}
+
+.experiences .work .vue {
+    background: #4ed396;
+}
+
+.experiences .work .scss {
+    background: #ed71c1;
+}
+
+.experiences .work .docker {
+    background: #4296da;
+}
+
+.experiences .work .github {
+    background: #7001ba;
+}
+
+.experiences .work .webstorm {
+    background: #000000;
+}
+
+.experiences .work .html {
+    background: #ee4528;
+}
+
+.experiences .work .css {
+    background: #2846ef;
+}
+
+.experiences .work .javascript {
+    background: #7ad231;
+}
+
+.experiences .work .jquery {
+    background: #bdb62b;
+}
+
+.experiences .work .cafe24 {
+    background: #5887fc;
+}
+
+.experiences .work .filezilla {
+    background: #751818;
+}
+
+.experiences .work .ruby {
+    background: #e52828;
+}
+
+.experiences .work .liquid {
+    background: #020190;
+}
+
+.experiences .work .shopify {
+    background: #4eaf32;
+}
+
 .experiences .websites .website {
     width: 100%;
     margin-top: 1vw;
