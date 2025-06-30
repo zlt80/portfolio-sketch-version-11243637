@@ -328,7 +328,7 @@ p {
 }
 
 .about .item {
-    padding: 5vw;
+    padding: 4vw 5vw;
 }
 
 .about .item:nth-child(2) {
