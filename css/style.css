@@ -274,6 +274,11 @@ p {
     }
 }
 
+.about {
+    background: linear-gradient(45deg, black, #5a4d49, #222e3d, #000);
+    color: #fff;
+}
+
 .about .highlight {
     width: 20vw;
     height: 7vw;
@@ -312,11 +317,12 @@ p {
 }
 
 .about .number {
-    width: 4vw;
+    width: 4.2vw;
     margin-bottom: -0.4vw;
     margin-left: 0.4vw;
     margin-right: 0.4vw;
     opacity: 0.85;
+    filter: invert(1);
 }
 
 .about span {
@@ -364,116 +370,32 @@ p {
 
 .swatch div:nth-child(1) {
     background-color: #14095e;
-    animation: swatch-purple-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    transform: rotate(-65deg);
 }
 
 .swatch div:nth-child(2) {
     background-color: #151a4e;
-    animation: swatch-blue-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    transform: rotate(-40deg);
 }
 
 .swatch div:nth-child(3) {
     background-color: #004a19;
-    animation: swatch-green-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    transform: rotate(-15deg);
 }
 
 .swatch div:nth-child(4) {
     background-color: #3f7504;
-    animation: swatch-yellow-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    transform: rotate(15deg);
 }
 
 .swatch div:nth-child(5) {
     background-color: #853b06;
-    animation: swatch-orange-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    transform: rotate(40deg);
 }
 
 .swatch div:nth-child(6) {
     background-color: #771e27;
-    animation: swatch-red-motion 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-}
-
-@keyframes swatch-purple-motion {
-    0% {
-        transform: rotate(0deg);
-    }
-    30%,
-    70% {
-        transform: rotate(-65deg);
-    }
-    90%,
-    10% {
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes swatch-blue-motion {
-    0% {
-        transform: rotate(0deg);
-    }
-    30%,
-    70% {
-        transform: rotate(-40deg);
-    }
-    90%,
-    10% {
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes swatch-green-motion {
-    0% {
-        transform: rotate(0deg);
-    }
-    30%,
-    70% {
-        transform: rotate(-15deg);
-    }
-    90%,
-    10% {
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes swatch-yellow-motion {
-    0% {
-        transform: rotate(0deg);
-    }
-    30%,
-    70% {
-        transform: rotate(15deg);
-    }
-    90%,
-    10% {
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes swatch-orange-motion {
-    0% {
-        transform: rotate(0deg);
-    }
-    30%,
-    70% {
-        transform: rotate(40deg);
-    }
-    90%,
-    10% {
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes swatch-red-motion {
-    0% {
-        transform: rotate(0deg);
-    }
-    30%,
-    70% {
-        transform: rotate(65deg);
-    }
-    90%,
-    10% {
-        transform: rotate(0deg);
-    }
+    transform: rotate(65deg);
 }
 
 .my-vision__Box {
