@@ -341,7 +341,7 @@ p {
     border-radius: 25px;
     border: 3px solid #fff;
     box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
-    background: linear-gradient(0deg, rgba(219, 219, 227, 0.45), rgba(238, 243, 248, 0.22), rgba(248, 250, 255, 0.16), rgba(236, 237, 237, 0.44));
+    background: linear-gradient(0deg, rgba(219, 219, 227, 0.56), rgba(238, 243, 248, 0.22), rgba(248, 250, 255, 0.16), rgb(230 232 237 / 93%));
 }
 
 /*.about .box:nth-child(3) {*/
