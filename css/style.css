@@ -444,8 +444,8 @@ p {
     border-radius: 5px;
     padding: 0.2vw 3vw 0.6vw;
     width: fit-content;
-    margin-top: 3vw;
-    font-size: 3.4vw !important;
+    margin-top: 2.2vw;
+    font-size: 4vw !important;
     border: 1px solid #386de6;
     color: #386de6;
     background: #e8f4fc;
@@ -472,6 +472,7 @@ p {
     background: #000;
     margin-bottom: 1vw;
     padding: 0.5vw 4vw 1vw;
+    font-size: 4.8vw !important;
 }
 
 .timeline.career .item:nth-child(4) .career-title h4 {
