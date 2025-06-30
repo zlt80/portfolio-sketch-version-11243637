@@ -277,7 +277,7 @@ p {
 .about {
     background: linear-gradient(45deg, black, #5a4d49, #222e3d, #000);
     color: #fff;
-    padding: 0 8vw 10vw;
+    padding: 0 9vw 10vw;
 }
 
 .about .highlight {
