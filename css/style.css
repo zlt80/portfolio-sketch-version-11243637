@@ -543,7 +543,7 @@ p {
 }
 
 .timeline .item .w-image {
-    object-position: 40%;
+    object-position: 25%;
     filter: saturate(1.4);
 }
 
