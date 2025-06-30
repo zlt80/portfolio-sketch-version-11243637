@@ -487,27 +487,27 @@ p {
 }
 
 .timeline.career .item:nth-child(3) p {
-    background: linear-gradient(140deg, #7db1f6, #6a90f7, #386ee8);
+    background: linear-gradient(140deg, #7db1f6, #4368cc, #002f9a);
     color: #fff;
 }
 
 .timeline.career .item:nth-child(4) p {
-    background: linear-gradient(140deg, #45dad5, #289e88);
+    background: linear-gradient(145deg, #b3a196, #555c56, #1c404b, #000);
     color: #fff;
 }
 
 .timeline.education .item:nth-child(3) p {
-    background: #6b8db7;
+    background: linear-gradient(140deg, #b7916b, #003f71, #0b1635);
     color: #fff;
 }
 
 .timeline.education .item:nth-child(4) p {
-    background: #73446a;
+    background: linear-gradient(140deg, #a54a3f, #611352, #200101);
     color: #fff;
 }
 
 .timeline.education .item:nth-child(5) p {
-    background: #30604e;
+    background: linear-gradient(140deg, #6d878c, #30604e, #041911);
     color: #fff;
 }
 
