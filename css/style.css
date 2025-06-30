@@ -427,12 +427,21 @@ p {
 }
 
 .timeline.career .career-details {
-    right: 16.5vw;
+    right: 17vw;
     z-index: 2;
     position: absolute;
-    margin-top: -12vw;
+    margin-top: -14vw;
     display: flex;
     gap: 1vw;
+}
+
+.timeline.career h4 {
+    border-radius: 5px;
+    padding: 0.2vw 3vw 0.6vw;
+    border: 1px solid #666;
+    margin: 0 0 2vw;
+    width: fit-content;
+    font-size: 4.2vw !important;
 }
 
 .timeline.career .career-details h4 {
