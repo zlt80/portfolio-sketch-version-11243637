@@ -330,7 +330,7 @@ p {
 }
 
 .about .item:nth-child(3) {
-    margin-top: -12vw;
+    margin-top: 0;
 }
 
 .swatch {
