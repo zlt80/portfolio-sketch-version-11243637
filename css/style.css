@@ -528,6 +528,14 @@ p {
     /*box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;*/
 }
 
+.timeline.career .item img:nth-child(3) {
+    height: 60vw;
+}
+
+.timeline .item .w-image {
+    object-position: left;
+}
+
 .timeline .item .p-image {
     filter: contrast(1.6) saturate(0.3) hue-rotate(20deg) brightness(1.4);
 }
