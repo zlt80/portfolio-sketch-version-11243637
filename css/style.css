@@ -429,13 +429,13 @@ p {
 .timeline.career .item h4:last-child,
 .timeline.career .item h4:nth-child(6) {
     /*background: #ddd;*/
-    border-radius: 7px;
+    border-radius: 6px;
     padding: 0.4vw 4vw 0.8vw;
     width: fit-content;
     display: inline-flex;
     margin-top: 1vw;
     font-size: 3.8vw;
-    background: #dee4ea;
+    border: 1px solid;
 }
 
 .timeline.career .item h4:nth-child(7) {
