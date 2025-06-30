@@ -449,6 +449,8 @@ p {
     border: 1px solid #386de6;
     color: #386de6;
     background: #e8f4fc;
+    border: 2px solid #fff;
+    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
 }
 
 .timeline.career .item:nth-child(4) .career-details h4 {
@@ -546,8 +548,8 @@ p {
 }
 
 .timeline .item .kg-image {
+    border: 2px solid #c5c5c5;
     filter: invert(1) hue-rotate(270deg) saturate(1.2) brightness(1.8);
-    border: 2px solid #afafaf;
 }
 
 .timeline .item .ew-image {
