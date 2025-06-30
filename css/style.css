@@ -456,18 +456,17 @@ p {
 .timeline.career .career-title h4 {
     border-radius: 5px;
     width: fit-content;
-    border: 1px solid #192a70;
-    color: #bcefff;
-    background: #000;
+    color: #e1fdff;
+    background: linear-gradient(145deg, #a4bbe1, #324cb5, #0b3863, #000);
     margin: 0.5vw 0 2.5vw;
-    padding: 0.5vw 3vw 1vw;
+    padding: 0.5vw 4vw 1vw;
     font-size: 4.6vw !important;
 }
 
 .timeline.career .item:nth-child(4) .career-title h4 {
-    border: 1px solid #1d4b4a;
     color: #fafdd0;
-    background: #000;
+    background: linear-gradient(145deg, #b3a196, #555c56, #1c404b, #000);
+
 }
 
 .timeline p {
@@ -487,7 +486,7 @@ p {
 }
 
 .timeline.career .item:nth-child(4) p {
-    background: linear-gradient(140deg, #755726, #289e88);
+    background: linear-gradient(140deg, #45dad5, #289e88);
     color: #fff;
 }
 
