@@ -576,11 +576,20 @@ p {
 }
 
 .experiences .work .details {
-    margin: 1vw 0 2vw 3vw;
+    margin: 1vw 0 1vw 3vw;
 }
 
 .experiences .work .details h4 {
     width: 100%;
+}
+
+.experiences .work .work-details-h {
+    padding: 2vw 4vw 4vw;
+    background: #000;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 2vw;
+    line-height: 1.8;
 }
 
 .experiences .work .work-details-a a {
