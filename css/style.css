@@ -324,8 +324,10 @@ p {
 }
 
 .about span {
-    margin: 0 0 2vw 0;
     line-height: 1.2;
+    font-size: 3.8vw;
+    margin: 0 0 2vw 0;
+    letter-spacing: -0.02em;
 }
 
 .about .item {
