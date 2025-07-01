@@ -129,6 +129,10 @@ p {
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
 }
 
+.container h2:nth-child(2) {
+    opacity: 0;
+}
+
 .dia-svg {
     width: 5vw;
     display: block;
@@ -457,6 +461,7 @@ p {
 
 .software .grid .item p {
     margin: -1.5vw auto 0;
+    opacity: 0;
 }
 
 .timeline {
@@ -501,6 +506,7 @@ p {
 }
 
 .timeline p {
+    opacity: 0;
     font-size: 4vw;
     background: #eee;
     font-weight: 400;
