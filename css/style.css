@@ -140,7 +140,7 @@ p {
 }
 
 .thank-you {
-    background: linear-gradient(0deg, #dbdbe3, rgba(238, 243, 248, 0.56), rgba(248, 250, 255, 0.54), #eceded, #cfd2da);
+    background: linear-gradient(0deg, #eeeef4, rgba(248, 251, 255, 0.56), rgba(248, 250, 255, 0.54), #f8ffff, #e9edf4);
 }
 
 .profile .profile-image {
@@ -324,25 +324,27 @@ p {
 }
 
 .about span {
-    margin: 0;
+    margin: 0 0 2vw 0;
+    line-height: 1.2;
 }
 
 .about .item {
-    padding: 4vw 5vw;
+    padding: 4vw 3vw;
 }
 
-.about .item:nth-child(2) {
-    padding-top: 0;
-    padding-bottom: 5vw;
-}
+/*.about .item:nth-child(2) {*/
+/*    padding-top: 0;*/
+/*    padding-bottom: 5vw;*/
+/*}*/
 
 .about .box {
-    padding: 2px;
+    /*padding: 2px;*/
     margin: 0 0 5vw;
-    border-radius: 25px;
-    border: 3px solid #fff;
-    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
-    background: linear-gradient(0deg, rgba(219, 219, 227, 0.56), rgb(238 243 248), rgb(248 250 255), rgb(230 232 237 / 93%));
+    display: flex;
+    /*border-radius: 25px;*/
+    /*border: 3px solid #fff;*/
+    /*box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;*/
+    /*background: linear-gradient(0deg, rgba(219, 219, 227, 0.56), rgb(238 243 248), rgb(248 250 255), rgb(230 232 237 / 93%));*/
 }
 
 /*.about .box:nth-child(3) {*/
@@ -1435,14 +1437,40 @@ p {
     margin-bottom: -0.2vw
 }
 
-.thank-you .back-to-top-link {
-    width: 45vw;
-    height: 45vw;
-    display: block;
-    margin: 0 auto;
+.thank-you .item {
+    height: 15vw;
+    margin: 2vw 0;
     text-align: center;
-    font-size: 20vw;
-    filter: saturate(0) brightness(1.4) opacity(0.5);
+    padding: 2vw 3vw;
+    border-radius: 40px;
+    font-size: 8vw !important;
+    box-shadow: 1px 3px 1px #ddd;
+}
+
+.thank-you .item:nth-child(2) {
+    transform: rotate(5deg);
+    margin-top: 0;
+}
+
+.thank-you .item:nth-child(4) {
+    transform: rotate(-5deg);
+}
+
+.thank-you h1,
+.thank-you h2,
+.thank-you .back-to-top-link {
+    margin: 0;
+    display: block;
+    border-radius: 35px;
+    width: auto !important;
+    border: 1px solid #ddd;
+    height: -webkit-fill-available !important;
+    font-family: "Do Hyeon", sans-serif !important;
+}
+
+.thank-you .back-to-top-link {
+    font-size: 9vw;
+    letter-spacing: -0.03em;
 }
 
 .nav {
