@@ -469,37 +469,8 @@ p {
 }
 
 .timeline.career .career-details {
-    left: 7%;
     width: 100%;
     text-align: right;
-    position: absolute;
-}
-
-.timeline.career .career-details h4 {
-    width: 78%;
-    z-index: 0;
-    top: -45vw;
-    color: #fff;
-    font-size: 4vw;
-    position: relative;
-    margin-bottom: 5vw;
-    padding: 2vw 8vw 2vw 0;
-    transform: rotate(-2deg);
-    border-bottom: 3px solid #e4c1c4;
-    background: linear-gradient(-45deg, #527cff, #eee);
-}
-
-.timeline.career .career-details h4:nth-child(2) {
-    background: linear-gradient(45deg, #b7c2e6, #4d79c5);
-}
-
-.timeline.career .item:nth-child(4) .career-details h4 {
-    color: #fff;
-    top: -30vw;
-    width: 80%;
-    padding-right: 6vw;
-    border-bottom: 3px solid #95dfbb;
-    background: linear-gradient(45deg, #d0d3b9, #132a34);
 }
 
 .timeline.career .career-title {
@@ -575,12 +546,10 @@ p {
 }
 
 .timeline.career .item:nth-child(3) img:nth-child(3) {
-    height: 60vw;
-    width: 80%;
+    height: 55vw;
 }
 
 .timeline.career .item:nth-child(4) img:nth-child(3) {
-    width: 86%;
 }
 
 .timeline .item .w-image {
