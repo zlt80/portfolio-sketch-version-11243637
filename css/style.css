@@ -469,30 +469,37 @@ p {
 }
 
 .timeline.career .career-details {
-    display: flex;
-    gap: 2vw;
-}
-
-.timeline.career h4 {
-    padding: 0.2vw 3vw 0.6vw;
-    font-size: 4.3vw !important;
+    left: 7%;
+    width: 100%;
+    text-align: right;
+    position: absolute;
 }
 
 .timeline.career .career-details h4 {
-    border-radius: 5px;
-    padding: 0.2vw 3vw 0.6vw;
-    width: fit-content;
-    margin-top: 1vw;
-    font-size: 3.6vw !important;
+    width: 78%;
+    z-index: 0;
+    top: -45vw;
     color: #fff;
-    background: linear-gradient(145deg, #bee0fd, #4262fd, #36529c);
-    border: 2px solid #fff;
-    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
+    font-size: 4vw;
+    position: relative;
+    margin-bottom: 5vw;
+    padding: 2vw 8vw 2vw 0;
+    transform: rotate(-2deg);
+    border-bottom: 3px solid #e4c1c4;
+    background: linear-gradient(-45deg, #527cff, #eee);
+}
+
+.timeline.career .career-details h4:nth-child(2) {
+    background: linear-gradient(45deg, #b7c2e6, #4d79c5);
 }
 
 .timeline.career .item:nth-child(4) .career-details h4 {
     color: #fff;
-    background: #132a34;
+    top: -30vw;
+    width: 80%;
+    padding-right: 6vw;
+    border-bottom: 3px solid #95dfbb;
+    background: linear-gradient(45deg, #d0d3b9, #132a34);
 }
 
 .timeline.career .career-title {
@@ -554,14 +561,26 @@ p {
 
 .timeline.career .item img:nth-child(3),
 .timeline.education .item img:nth-child(3) {
+    z-index: 1;
     width: 100%;
     height: 45vw;
     padding: 2px;
+    background: #fff;
     margin: 3vw 0 1vw;
     object-fit: cover;
+    position: relative;
     border-radius: 10px;
     box-sizing: border-box;
     box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
+}
+
+.timeline.career .item:nth-child(3) img:nth-child(3) {
+    height: 60vw;
+    width: 80%;
+}
+
+.timeline.career .item:nth-child(4) img:nth-child(3) {
+    width: 86%;
 }
 
 .timeline .item .w-image {
