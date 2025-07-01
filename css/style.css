@@ -336,10 +336,9 @@ p {
     padding: 4vw 3vw 0 3vw;
 }
 
-/*.about .item:nth-child(2) {*/
-/*    padding-top: 0;*/
-/*    padding-bottom: 5vw;*/
-/*}*/
+.about .item:nth-child(2) {
+    padding-right: 0;
+}
 
 .about .box {
     /*padding: 2px;*/
