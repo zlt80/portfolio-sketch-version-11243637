@@ -542,12 +542,15 @@ p {
     box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
 }
 
+.timeline.education .item h4 {
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+
 .timeline.career .item:nth-child(3) img:nth-child(3) {
     height: 55vw;
 }
 
-.timeline.career .item:nth-child(4) img:nth-child(3) {
-}
 
 .timeline .item .w-image {
     object-position: 25%;
