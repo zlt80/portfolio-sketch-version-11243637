@@ -279,12 +279,42 @@ p {
     }
 }
 
+.table-of-contents .grid {
+    display: grid;
+    grid-gap: 2vw 3vw;
+    margin: 15vw 0 10vw;
+    text-transform: uppercase;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.table-of-contents .grid .item {
+    height: 34vw;
+    padding: 2px;
+    background: #000;
+    font-family: "Do Hyeon", sans-serif;
+}
+
+.table-of-contents .grid .item:nth-child(3n+2) {
+    margin-top: 5vw;
+}
+
+.table-of-contents .grid .item:nth-child(3n+3) {
+    margin-top: 10vw;
+}
+
+.table-of-contents .grid .content {
+    bottom: -30vw;
+    position: relative;
+    font-family: "Do Hyeon", sans-serif;
+}
+
+
 .about .highlight {
     width: 20vw;
     height: 7vw;
-    margin-bottom: -19vw;
-    margin-left: -2vw;
     opacity: 0.6;
+    margin-left: -2vw;
+    margin-bottom: -19vw;
 }
 
 .about .highlight.h1 {
@@ -316,13 +346,6 @@ p {
     display: block;
 }
 
-.about .number {
-    width: 4.2vw;
-    margin-bottom: -0.45vw;
-    margin-left: 0.4vw;
-    margin-right: 0.4vw;
-    opacity: 0;
-}
 
 .about span {
     line-height: 1.2;
@@ -433,8 +456,19 @@ p {
 }
 
 .my-vision__Box {
-    margin-top: 2vw;
-    margin-bottom: 4vw
+    margin: 10vw 0;
+}
+
+.my-vision__Box .number {
+    width: 4.2vw;
+    margin-bottom: -0.45vw;
+    margin-left: 0.4vw;
+    margin-right: 0.4vw;
+    opacity: 0;
+}
+
+.my-vision__Box h4 {
+    font-size: 3.8vw;
 }
 
 .software {
