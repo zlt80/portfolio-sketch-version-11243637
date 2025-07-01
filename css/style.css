@@ -329,7 +329,8 @@ p {
 }
 
 .about .item {
-    padding: 4vw 3vw;
+    letter-spacing: 0.03em;
+    padding: 4vw 3vw 0 3vw;
 }
 
 /*.about .item:nth-child(2) {*/
