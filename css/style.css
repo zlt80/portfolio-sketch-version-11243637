@@ -336,12 +336,12 @@ p {
     padding: 4vw 3vw 0 3vw;
 }
 
-.about .box:nth-child(3),
 .about .box:nth-child(5) {
     text-align: right;
 }
 
-.about .box:nth-child(3) .item h4 {
+.about .box:nth-child(3) .item h4,
+.about .box:nth-child(5) .item h4:nth-child(3) {
     font-size: 5.2vw;
 }
 
