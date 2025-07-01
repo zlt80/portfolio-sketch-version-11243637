@@ -281,7 +281,7 @@ p {
 
 .table-of-contents .grid {
     display: grid;
-    grid-gap: 2vw 3vw;
+    grid-gap: 2vw 4vw;
     margin: 15vw 0 10vw;
     text-transform: uppercase;
     grid-template-columns: 1fr 1fr 1fr;
