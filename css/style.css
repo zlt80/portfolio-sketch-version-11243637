@@ -279,10 +279,6 @@ p {
     }
 }
 
-.about {
-    padding: 0 9vw 10vw;
-}
-
 .about .highlight {
     width: 20vw;
     height: 7vw;
@@ -337,7 +333,7 @@ p {
 
 .about .item {
     letter-spacing: 0.03em;
-    padding: 4vw 3vw 0 3vw;
+    padding: 4vw 2vw 0 2vw;
 }
 
 .about .box:nth-child(5) {
@@ -346,11 +342,12 @@ p {
 
 .about .box:nth-child(3) .item h4,
 .about .box:nth-child(5) .item h4:nth-child(3) {
-    font-size: 4.7vw;
+    /*font-size: 4.7vw;*/
 }
 
 .about .item:nth-child(2) {
     padding-right: 0;
+    margin-bottom: 7vw;
 }
 
 .about .box {
