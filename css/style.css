@@ -277,7 +277,6 @@ p {
 
 .about {
     padding: 0 9vw 10vw;
-    background: #e6eaef;
 }
 
 .about .highlight {
@@ -322,6 +321,7 @@ p {
     margin-bottom: -0.45vw;
     margin-left: 0.4vw;
     margin-right: 0.4vw;
+    opacity: 0;
 }
 
 .about span {
@@ -350,30 +350,19 @@ p {
 }
 
 .about .box {
-    /*padding: 2px;*/
-    margin: 0 0 5vw;
     display: flex;
-    /*border-radius: 25px;*/
-    /*border: 3px solid #fff;*/
-    /*box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;*/
-    /*background: linear-gradient(0deg, rgba(219, 219, 227, 0.56), rgb(238 243 248), rgb(248 250 255), rgb(230 232 237 / 93%));*/
+    margin: 0 0 5vw;
 }
 
-/*.about .box:nth-child(3) {*/
-/*    background: #d5b4ba;*/
-/*}*/
+.about .item.personal-tone,
+.about .item.vision {
+    margin-top: 8vw;
+}
 
-/*.about .box:nth-child(4) {*/
-/*    background: #b5c3a6;*/
-/*}*/
-
-/*.about .box:nth-child(5) {*/
-/*    background: #c5b6c0;*/
-/*}*/
-
-/*.about .box:nth-child(6) {*/
-/*    background: #adb3c8;*/
-/*}*/
+.about .item.hobbies h4:nth-child(3),
+.about .item.personal-tone h4:nth-child(4) {
+    color: transparent;
+}
 
 .swatch {
     display: block;
@@ -382,7 +371,6 @@ p {
 }
 
 .swatch div {
-    top: 0;
     width: 12vw;
     height: 25vw;
     border-radius: 5px;
@@ -390,7 +378,7 @@ p {
     display: inline-block;
     box-sizing: border-box;
     transform: rotate(0deg);
-    margin: 5vw 10vw 5vw -20vw;
+    margin: 3vw 10vw 5vw -20vw;
     backface-visibility: hidden;
     transform-origin: center 100%;
     border-top: solid 2px rgba(0, 0, 0, 0.2);
@@ -411,18 +399,21 @@ p {
 }
 
 .swatch div:nth-child(1) {
-    background-color: #151a4e;
-    transform: rotate(-100deg);
+    background-color: #0f244a;
+    transform: rotate(-103deg);
+    height: 22vw;
 }
 
 .swatch div:nth-child(2) {
     background-color: #004a19;
-    transform: rotate(-70deg);
+    transform: rotate(-72deg);
+    height: 23vw;
 }
 
 .swatch div:nth-child(3) {
     background-color: #3f7504;
-    transform: rotate(-45deg);
+    transform: rotate(-44deg);
+    height: 24vw;
 }
 
 .swatch div:nth-child(4) {
