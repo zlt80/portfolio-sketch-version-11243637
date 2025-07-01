@@ -336,6 +336,15 @@ p {
     padding: 4vw 3vw 0 3vw;
 }
 
+.about .box:nth-child(3),
+.about .box:nth-child(5) {
+    text-align: right;
+}
+
+.about .box:nth-child(3) .item h4 {
+    font-size: 5.2vw;
+}
+
 .about .item:nth-child(2) {
     padding-right: 0;
 }
@@ -369,19 +378,19 @@ p {
 .swatch {
     display: block;
     position: relative;
-    text-align: center;
+    text-align: right;
 }
 
 .swatch div {
     top: 0;
-    width: 10vw;
+    width: 12vw;
     height: 25vw;
     border-radius: 5px;
     text-align: center;
-    margin: 5vw 0 30px -12vw;
     display: inline-block;
     box-sizing: border-box;
     transform: rotate(0deg);
+    margin: 5vw 10vw 5vw -20vw;
     backface-visibility: hidden;
     transform-origin: center 100%;
     border-top: solid 2px rgba(0, 0, 0, 0.2);
@@ -402,33 +411,33 @@ p {
 }
 
 .swatch div:nth-child(1) {
-    background-color: #14095e;
-    transform: rotate(-65deg);
+    background-color: #151a4e;
+    transform: rotate(-100deg);
 }
 
 .swatch div:nth-child(2) {
-    background-color: #151a4e;
-    transform: rotate(-40deg);
+    background-color: #004a19;
+    transform: rotate(-70deg);
 }
 
 .swatch div:nth-child(3) {
-    background-color: #004a19;
-    transform: rotate(-15deg);
+    background-color: #3f7504;
+    transform: rotate(-45deg);
 }
 
 .swatch div:nth-child(4) {
-    background-color: #3f7504;
-    transform: rotate(15deg);
+    background-color: #cf9000;
+    transform: rotate(-20deg);
 }
 
 .swatch div:nth-child(5) {
     background-color: #853b06;
-    transform: rotate(40deg);
+    transform: rotate(2deg);
 }
 
 .swatch div:nth-child(6) {
     background-color: #771e27;
-    transform: rotate(65deg);
+    transform: rotate(25deg);
 }
 
 .my-vision__Box {
