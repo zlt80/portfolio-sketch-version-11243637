@@ -342,7 +342,7 @@ p {
 
 .about .box:nth-child(3) .item h4,
 .about .box:nth-child(5) .item h4:nth-child(3) {
-    font-size: 5.2vw;
+    font-size: 4.5vw;
 }
 
 .about .item:nth-child(2) {
