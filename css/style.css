@@ -403,7 +403,7 @@ p {
 
 .about .box .item img {
     width: 53%;
-    padding: 2px;
+    padding: 0.5vw;
     object-fit: cover;
     border-radius: 5px;
     height: fit-content;
