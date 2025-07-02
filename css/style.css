@@ -20,7 +20,7 @@
 
 h1 {
     line-height: 1.5;
-    font-size: 6.8vw;
+    font-size: 6vw;
     text-align: center;
     text-transform: uppercase;
     font-family: "Do Hyeon", sans-serif;
@@ -31,7 +31,6 @@ h2 {
     line-height: 1.7;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 10vw;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     font-family: "Do Hyeon", sans-serif;
@@ -157,7 +156,7 @@ p {
 
 .profile .profile-image {
     width: fit-content;
-    margin: -15vw auto -20vw;
+    margin: 0 auto;
 }
 
 .profile .profile-image .decoration {
@@ -218,26 +217,25 @@ p {
 .profile .profile-image .image span {
     color: #fff;
     opacity: 0.3;
-    font-size: 7vw;
-    margin-top: -56%;
-    margin-left: 37%;
+    font-size: 6vw;
+    margin-top: -50%;
+    margin-left: 38%;
     position: absolute;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.1em;
     font-weight: 100;
-    display: none;
     writing-mode: vertical-lr;
-    text-shadow: 2px 3px 1px #000000c7;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
     animation: fadein 3s ease-out forwards;
     font-family: "Nanum Pen Script", sans-serif;
 }
 
 .profile .contact {
-    padding-bottom: 5vw;
+    margin: -5vw 0;
 }
 
 .profile .contact .info {
     width: fit-content;
-    margin: 15vw auto 10vw;
+    margin: 0 auto;
 }
 
 .profile .contact .info img {
