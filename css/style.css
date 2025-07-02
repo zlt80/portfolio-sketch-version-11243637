@@ -360,11 +360,11 @@ p {
 
 .about .item:nth-child(2) {
     padding-right: 0;
-    margin-bottom: 7vw;
+    margin-bottom: 3vw;
 }
 
 .about .box:nth-child(3) .item:nth-child(1),
-.about .box:nth-child(4) .item:nth-child(1) {
+.about .box:nth-child(4) .item:nth-child(2) {
     width: 40%;
 }
 
