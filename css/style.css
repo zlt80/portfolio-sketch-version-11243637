@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'KoPubWorld';
+    src: url('/fonts/KoPubWorld Dotum_Pro Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KoPubWorld';
+    src: url('/fonts/KoPubWorld Dotum_Pro Light.otf') format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'KoPubWorld';
+    src: url('/fonts/KoPubWorld Dotum_Pro Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
 h1 {
     line-height: 1.5;
     font-size: 6.8vw;
@@ -14,6 +34,7 @@ h2 {
     margin-bottom: 10vw;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    font-family: "Do Hyeon", sans-serif;
 }
 
 h3, a, label, span {
@@ -340,9 +361,8 @@ p {
 
 .about span {
     line-height: 1.2;
-    font-size: 4vw;
+    font-weight: 400;
     margin: 0 0 2vw 0;
-    font-size: 5vw;
 }
 
 .about .item h2 {
@@ -354,99 +374,45 @@ p {
 
 .about .item {
     letter-spacing: 0.03em;
-    padding: 4vw 2vw 0 2vw;
+    padding: 4vw 0 2vw;
     width: -webkit-fill-available;
 }
 
 .about .item:nth-child(2) {
     padding-right: 0;
-    margin-bottom: 3vw;
 }
 
 .about .box:nth-child(3) .item:nth-child(1),
 .about .box:nth-child(4) .item:nth-child(2) {
-    width: 40%;
+    width: 45%;
 }
 
 .about .box:nth-child(4) .item:nth-child(2) {
     padding-left: 8vw;
 }
 
-.about .box:nth-child(5) span,
-.about .box:nth-child(5) h2 {
-    text-align: right;
-}
-
 .about .box {
     display: flex;
 }
 
-
-.swatch {
-    display: block;
-    position: relative;
-    text-align: right;
+.about .box .item .images {
+    display: flex;
+    margin: 2vw 0;
+    width: -webkit-fill-available;
 }
 
-.swatch div {
-    width: 12vw;
-    height: 25vw;
+.about .box .item img {
+    width: 53%;
+    padding: 2px;
+    object-fit: cover;
     border-radius: 5px;
-    text-align: center;
-    display: inline-block;
-    box-sizing: border-box;
-    transform: rotate(0deg);
-    margin: 3vw 10vw 5vw -20vw;
-    backface-visibility: hidden;
-    transform-origin: center 100%;
-    border-top: solid 2px rgba(0, 0, 0, 0.2);
-    border-left: solid 3px rgba(255, 255, 255, 0.2);
-    border-bottom: solid 3px rgba(0, 0, 0, 0.2);
+    height: fit-content;
 }
 
-.swatch div:before {
-    width: 16px;
-    height: 16px;
-    content: "";
-    bottom: 10px;
-    margin-left: -8px;
-    position: absolute;
-    border-radius: 8px;
-    display: inline-block;
-    background-color: #ffffff;
-}
-
-.swatch div:nth-child(1) {
-    background-color: #0f244a;
-    transform: rotate(-103deg);
-    height: 22vw;
-}
-
-.swatch div:nth-child(2) {
-    background-color: #004a19;
-    transform: rotate(-72deg);
-    height: 23vw;
-}
-
-.swatch div:nth-child(3) {
-    background-color: #3f7504;
-    transform: rotate(-44deg);
-    height: 24vw;
-}
-
-.swatch div:nth-child(4) {
-    background-color: #cf9000;
-    transform: rotate(-20deg);
-}
-
-.swatch div:nth-child(5) {
-    background-color: #853b06;
-    transform: rotate(2deg);
-}
-
-.swatch div:nth-child(6) {
-    background-color: #771e27;
-    transform: rotate(25deg);
+.about .box .item .block img {
+    width: 100%;
+    height: 24.5vw;
+    padding-bottom: 0;
 }
 
 .my-vision__Box {
@@ -458,14 +424,6 @@ p {
     margin-bottom: -0.45vw;
     margin-left: 0.4vw;
     margin-right: 0.4vw;
-}
-
-.my-vision__Box h4 {
-    font-size: 3.8vw;
-}
-
-.software {
-    padding: 0 5vw 10vw;
 }
 
 .software .grid {
@@ -1638,7 +1596,7 @@ label:after {
 
     * {
         /*font-family: "Noto Sans KR", sans-serif;;*/
-        font-family: "Do Hyeon", sans-serif;
+        font-family: "KoPubWorld", sans-serif;
     }
 
     .profile h1 {
