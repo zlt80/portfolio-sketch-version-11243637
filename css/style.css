@@ -1,7 +1,6 @@
 h1 {
     line-height: 1.5;
     font-size: 6.8vw;
-    margin-top: 20vw;
     text-align: center;
     text-transform: uppercase;
     font-family: "Do Hyeon", sans-serif;
@@ -124,13 +123,9 @@ p {
     margin: 6vw 0 0;
     background: #fff;
     border-radius: 25px;
-    padding: 0 7vw 10vw;
+    padding: 18vw 7vw 10vw;
     border: 5px solid #eee;
     box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
-}
-
-.container h2:nth-child(2) {
-    opacity: 0;
 }
 
 .dia-svg {
@@ -337,10 +332,6 @@ p {
     filter: hue-rotate(320deg) saturate(0.4);
 }
 
-.about h4 {
-    font-size: 4.2vw;
-}
-
 .about .location {
     width: 9vw;
     display: block;
@@ -349,23 +340,21 @@ p {
 
 .about span {
     line-height: 1.2;
-    font-size: 3.8vw;
+    font-size: 4vw;
     margin: 0 0 2vw 0;
-    letter-spacing: -0.02em;
+}
+
+.about .item h2 {
+    text-align: left;
+    line-height: 1.4;
+    margin: 0;
+    font-size: 5vw;
 }
 
 .about .item {
     letter-spacing: 0.03em;
     padding: 4vw 2vw 0 2vw;
-}
-
-.about .box:nth-child(5) {
-    text-align: right;
-}
-
-.about .box:nth-child(3) .item h4,
-.about .box:nth-child(5) .item h4:nth-child(3) {
-    /*font-size: 4.7vw;*/
+    width: -webkit-fill-available;
 }
 
 .about .item:nth-child(2) {
@@ -373,20 +362,24 @@ p {
     margin-bottom: 7vw;
 }
 
+.about .box:nth-child(3) .item:nth-child(1),
+.about .box:nth-child(4) .item:nth-child(1) {
+    width: 40%;
+}
+
+.about .box:nth-child(4) .item:nth-child(2) {
+    padding-left: 8vw;
+}
+
+.about .box:nth-child(5) span,
+.about .box:nth-child(5) h2 {
+    text-align: right;
+}
+
 .about .box {
     display: flex;
-    margin: 0 0 5vw;
 }
 
-.about .item.personal-tone,
-.about .item.vision {
-    margin-top: 8vw;
-}
-
-.about .item.hobbies h4:nth-child(3),
-.about .item.personal-tone h4:nth-child(4) {
-    color: transparent;
-}
 
 .swatch {
     display: block;
@@ -1643,12 +1636,12 @@ label:after {
 @media only screen and (max-width: 980px) {
 
     * {
-        font-family: "Noto Sans KR", sans-serif;
+        /*font-family: "Noto Sans KR", sans-serif;;*/
+        font-family: "Do Hyeon", sans-serif;
     }
 
     .profile h1 {
         font-size: 9vw;
-        margin-top: 20vw;
         font-family: "Do Hyeon", sans-serif;
     }
 
