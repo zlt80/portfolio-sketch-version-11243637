@@ -140,15 +140,6 @@ p {
     border-top: 5px solid #f1f1f3;
 }
 
-.container {
-    margin: 6vw 0 0;
-    background: #fff;
-    border-radius: 25px;
-    padding: 18vw 7vw 10vw;
-    border: 5px solid #eee;
-    box-shadow: -1px -0.5px 3px #b2b2b2, 1px -0.5px 1px #c4c4c4;
-}
-
 .dia-svg {
     width: 5vw;
     display: block;
@@ -157,11 +148,11 @@ p {
 
 .profile {
     margin-top: 15vw;
-    background: linear-gradient(0deg, #dbdbe3, rgba(238, 243, 248, 0.56), rgba(248, 250, 255, 0.54), #eceded, #cfd2da);
+    /*background: linear-gradient(0deg, #dbdbe3, rgba(238, 243, 248, 0.56), rgba(248, 250, 255, 0.54), #eceded, #cfd2da);*/
 }
 
 .thank-you {
-    background: linear-gradient(0deg, #eeeef4, rgba(248, 251, 255, 0.56), rgba(248, 250, 255, 0.54), #f8ffff, #e9edf4);
+    /*background: linear-gradient(0deg, #eeeef4, rgba(248, 251, 255, 0.56), rgba(248, 250, 255, 0.54), #f8ffff, #e9edf4);*/
 }
 
 .profile .profile-image {
@@ -1590,6 +1581,11 @@ label:after {
         border: 2px solid #7d7d7d;
         box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
         background: linear-gradient(45deg, #eee, #d9d9e6, #dbd6d6, #fffefc, #ddd);
+    }
+
+    .container {
+        margin: 6vw 0 0;
+        padding: 18vw 7vw 10vw;
     }
 
     .portfolio {
