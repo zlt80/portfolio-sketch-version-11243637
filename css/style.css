@@ -1637,13 +1637,14 @@ label:after {
         display: none;
     }
 
+
 }
 
 @media screen and (min-width: 981px) {
 
-    body {
-        display: none;
-    }
-
 }
 
+
+body {
+    display: none;
+}
