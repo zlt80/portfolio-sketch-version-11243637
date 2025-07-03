@@ -19,19 +19,19 @@
 }
 
 h1 {
-    line-height: 1.5;
-    font-size: 6vw;
+    font-size: 7vw;
+    line-height: 1.4;
     text-align: center;
     text-transform: uppercase;
     font-family: "Do Hyeon", sans-serif;
 }
 
 h2 {
-    font-size: 4vw;
-    line-height: 1.7;
-    font-weight: 600;
+    font-size: 4.4vw;
+    line-height: 1.6;
+    font-weight: 400;
     text-align: center;
-    letter-spacing: 0.02em;
+    letter-spacing: 0;
     text-transform: capitalize;
     font-family: "Do Hyeon", sans-serif;
 }
@@ -174,13 +174,13 @@ p {
 
 .arrow {
     position: absolute !important;
-    left: 15vw;
+    left: 16vw;
     right: unset;
-    top: 68vw;
+    top: 75vw;
     bottom: unset;
     width: 24vw;
     height: 35vw !important;
-    transform: rotateZ(20deg);
+    transform: rotateZ(45deg);
 }
 
 .sticker {
@@ -212,30 +212,55 @@ p {
     box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
 }
 
-.profile .profile-image .image span {
+h6 {
     color: #fff;
-    opacity: 0.3;
     font-size: 6vw;
-    margin-top: -50%;
-    margin-left: 38%;
     position: absolute;
-    letter-spacing: 0.1em;
+    z-index: 2;
     font-weight: 100;
-    writing-mode: vertical-lr;
+    letter-spacing: 0.1em;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.63);
     animation: fadein 3s ease-out forwards;
     font-family: "Nanum Pen Script", sans-serif;
 }
 
+.position h6 {
+    margin-top: 6%;
+    margin-left: 18%;
+}
+
+.position h6:nth-child(4) {
+    margin-top: 14%;
+}
+
+.personal-tone h6 {
+    margin-top: 32%;
+    margin-left: 22%
+}
+
+.profile .profile-image .image h6 {
+    opacity: 0.3;
+    margin-top: -50%;
+    margin-left: 40%;
+    writing-mode: vertical-lr;
+}
+
 .profile .contact .info img {
     width: 40vw;
-    margin: 0 auto;
+    margin: 2vw auto;
+    display: block;
+}
+
+.profile .pf {
+    width: 5vw;
+    padding: 5vw 0 0;
+    margin: 0 auto 1vw;
     display: block;
 }
 
 .profile .contact .info .contact {
-    width: 7vw;
-    padding: 5vw 0;
+    width: 4vw;
+    padding: 5vw 0 0;
 }
 
 .profile .contact .info .phone {
@@ -350,10 +375,6 @@ p {
 }
 
 .about .item h2 {
-    text-align: left;
-    line-height: 1.4;
-    margin: 0;
-    font-size: 5vw;
 }
 
 .about .item {
@@ -367,24 +388,32 @@ p {
 }
 
 .about .box img {
-    width: 100%;
-    height: 65vw;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 50vw;
+    height: 72vw;
     padding: 2px;
     display: block;
     margin: 2vw auto;
-    /*border-radius: 25px;*/
+    border-radius: 25px;
+    object-fit: cover;
     box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
 }
 
+.container img.pf {
+    width: 5vw;
+    height: auto;
+    padding: 5vw 0 0;
+    margin: 0 auto 1vw;
+    display: block;
+    box-shadow: none;
+}
+
 .my-vision__Box {
-    margin: 10vw 0;
+    margin: 4vw 7vw;
 }
 
 .my-vision__Box .number {
-    width: 4.2vw;
-    margin-bottom: -0.45vw;
+    width: 3.5vw;
+    margin-bottom: -0.4vw;
     margin-left: 0.4vw;
     margin-right: 0.4vw;
 }
@@ -1563,7 +1592,7 @@ label:after {
     }
 
     .profile h1 {
-        font-size: 9vw;
+        font-size: 7vw;
         font-family: "Do Hyeon", sans-serif;
     }
 
@@ -1576,8 +1605,8 @@ label:after {
     }
 
     .container {
-        padding: 18vw 6vw;
-        border-bottom: 5px solid white;
+        padding: 15vw 6vw 0;
+        /*border-bottom: 5px solid white;*/
     }
 
     .portfolio {
