@@ -245,7 +245,7 @@ h6 {
     writing-mode: vertical-lr;
 }
 
-.profile .contact .info img {
+.contact .info img {
     width: 40vw;
     margin: 2vw auto;
     display: block;
@@ -258,12 +258,12 @@ h6 {
     display: block;
 }
 
-.profile .contact .info .contact {
+.contact .info .contact {
     width: 4vw;
     padding: 5vw 0 0;
 }
 
-.profile .contact .info .phone {
+.contact .info .phone {
     width: 25vw;
     margin-top: 3vw;
 }
@@ -1605,8 +1605,10 @@ label:after {
     }
 
     .container {
-        padding: 15vw 6vw 0;
-        /*border-bottom: 5px solid white;*/
+        background: #fff;
+        margin: 15vw 6vw 0;
+        border-radius: 25px;
+        padding-bottom: 6vw;
     }
 
     .portfolio {
