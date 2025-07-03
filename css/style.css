@@ -153,7 +153,7 @@ p {
 
 .profile .profile-image {
     height: 90vw;
-    margin: 0 auto;
+    margin: -5vw auto;
     width: fit-content;
 }
 
@@ -174,9 +174,9 @@ p {
 
 .arrow {
     position: absolute !important;
-    left: 16vw;
+    left: 20vw;
     right: unset;
-    top: 75vw;
+    top: 65vw;
     bottom: unset;
     width: 24vw;
     height: 35vw !important;
