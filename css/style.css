@@ -1601,14 +1601,15 @@ label:after {
         border-radius: 25px;
         border: 2vw solid #f9f9f9;
         box-shadow: 11px 1px 50px #0000002e, -11px -1px 50px #000000a8;
-        background: linear-gradient(45deg, #eee, #f6f3ed, #fdfafa, #fffefc, #dad8d3);
+        background: linear-gradient(45deg, #eee, #edf0f6, #f0f2f4, #f1f4f6, #e1e4eb);
     }
 
-    .container {
+    .wrapper .box {
         background: #fff;
-        margin: 15vw 6vw 0;
+        margin: 12vw 6vw 0;
         border-radius: 25px;
-        padding-bottom: 6vw;
+        padding-top: 5vw;
+        padding-bottom: 10vw;
     }
 
     .portfolio {
