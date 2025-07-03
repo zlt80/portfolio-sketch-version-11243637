@@ -23,7 +23,6 @@ h1 {
     line-height: 1.4;
     text-align: center;
     text-transform: uppercase;
-    font-family: "Do Hyeon", sans-serif;
 }
 
 h2 {
@@ -33,7 +32,6 @@ h2 {
     text-align: center;
     letter-spacing: 0;
     text-transform: capitalize;
-    font-family: "Do Hyeon", sans-serif;
 }
 
 h3, a, label, span {
@@ -316,7 +314,6 @@ h6 {
     height: 34vw;
     padding: 2px;
     background: #000;
-    font-family: "Do Hyeon", sans-serif;
 }
 
 .table-of-contents .grid .item:nth-child(3n+2) {
@@ -330,7 +327,6 @@ h6 {
 .table-of-contents .grid .content {
     bottom: -30vw;
     position: relative;
-    font-family: "Do Hyeon", sans-serif;
 }
 
 
@@ -436,10 +432,6 @@ h6 {
 
 .software .grid .item p {
     margin: -1.5vw auto 0;
-}
-
-.timeline {
-    font-family: "Do Hyeon", sans-serif !important;
 }
 
 .timeline.career .career-details {
@@ -598,19 +590,12 @@ h6 {
 }
 
 .experiences .work {
-    border-top: 4px solid #000;
     padding: 2vw 4vw 15vw;
     margin: 2vw 0;
 }
 
-.experiences .work span:nth-child(2) {
-    margin-top: 13vw;
-}
-
 .experiences .work .number {
     width: 16vw;
-    right: 14vw;
-    position: absolute;
 }
 
 .experiences .work .details {
@@ -1450,7 +1435,6 @@ h6 {
     width: auto !important;
     border: 1px solid #ddd;
     height: -webkit-fill-available !important;
-    font-family: "Do Hyeon", sans-serif !important;
 }
 
 .thank-you .back-to-top-link {
@@ -1492,7 +1476,6 @@ h6 {
     border: 1px solid #d5d5d5;
     letter-spacing: -0.01em;
     text-transform: uppercase;
-    font-family: "Do Hyeon", sans-serif;
     -webkit-tap-highlight-color: transparent;
     transition: background-color 0.1s ease-in-out;
     background-image: linear-gradient(to top, rgba(216, 217, 219, 0.6) 0%, rgba(255, 255, 255, 0.97) 80%, rgba(253, 253, 253, 0.57) 100%);
@@ -1607,7 +1590,6 @@ label:after {
 
     .profile h1 {
         font-size: 7vw;
-        font-family: "Do Hyeon", sans-serif;
     }
 
     .wrapper {
@@ -1641,10 +1623,10 @@ label:after {
 }
 
 @media screen and (min-width: 981px) {
-
+    body {
+        display: none;
+    }
 }
 
 
-body {
-    display: none;
-}
+
