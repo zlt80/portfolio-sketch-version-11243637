@@ -580,6 +580,56 @@ h6 {
 }
 
 
+/* carousel */
+.carousel {
+    width: 85vw;
+    height: 160vw;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.carousel .controls {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease 0.5s;
+}
+
+.carousel .controls .control {
+    color: #fff;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #000;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.carousel .slides {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    width: 100%;
+    transition: 1s ease-in-out all;
+}
+
+.carousel .slides .slide {
+    min-width: 86%;
+    height: auto;
+}
+
 /* experience start */
 .experiences {
     padding-bottom: 20vw;
