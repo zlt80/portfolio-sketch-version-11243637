@@ -1,8 +1,29 @@
+@font-face {
+    font-family: 'KoPubWorld';
+    src: url('/fonts/KoPubWorld Dotum_Pro Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KoPubWorld';
+    src: url('/fonts/KoPubWorld Dotum_Pro Light.otf') format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'KoPubWorld';
+    src: url('/fonts/KoPubWorld Dotum_Pro Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
 h1 {
     font-size: 7vw;
     line-height: 1.4;
     text-align: center;
     text-transform: uppercase;
+    font-family: "Do Hyeon", sans-serif;
 }
 
 h2 {
@@ -12,6 +33,7 @@ h2 {
     text-align: center;
     letter-spacing: 0;
     text-transform: capitalize;
+    font-family: "Do Hyeon", sans-serif;
 }
 
 h3, a, label, span {
@@ -294,6 +316,7 @@ h6 {
     height: 34vw;
     padding: 2px;
     background: #000;
+    font-family: "Do Hyeon", sans-serif;
 }
 
 .table-of-contents .grid .item:nth-child(3n+2) {
@@ -307,6 +330,7 @@ h6 {
 .table-of-contents .grid .content {
     bottom: -30vw;
     position: relative;
+    font-family: "Do Hyeon", sans-serif;
 }
 
 
@@ -414,6 +438,10 @@ h6 {
     margin: -1.5vw auto 0;
 }
 
+.timeline {
+    font-family: "Do Hyeon", sans-serif !important;
+}
+
 .timeline.career .career-details {
     width: 100%;
     text-align: right;
@@ -427,6 +455,44 @@ h6 {
 .timeline.career .career-title h4 {
     font-size: 5vw !important;
     padding: 0;
+}
+
+.timeline p {
+    font-size: 4vw;
+    background: #eee;
+    font-weight: 400;
+    margin: 2vw 0 0;
+    width: fit-content;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    padding: 0.2vw 5vw 1.2vw;
+    letter-spacing: 0.02em;
+    box-shadow: -1px -0.5px 3px #292828, 1px -0.5px 1px #706d6d;
+}
+
+.timeline.career .item:nth-child(3) p {
+    background: linear-gradient(140deg, #7db1f6, #4368cc, #002f9a);
+    color: #fff;
+}
+
+.timeline.career .item:nth-child(4) p {
+    background: linear-gradient(145deg, #b3a196, #555c56, #1c404b, #000);
+    color: #fff;
+}
+
+.timeline.education .item:nth-child(3) p {
+    background: linear-gradient(140deg, #b7916b, #003f71, #0b1635);
+    color: #fff;
+}
+
+.timeline.education .item:nth-child(4) p {
+    background: linear-gradient(140deg, #a54a3f, #611352, #200101);
+    color: #fff;
+}
+
+.timeline.education .item:nth-child(5) p {
+    background: linear-gradient(140deg, #6d878c, #30604e, #041911);
+    color: #fff;
 }
 
 .timeline .item {
@@ -570,12 +636,19 @@ h6 {
 }
 
 .experiences .work {
+    border-top: 4px solid #000;
     padding: 2vw 4vw 15vw;
     margin: 2vw 0;
 }
 
+.experiences .work span:nth-child(2) {
+    margin-top: 13vw;
+}
+
 .experiences .work .number {
     width: 16vw;
+    right: 14vw;
+    position: absolute;
 }
 
 .experiences .work .details {
@@ -1415,6 +1488,7 @@ h6 {
     width: auto !important;
     border: 1px solid #ddd;
     height: -webkit-fill-available !important;
+    font-family: "Do Hyeon", sans-serif !important;
 }
 
 .thank-you .back-to-top-link {
@@ -1456,6 +1530,7 @@ h6 {
     border: 1px solid #d5d5d5;
     letter-spacing: -0.01em;
     text-transform: uppercase;
+    font-family: "Do Hyeon", sans-serif;
     -webkit-tap-highlight-color: transparent;
     transition: background-color 0.1s ease-in-out;
     background-image: linear-gradient(to top, rgba(216, 217, 219, 0.6) 0%, rgba(255, 255, 255, 0.97) 80%, rgba(253, 253, 253, 0.57) 100%);
@@ -1570,6 +1645,7 @@ label:after {
 
     .profile h1 {
         font-size: 7vw;
+        font-family: "Do Hyeon", sans-serif;
     }
 
     .wrapper {
@@ -1599,14 +1675,12 @@ label:after {
         display: none;
     }
 
-
 }
 
 @media screen and (min-width: 981px) {
+
     body {
         display: none;
     }
+
 }
-
-
-
